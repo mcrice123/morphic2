@@ -1,6 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: 'Morphic',
+      navLinks: [
+          'Home',
+          'About',
+          'Archive',
+          'Characters'
+      ]
   },
   plugins: [
     'gatsby-plugin-react-helmet',

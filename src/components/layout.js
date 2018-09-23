@@ -13,6 +13,7 @@ const Layout = ({ children }) => (
         site {
           siteMetadata {
             title
+            navLinks
           }
         }
       }
@@ -28,7 +29,7 @@ const Layout = ({ children }) => (
         >
           <html lang="en" />
         </Helmet>
-        <Header siteTitle={data.site.siteMetadata.title} />
+        <Header siteTitle={data.site.siteMetadata.title} navLinks={data.site.siteMetadata.navLinks}/>
         <div
           style={{
             margin: '0 auto',

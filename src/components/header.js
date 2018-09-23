@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import MenuIcon from './menuicon';
 require('./styles/header.css');
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle, navLinks }) => (
   <div
     style={{
       background: "#463299",
@@ -36,6 +36,15 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
+      <nav id={"navbar"}>
+          <ul>
+              {
+                  navLinks.map((myLink) => {
+                      return <li key={myLink}>{myLink}</li>;
+                  })
+              }
+          </ul>
+      </nav>
       <div id={"menuIcon"}
       >
         <MenuIcon />
@@ -45,14 +54,3 @@ const Header = ({ siteTitle }) => (
 
 export default Header
 
-
-/*
-style={{
-              float: 'right',
-              margin: 'auto 0',
-              padding: '10px',
-              display: 'inline',
-              height: '60px',
-              width: '60px',
-            }}
- */
