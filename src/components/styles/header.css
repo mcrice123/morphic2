@@ -1,0 +1,12 @@
+#menuIcon {
+  float: right;
+  margin: auto 0;
+  padding: 10px;
+  display: inline;
+  height: 60px;
+  width: 60px; }
+  @media screen and (min-width: 1290px) {
+    #menuIcon {
+      display: none; } }
+
+/*# sourceMappingURL=header.css.map */

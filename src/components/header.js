@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'gatsby'
 //import MenuIcon from '../images/baseline-menu-24px.svg';
 import MenuIcon from './menuicon';
+require('./styles/header.css');
 
 const Header = ({ siteTitle }) => (
   <div
@@ -35,17 +36,23 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
-      <div id={"menu-icon"} style={{
-          float: 'right',
-          margin: 'auto 0',
-          padding: '10px',
-          display: 'inline',
-          height: '60px',
-          width: '60px',
-      }}>
-        <MenuIcon/>
+      <div id={"menuIcon"}
+      >
+        <MenuIcon />
       </div>
   </div>
 )
 
 export default Header
+
+
+/*
+style={{
+              float: 'right',
+              margin: 'auto 0',
+              padding: '10px',
+              display: 'inline',
+              height: '60px',
+              width: '60px',
+            }}
+ */

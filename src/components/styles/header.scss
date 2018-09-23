@@ -1,0 +1,19 @@
+
+// Laptop width
+$laptop: 1290px;
+
+#menuIcon {
+  float: right;
+  margin: auto 0;
+  padding: 10px;
+  display: inline;
+  height: 60px;
+  width: 60px;
+
+  @media screen and (min-width: $laptop) {
+    display: none;
+  }
+}
+
+
+
