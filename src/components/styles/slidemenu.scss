@@ -6,23 +6,24 @@
   right: 0;
   top: 60px;
   position: absolute;
-}
 
-ul {
-  width: 100%;
-  list-style: none;
-  margin: 10px 0;
+  ul {
+    width: 100%;
+    list-style: none;
+    margin: 10px 0;
 
-  li {
-    text-indent: 0;
-    text-align: center;
-    margin: 20px auto;
-    padding-bottom: 20px;
-    border-bottom: #DDD7F2 solid 1px;
-    width: 80%;
+    li {
+      text-indent: 0;
+      text-align: center;
+      margin: 20px auto;
+      padding-bottom: 20px;
+      border-bottom: #DDD7F2 solid 1px;
+      width: 80%;
 
-    &:last-child {
-      border-bottom: none;
+      &:last-child {
+        border-bottom: none;
+      }
     }
   }
 }
+
