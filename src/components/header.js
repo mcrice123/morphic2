@@ -65,13 +65,15 @@ class Header extends Component {
                 <div
                     id={"menuIcon"}
                     onClick={() => this.toggleMenu()}
-                    style={{ backgroundColor: this.state.menuOpen ? 'rgba(0,255,255,.2)' : 'transparent'}}
+                    style={{ backgroundColor: this.state.menuOpen ? 'rgba(255,255,255,.2)' : 'transparent'}}
                 >
                     <MenuIcon/>
                 </div>
                 {
                     this.state.menuOpen &&
-                    <SlideMenu />
+                    <SlideMenu
+                        navLinks={navLinks}
+                    />
                 }
             </div>
         );
