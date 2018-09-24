@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAW;EACT,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,sBAAkB;EACpC,OAAO,EAAE,CAAC;EACV,KAAK,EAAE,CAAC;EACR,GAAG,EAAE,IAAI;EACT,QAAQ,EAAE,QAAQ",
+"sources": ["slidemenu.scss"],
+"names": [],
+"file": "slidemenu.css"
+}
