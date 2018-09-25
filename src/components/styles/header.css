@@ -1,30 +1,52 @@
-#menuIcon {
-  float: right;
-  margin: auto 0;
-  padding: 10px;
-  display: inline;
-  height: 60px;
-  width: 60px; }
-  @media screen and (min-width: 1290px) {
-    #menuIcon {
-      display: none; } }
-
-#navbar {
-  float: left;
-  height: 40px;
-  display: none; }
-  #navbar ul {
-    list-style: none;
-    margin-top: 16px; }
-    #navbar ul li {
-      color: #fff;
-      display: inline;
-      margin: 0 20px;
-      text-transform: uppercase; }
-      #navbar ul li:hover {
-        color: rgba(255, 255, 255, 0.2); }
-  @media screen and (min-width: 768px) {
-    #navbar {
-      display: inline; } }
+#header {
+  background: #463299;
+  display: inline-block;
+  width: 100%; }
+  #header .title {
+    margin: 0 auto;
+    max-width: 910px;
+    height: 100%;
+    padding: 10px;
+    display: inline;
+    float: left; }
+    #header .title:hover {
+      background-color: rgba(255, 255, 255, 0.1); }
+    #header .title h1 {
+      margin: 0 0 0 10px; }
+      #header .title h1 a {
+        color: white;
+        text-decoration: none;
+        cursor: pointer; }
+  #header #menuIcon {
+    float: right;
+    margin: auto 0;
+    padding: 10px;
+    display: inline;
+    height: 60px;
+    width: 60px; }
+    @media screen and (min-width: 1290px) {
+      #header #menuIcon {
+        display: none; } }
+  #header #navbar {
+    float: left;
+    height: 40px;
+    display: none; }
+    #header #navbar ul {
+      list-style: none;
+      margin-top: 0;
+      height: 40px; }
+      #header #navbar ul li {
+        height: 60px;
+        padding: 16px 20px;
+        display: inline-block; }
+        #header #navbar ul li div {
+          color: #fff;
+          text-transform: uppercase; }
+        #header #navbar ul li:hover {
+          background-color: rgba(255, 255, 255, 0.1);
+          cursor: pointer; }
+    @media screen and (min-width: 768px) {
+      #header #navbar {
+        display: inline; } }
 
 /*# sourceMappingURL=header.css.map */

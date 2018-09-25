@@ -24,31 +24,10 @@ class Header extends Component {
         const siteTitle = this.props.siteTitle;
         const navLinks = this.props.navLinks;
         return (
-            <div
-                style={{
-                    background: "#463299",
-                    display: 'inline-block',
-                    width: '100%',
-                }}
-            >
-                <div
-                    style={{
-                        margin: '0 auto',
-                        maxWidth: '910px',
-                        height: '100%',
-                        padding: '10px',
-                        display: 'inline',
-                        float: 'left',
-                    }}
-                >
-                    <h1 style={{margin: '0 0 0 10px'}}>
-                        <Link
-                            to="/"
-                            style={{
-                                color: 'white',
-                                textDecoration: 'none',
-                            }}
-                        >
+            <div id={"header"}>
+                <div className={"title"}>
+                    <h1>
+                        <Link to="/">
                             {siteTitle}
                         </Link>
                     </h1>
@@ -57,7 +36,12 @@ class Header extends Component {
                     <ul>
                         {
                             navLinks.map((myLink) => {
-                                return <li key={myLink}>{myLink}</li>;
+                                return (<li key={myLink}>
+                                        <div>
+                                            {myLink}
+                                        </div>
+                                    </li>
+                                );
                             })
                         }
                     </ul>
@@ -65,7 +49,7 @@ class Header extends Component {
                 <div
                     id={"menuIcon"}
                     onClick={() => this.toggleMenu()}
-                    style={{ backgroundColor: this.state.menuOpen ? 'rgba(255,255,255,.2)' : 'transparent'}}
+                    style={{ backgroundColor: this.state.menuOpen ? 'rgba(255, 255, 255, .2)' : 'transparent'}}
                 >
                     <MenuIcon/>
                 </div>
