@@ -6,12 +6,6 @@
       <change beforePath="$PROJECT_DIR$/src/components/header.js" afterPath="$PROJECT_DIR$/src/components/header.js" />
       <change beforePath="$PROJECT_DIR$/src/components/layout.js" afterPath="$PROJECT_DIR$/src/components/layout.js" />
       <change beforePath="$PROJECT_DIR$/src/components/slidemenu.js" afterPath="$PROJECT_DIR$/src/components/slidemenu.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/styles/header.css" afterPath="$PROJECT_DIR$/src/components/styles/header.css" />
-      <change beforePath="$PROJECT_DIR$/src/components/styles/header.css.map" afterPath="$PROJECT_DIR$/src/components/styles/header.css.map" />
-      <change beforePath="$PROJECT_DIR$/src/components/styles/header.scss" afterPath="$PROJECT_DIR$/src/components/styles/header.scss" />
-      <change beforePath="$PROJECT_DIR$/src/components/styles/slidemenu.css" afterPath="$PROJECT_DIR$/src/components/styles/slidemenu.css" />
-      <change beforePath="$PROJECT_DIR$/src/components/styles/slidemenu.css.map" afterPath="$PROJECT_DIR$/src/components/styles/slidemenu.css.map" />
-      <change beforePath="$PROJECT_DIR$/src/components/styles/slidemenu.scss" afterPath="$PROJECT_DIR$/src/components/styles/slidemenu.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,7 +32,7 @@
       <file leaf-file-name="gatsby-config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gatsby-config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
+            <state relative-caret-position="306">
               <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
               <folding />
             </state>
@@ -48,8 +42,8 @@
       <file leaf-file-name="layout.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/layout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="56" column="53" lean-forward="false" selection-start-line="56" selection-start-column="53" selection-end-line="56" selection-end-column="53" />
+            <state relative-caret-position="442">
+              <caret line="59" column="49" lean-forward="true" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -60,8 +54,8 @@
       <file leaf-file-name="header.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+            <state relative-caret-position="238">
+              <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -72,8 +66,8 @@
       <file leaf-file-name="header.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/styles/header.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="40" column="20" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+            <state relative-caret-position="680">
+              <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -82,8 +76,8 @@
       <file leaf-file-name="slidemenu.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/slidemenu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+            <state relative-caret-position="136">
+              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -92,7 +86,7 @@
       <file leaf-file-name="slidemenu.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/styles/slidemenu.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
+            <state relative-caret-position="629">
               <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
               <folding />
             </state>
@@ -123,11 +117,11 @@
         <option value="$PROJECT_DIR$/src/components/menuicon.js" />
         <option value="$PROJECT_DIR$/src/components/header.scss" />
         <option value="$PROJECT_DIR$/gatsby-config.js" />
-        <option value="$PROJECT_DIR$/src/components/slidemenu.js" />
         <option value="$PROJECT_DIR$/src/components/styles/slidemenu.scss" />
-        <option value="$PROJECT_DIR$/src/components/layout.js" />
         <option value="$PROJECT_DIR$/src/components/styles/header.scss" />
+        <option value="$PROJECT_DIR$/src/components/slidemenu.js" />
         <option value="$PROJECT_DIR$/src/components/header.js" />
+        <option value="$PROJECT_DIR$/src/components/layout.js" />
       </list>
     </option>
   </component>
@@ -142,7 +136,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-13" />
     <option name="y" value="163" />
     <option name="width" value="1382" />
@@ -215,8 +209,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -262,15 +256,16 @@
       <workItem from="1537813499502" duration="2044000" />
       <workItem from="1537828405419" duration="1472000" />
       <workItem from="1537900001981" duration="2032000" />
-      <workItem from="1537918268769" duration="2719000" />
+      <workItem from="1537918268769" duration="3269000" />
+      <workItem from="1537923264904" duration="1233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30959000" />
+    <option name="totallyTimeSpent" value="32742000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -649,7 +644,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/navbar.js" />
     <entry file="file://$PROJECT_DIR$/src/components/styles/slidemenu.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
+        <state relative-caret-position="629">
           <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
           <folding />
         </state>
@@ -657,7 +652,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gatsby-config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
+        <state relative-caret-position="306">
           <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
           <folding />
         </state>
@@ -665,34 +660,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/styles/header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="40" column="20" lean-forward="true" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+        <state relative-caret-position="680">
+          <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/slidemenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="32" lean-forward="false" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        <state relative-caret-position="238">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/slidemenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/layout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="56" column="53" lean-forward="false" selection-start-line="56" selection-start-column="53" selection-end-line="56" selection-end-column="53" />
+        <state relative-caret-position="442">
+          <caret line="59" column="49" lean-forward="true" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>

@@ -34,7 +34,7 @@ class Header extends Component {
                 </nav>
                 <div
                     id={"menuIcon"}
-                    onClick={this.props.toggleMenu}
+                    onClick={e => { this.props.toggleMenu(); e.stopPropagation();}}
                     style={{ backgroundColor: this.props.menuOpen ? 'rgba(255, 255, 255, .2)' : 'transparent'}}
                 >
                     <MenuIcon/>

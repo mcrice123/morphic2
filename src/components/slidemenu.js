@@ -7,7 +7,7 @@ export default ({ navLinks }) => (
             {
                 navLinks.map((nav) => {
                     return (
-                        <li>
+                        <li key={nav}>
                             <a>{nav}</a>
                         </li>
                     );

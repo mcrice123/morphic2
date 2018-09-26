@@ -4,7 +4,6 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
-//import './styles/layout.css'
 
 class Layout extends Component {
     constructor() {
@@ -22,7 +21,7 @@ class Layout extends Component {
     }
     closeMenu()
     {
-        this.setState({ menuOpen: false });
+        this.setState({menuOpen: false});
     }
     render() {
         return (
@@ -56,7 +55,9 @@ class Layout extends Component {
                         closeMenu={this.closeMenu}
                         menuOpen={this.state.menuOpen}
                     />
-                    <div id={"allcontent"}
+                    <div
+                         id={"allcontent"}
+                         onClick={this.closeMenu}
                          style={{
                              margin: '0 auto',
                              maxWidth: 960,
