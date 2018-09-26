@@ -22,10 +22,11 @@ class Header extends Component {
                     <ul>
                         {
                             navLinks.map((myLink) => {
+                                const path = "/" + myLink.toLowerCase() + "/";
                                 return (<li key={myLink}>
-                                        <a>
+                                        <Link to={path}>
                                             {myLink}
-                                        </a>
+                                        </Link>
                                     </li>
                                 );
                             })
