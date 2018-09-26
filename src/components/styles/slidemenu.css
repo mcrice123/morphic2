@@ -12,11 +12,20 @@
     #slideMenu ul li {
       text-indent: 0;
       text-align: center;
-      margin: 20px auto;
-      padding-bottom: 20px;
+      padding: 20px 0;
+      margin: auto;
       border-bottom: #DDD7F2 solid 1px;
-      width: 80%; }
+      width: 80%;
+      color: #463299;
+      height: 100%; }
       #slideMenu ul li:last-child {
         border-bottom: none; }
+      #slideMenu ul li:hover {
+        cursor: pointer;
+        background-color: #DDD7F2;
+        border-radius: 2px; }
+      #slideMenu ul li a {
+        margin: auto;
+        text-decoration: none; }
 
 /*# sourceMappingURL=slidemenu.css.map */

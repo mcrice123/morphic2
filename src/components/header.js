@@ -5,26 +5,12 @@ import SlideMenu from './slidemenu';
 require('./styles/header.css');
 
 class Header extends Component {
-    constructor() {
-        super();
-
-        this.state = {
-            menuOpen: false,
-        };
-        this.toggleMenu = this.toggleMenu.bind(this);
-    }
-
-    toggleMenu( )
-    {
-        let menu = this.state.menuOpen;
-        this.setState({ menuOpen: !menu });
-    }
 
     render() {
         const siteTitle = this.props.siteTitle;
         const navLinks = this.props.navLinks;
         return (
-            <div id={"header"}>
+            <div id={"header"} onClick={this.props.closeMenu}>
                 <div className={"title"}>
                     <h1>
                         <Link to="/">
@@ -37,9 +23,9 @@ class Header extends Component {
                         {
                             navLinks.map((myLink) => {
                                 return (<li key={myLink}>
-                                        <div>
+                                        <a>
                                             {myLink}
-                                        </div>
+                                        </a>
                                     </li>
                                 );
                             })
@@ -48,13 +34,13 @@ class Header extends Component {
                 </nav>
                 <div
                     id={"menuIcon"}
-                    onClick={() => this.toggleMenu()}
-                    style={{ backgroundColor: this.state.menuOpen ? 'rgba(255, 255, 255, .2)' : 'transparent'}}
+                    onClick={this.props.toggleMenu}
+                    style={{ backgroundColor: this.props.menuOpen ? 'rgba(255, 255, 255, .2)' : 'transparent'}}
                 >
                     <MenuIcon/>
                 </div>
                 {
-                    this.state.menuOpen &&
+                    this.props.menuOpen &&
                     <SlideMenu
                         navLinks={navLinks}
                     />

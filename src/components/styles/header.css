@@ -23,7 +23,8 @@
     padding: 10px;
     display: inline;
     height: 60px;
-    width: 60px; }
+    width: 60px;
+    z-index: 2; }
     @media screen and (min-width: 1290px) {
       #header #menuIcon {
         display: none; } }
@@ -39,9 +40,10 @@
         height: 60px;
         padding: 16px 20px;
         display: inline-block; }
-        #header #navbar ul li div {
+        #header #navbar ul li a {
           color: #fff;
-          text-transform: uppercase; }
+          text-transform: uppercase;
+          text-decoration: none; }
         #header #navbar ul li:hover {
           background-color: rgba(255, 255, 255, 0.1);
           cursor: pointer; }

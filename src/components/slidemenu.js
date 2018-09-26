@@ -6,7 +6,11 @@ export default ({ navLinks }) => (
         <ul>
             {
                 navLinks.map((nav) => {
-                    return <li>{nav}</li>;
+                    return (
+                        <li>
+                            <a>{nav}</a>
+                        </li>
+                    );
                 })
             }
         </ul>

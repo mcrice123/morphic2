@@ -21,7 +21,7 @@ $laptop: 1290px;
     &:hover {
       background-color: rgba(255, 255, 255, .1);
     }
-    
+
     h1 {
       margin: 0 0 0 10px;
 
@@ -41,6 +41,7 @@ $laptop: 1290px;
     display: inline;
     height: 60px;
     width: 60px;
+    z-index: 2;
 
     @media screen and (min-width: $laptop) {
       display: none;
@@ -60,9 +61,10 @@ $laptop: 1290px;
         padding: 16px 20px;
         display: inline-block;
 
-        div {
+        a {
           color: #fff;
           text-transform: uppercase;
+          text-decoration: none;
         }
         &:hover {
           background-color: rgba(255, 255, 255, .1);
