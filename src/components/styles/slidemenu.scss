@@ -1,0 +1,43 @@
+$primary: #463299;
+
+#slideMenu {
+  width: 300px;
+  background-color: #edeaf7;
+  z-index: 5;
+  right: 0;
+  top: 60px;
+  position: absolute;
+
+  ul {
+    width: 100%;
+    list-style: none;
+    margin: 10px 0;
+
+    li {
+      text-indent: 0;
+      text-align: center;
+      padding: 20px 0;
+      margin: auto;
+      border-bottom: #DDD7F2 solid 1px;
+      width: 80%;
+      color: $primary;
+      height: 100%;
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      &:hover {
+        cursor: pointer;
+        background-color: #DDD7F2;
+        border-radius: 2px;
+      }
+
+      a {
+        margin: auto;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
