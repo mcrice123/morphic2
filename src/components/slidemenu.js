@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'gatsby';
+
 require('./styles/slidemenu.css');
 
 export default ({ navLinks }) => (
@@ -6,9 +8,10 @@ export default ({ navLinks }) => (
         <ul>
             {
                 navLinks.map((nav) => {
+                    const path = "/" + (nav !== "Home" ? nav.toLowerCase() + "/" : "");
                     return (
                         <li key={nav}>
-                            <a>{nav}</a>
+                            <Link to={path}>{nav}</Link>
                         </li>
                     );
                 })
