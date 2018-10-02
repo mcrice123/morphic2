@@ -32,6 +32,7 @@ class Layout extends Component {
                   siteMetadata {
                     title
                     navLinks
+                    categories
                   }
                 }
               }

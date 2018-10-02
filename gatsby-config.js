@@ -6,6 +6,12 @@ module.exports = {
           'About',
           'Archive',
           'Characters'
+      ],
+      categories: [
+          'Book 1',
+          'Book 2',
+          'Book 3',
+          'Misc'
       ]
   },
   plugins: [

@@ -4,9 +4,7 @@ import Layout from '../components/layout';
 import {StaticQuery, graphql, Link} from "gatsby";
 
 export default () => {
-        console.log("inside archive");
         return (
-
             <StaticQuery
                 query={graphql`
               query archiveQuery {
@@ -16,6 +14,7 @@ export default () => {
                         frontmatter {
                             title
                             date(formatString: "MMMM DD, YYYY")
+                            categories
                         }
                         fields {
                             slug
@@ -23,12 +22,29 @@ export default () => {
                       }
                     }
                 }
+                site {
+                  siteMetadata {
+                    categories
+                  }
+                }
               }
         `}
-
                 render={data =>
                     <Layout>
                         <h1>Archive</h1>
+                        <div id={"category-select"} style={{width: '100px'}}>
+                            <select style={{width: '100%'}}>
+                                {
+                                    data.site.siteMetadata.categories.map(cat => {
+                                        const key = cat.toLowerCase().replace(/\s+/g, '');
+                                        return <option
+                                            value={key}
+                                            key={key}
+                                        >{cat}</option>;
+                                    })
+                                }
+                            </select>
+                        </div>
                         <ul>
                             {
                                 data.allMarkdownRemark.edges.map((edge) => {
