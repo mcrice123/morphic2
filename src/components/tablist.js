@@ -1,5 +1,7 @@
 import React from 'react';
 
+require('./styles/tablist.css');
+
 /* Component for displaying styled tabs given a list of objects (items) containing the following:
     1. value (string)
     2. label (string)
@@ -7,7 +9,7 @@ import React from 'react';
 */
 export default ({ items }) => {
     return (
-        <div>
+        <div className={"tab-list"}>
         {
             items.map(item => {
                 return (
