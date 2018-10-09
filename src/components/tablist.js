@@ -6,6 +6,7 @@ require('./styles/tablist.css');
     1. value (string)
     2. label (string)
     3. onClick (function)
+    4. selected (boolean)
 */
 export default ({ items }) => {
     return (
@@ -14,7 +15,7 @@ export default ({ items }) => {
             items.map(item => {
                 return (
                     <div
-                        className={"tab-item"}
+                        className={`tab-item${item.selected ? " selected" : ""}`}
                         key={item.value}
                         onClick={() => item.onClick(item.value)}
                     >
