@@ -3,6 +3,7 @@ import {StaticQuery, graphql, Link, withPrefix } from "gatsby";
 
 import Layout from '../components/layout';
 import TabList from '../components/tablist';
+import Preview from '../components/preview-image';
 
 export default class Archive extends Component {
 
@@ -90,7 +91,7 @@ export default class Archive extends Component {
                                     <Link to={slug}>
                                         {title} [{date}]
                                     </Link>
-                                    <img src={withPrefix(preview)} alt={title}/>
+                                    <Preview path={preview} alt={title} />
                                 </li>
                               );
                               }
