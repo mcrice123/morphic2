@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {StaticQuery, graphql, Link} from "gatsby";
+import {StaticQuery, graphql, Link, withPrefix } from "gatsby";
 
 import Layout from '../components/layout';
 import TabList from '../components/tablist';
@@ -59,6 +59,7 @@ export default class Archive extends Component {
                                 title
                                 date(formatString: "MMMM DD, YYYY")
                                 categories
+                                preview
                             }
                             fields {
                                 slug
@@ -80,7 +81,7 @@ export default class Archive extends Component {
                             ?
                             data.allMarkdownRemark.edges.map(edge => {
                               const allCategories = data.site.siteMetadata.categories;
-                              const { title, date, categories } = edge.node.frontmatter;
+                              const { title, date, categories, preview } = edge.node.frontmatter;
                               const { slug } = edge.node.fields;
                               const currentTab = allCategories[this.state.tabIndex].toLowerCase().replace(/\s+/g, "");
                               if (categories.includes(currentTab)) { // going to try filtering with conditional on category stored...
@@ -89,6 +90,7 @@ export default class Archive extends Component {
                                     <Link to={slug}>
                                         {title} [{date}]
                                     </Link>
+                                    <img src={withPrefix(preview)} alt={title}/>
                                 </li>
                               );
                               }
