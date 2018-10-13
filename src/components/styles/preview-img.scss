@@ -6,3 +6,25 @@ $highlight: rgba(255, 255, 255, .2);
   height: 200px;
 
 }
+
+.archive-preview-img {
+  //display: inline-block;
+  width: available;
+  display: flex;
+  flex-direction: column;
+
+  img {
+    height: 100px;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  p {
+    text-decoration: none;
+    font-size: 8px;
+    color: "#000000";
+    text-align: center;
+    margin: 0;
+  }
+}

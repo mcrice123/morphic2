@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-import {StaticQuery, graphql, Link, withPrefix } from "gatsby";
+import {StaticQuery, graphql, Link } from "gatsby";
 
 import Layout from '../components/layout';
 import TabList from '../components/tablist';
 import Preview from '../components/preview-image';
+require('../components/styles/archive.css');
+require('../components/styles/preview-img.css');
 
 export default class Archive extends Component {
 
@@ -71,7 +73,7 @@ export default class Archive extends Component {
                   }
             `}
                 render={data =>
-                    <div id={"category-tabs"}>
+                    <div id={"archive"}>
                       <TabList
                           items={this.generateTabItems(data.site.siteMetadata.categories)}
                       />
@@ -80,21 +82,32 @@ export default class Archive extends Component {
                           {
                             this.state.tabIndex !== data.site.siteMetadata.categories.length
                             ?
-                            data.allMarkdownRemark.edges.map(edge => {
+                            data.allMarkdownRemark.edges
+                            .filter(edge => {
+                              const { categories } = edge.node.frontmatter;
                               const allCategories = data.site.siteMetadata.categories;
-                              const { title, date, categories, preview } = edge.node.frontmatter;
-                              const { slug } = edge.node.fields;
                               const currentTab = allCategories[this.state.tabIndex].toLowerCase().replace(/\s+/g, "");
-                              if (categories.includes(currentTab)) { // going to try filtering with conditional on category stored...
+                              if (categories.includes(currentTab)) {
+                                return edge;
+                              }
+                              else return null;
+                            })
+                            .map(edge => {
+                              const { title, date, preview } = edge.node.frontmatter;
+                              const { slug } = edge.node.fields;
                               return (
-                                <li key={slug}>
+                                <li key={slug} style={{ display: 'inline-block'}}>
                                     <Link to={slug}>
-                                        {title} [{date}]
+                                        <Preview
+                                          path={preview}
+                                          alt={title}
+                                          className="archive-preview-img"
+                                          title={title}
+                                          date={date}
+                                          />
                                     </Link>
-                                    <Preview path={preview} alt={title} />
                                 </li>
                               );
-                              }
                             })
                             :
                             <div>
