@@ -55,7 +55,9 @@ export default class Archive extends Component {
                         categories
                       }
                     }
-                    allMarkdownRemark {
+                    allMarkdownRemark(
+                      sort: {fields: [frontmatter___date], order: ASC},
+                    ) {
                         edges {
                           node {
                             frontmatter {
