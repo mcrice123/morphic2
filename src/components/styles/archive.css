@@ -1,3 +1,5 @@
+#archive ul li {
+  margin-bottom: 0; }
 #archive #search-results ul {
   margin: 0;
   list-style: none;

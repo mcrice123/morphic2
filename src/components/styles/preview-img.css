@@ -4,18 +4,34 @@
 
 .archive-preview-img {
   width: available;
+  height: available;
   display: flex;
-  flex-direction: column; }
-  .archive-preview-img img {
-    height: 100px;
-    margin-bottom: 0;
-    margin-right: auto;
-    margin-left: auto; }
-  .archive-preview-img p {
-    text-decoration: none;
-    font-size: 8px;
-    color: "#000000";
-    text-align: center;
-    margin: 0; }
+  flex-direction: column;
+  margin-top: 0; }
+  .archive-preview-img .main {
+    display: flex;
+    flex-direction: column; }
+    .archive-preview-img .main img {
+      height: 100px;
+      margin: 0 auto; }
+    .archive-preview-img .main p {
+      text-decoration: none;
+      font-size: 8px;
+      text-align: center;
+      margin: 0;
+      height: 15px; }
+  .archive-preview-img .overlay {
+    display: none;
+    align-self: flex-start;
+    position: relative;
+    background-color: rgba(70, 50, 153, 0.2);
+    z-index: 3;
+    height: 130px;
+    width: 100%;
+    margin-top: -130px; }
+  .archive-preview-img:hover {
+    cursor: pointer; }
+    .archive-preview-img:hover .overlay {
+      display: block; }
 
 /*# sourceMappingURL=preview-img.css.map */
