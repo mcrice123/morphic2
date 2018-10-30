@@ -73,17 +73,33 @@ return (
       };
       return (
         <div className="navigation">
-          <Link to={previous.slug}>
-            <div className="previous link">
+          {
+            previous.slug !== ""
+            ?
+            <Link to={previous.slug}>
+              <div className="previous link">
+                {previous.title}
+              </div>
+            </Link>
+            :
+            <div className="previous link invisible">
               {previous.title}
             </div>
-          </Link>
+          }
           <h3 className="title">{current.title}</h3>
-          <Link to={next.slug}>
-            <div className="next link">
+          {
+            next.slug !== ""
+            ?
+            <Link to={next.slug}>
+              <div className="next link">
+                {next.title}
+              </div>
+            </Link>
+            :
+            <div className="next link invisible">
               {next.title}
             </div>
-          </Link>
+          }
         </div>
       );
     }
