@@ -1,29 +1,65 @@
+
+// primary color
+$primary: #463299;
+// Laptop width
+$laptop: 1290px;
+$tablet: 768px;
+
 .link {
   height: 50px;
-  width: 150px;
-  background-color: #463299;
+  background-color: $primary;
   color: #ffffff;
   text-align: center;
-  margin: 0;
+  margin-top: 10px;
   padding-top: 8px;
+  width: 100%;
+
+  @media screen and (min-width: $tablet) {
+    width: 150px;
+  }
 }
 
 .navigation {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+
+  @media screen and (min-width: $tablet) {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
 }
 
 .title {
-  margin: auto;
+  margin-top: 10px;
+  order: 1;
+  height: 50px;
+  padding-top: 8px;
+
+  h3 {
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+    color: $primary;
+  }
+
+  @media screen and (min-width: $tablet) {
+    order: 5;
+  }
 }
 
-.right {
-  float: right;
+.next {
+  order: 6;
+  @media screen and (min-width: $tablet) {
+    //order: 6;
+  }
 }
 
-.left {
-  float: left;
+.previous {
+  order: 3;
+  @media screen and (min-width: $tablet) {
+    order: 2;
+  }
 }
 
 .invisible {

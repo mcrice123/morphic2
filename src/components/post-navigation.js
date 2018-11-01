@@ -76,8 +76,8 @@ return (
           {
             previous.slug !== ""
             ?
-            <Link to={previous.slug}>
-              <div className="previous link">
+            <Link to={previous.slug} className="previous">
+              <div className="link">
                 {previous.title}
               </div>
             </Link>
@@ -86,12 +86,12 @@ return (
               {previous.title}
             </div>
           }
-          <h3 className="title">{current.title}</h3>
+          <div className="title"><h3>{current.title}</h3></div>
           {
             next.slug !== ""
             ?
-            <Link to={next.slug}>
-              <div className="next link">
+            <Link to={next.slug} className="next">
+              <div className="link">
                 {next.title}
               </div>
             </Link>
