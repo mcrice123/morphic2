@@ -1,21 +1,4 @@
-.link {
-  height: 50px;
-  width: 100px;
-  background-color: #463299;
-  color: #ffffff;
-  text-align: center;
-  margin: 0;
-  padding-top: 8px; }
-
-.navigation {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between; }
-
-.right {
-  float: right; }
-
-.left {
-  float: left; }
+.embedVideoIframe {
+  left: 0; }
 
 /*# sourceMappingURL=blog-post.css.map */

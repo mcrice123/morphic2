@@ -24,7 +24,8 @@ Without further ado...
 
 WHAT DOES THE FOX SAY
 
-{{< youtube-video jofNR_WkoCE >}}
+`video: https://www.youtube.com/embed/jofNR_WkoCE`
+
 
 
 
