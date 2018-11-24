@@ -1,0 +1,15 @@
+$primary: #463299;
+
+.tab-list {
+  .tab-item {
+    display: inline-block;
+    padding: 10px 10px;
+    cursor: pointer;
+    color: $primary;
+
+    &.selected {
+      background-color: #edeaf7;
+      color: #000000;
+    }
+  }
+}

@@ -6,8 +6,15 @@ module.exports = {
           'About',
           'Archive',
           'Characters'
+      ],
+      categories: [
+          'Book 1',
+          'Book 2',
+          'Book 3',
+          'Misc'
       ]
   },
+  pathPrefix: `/static`, // Build with `gatsby build --prefix-paths`
   plugins: [
     'gatsby-plugin-react-helmet',
     {
@@ -30,5 +37,29 @@ module.exports = {
           },
       },
       `gatsby-plugin-sass`,
+      {
+          resolve: `gatsby-source-filesystem`,
+          options: {
+              name: `src`,
+              path: `${__dirname}/src/`,
+          },
+      },
+      {
+        resolve: `gatsby-transformer-remark`,
+        options: {
+          plugins: [
+          {
+            resolve: "gatsby-remark-embed-video",
+            options: {
+              width: 800,
+              ratio: 1.77,
+              height: 400,
+              related: false,
+              noIframeBorder: true 
+            }
+          }
+          ]
+        }
+      }
   ],
 }
