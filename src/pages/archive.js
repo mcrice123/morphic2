@@ -6,7 +6,6 @@ import TabList from '../components/tablist';
 import Preview from '../components/preview-image';
 require('../components/styles/archive.css');
 require('../components/styles/preview-img.css');
-let iterator = 0;
 
 export default class Archive extends Component {
 
@@ -36,12 +35,6 @@ export default class Archive extends Component {
                 onClick: () => this.changeTabs(index),
                 selected: this.state.tabIndex === index,
             };
-        });
-        items.push({
-            value: 'search',
-            label: 'Search',
-            onClick: () => this.changeTabs(lastIndex + 1),
-            selected: this.state.tabIndex === lastIndex + 1,
         });
         return items;
     }
@@ -83,22 +76,13 @@ export default class Archive extends Component {
                       <div id={"search-results"}>
                         <ul>
                           {
-                            this.state.tabIndex !== data.site.siteMetadata.categories.length
-                            ?
+                            this.state.tabIndex < data.site.siteMetadata.categories.length
+                            &&
                             data.allMarkdownRemark.edges
                             .filter(edge => {
-                              if (iterator === data.allMarkdownRemark.edges.length) {
-                                iterator = 0;
-                              }
-                              else iterator++;
-                              console.log(iterator);
-                              const { slug } = edge.node.fields;
-                              console.log(slug);
                               const { categories } = edge.node.frontmatter;
                               const allCategories = data.site.siteMetadata.categories;
                               const currentTab = allCategories[this.state.tabIndex].toLowerCase().replace(/\s+/g, "");
-                              console.log(typeof(currentTab));
-                              console.log(categories);
                               if (categories.includes(currentTab)) {
                                 return edge;
                               }
@@ -121,10 +105,6 @@ export default class Archive extends Component {
                                 </li>
                               );
                             })
-                            :
-                            <div>
-                              <input placeholder="Type a character's name"/>
-                            </div>
                           }
                         </ul>
                       </div>
