@@ -26,9 +26,7 @@ export default class Archive extends Component {
     }
 
     generateTabItems(categories) {
-        var lastIndex = 0;
         var items = categories.map((cat, index) => {
-            lastIndex = index;
             return {
                 value: cat.toLowerCase().replace(/\s+/g, ""),
                 label: cat,
@@ -59,6 +57,7 @@ export default class Archive extends Component {
                                 date(formatString: "MMMM DD, YYYY")
                                 categories
                                 preview
+                                type
                             }
                             fields {
                                 slug
@@ -76,14 +75,14 @@ export default class Archive extends Component {
                       <div id={"search-results"}>
                         <ul>
                           {
-                            this.state.tabIndex < data.site.siteMetadata.categories.length
+                            (this.state.tabIndex < data.site.siteMetadata.categories.length)
                             &&
                             data.allMarkdownRemark.edges
                             .filter(edge => {
-                              const { categories } = edge.node.frontmatter;
+                              const { categories, type } = edge.node.frontmatter;
                               const allCategories = data.site.siteMetadata.categories;
                               const currentTab = allCategories[this.state.tabIndex].toLowerCase().replace(/\s+/g, "");
-                              if (categories.includes(currentTab)) {
+                              if (type === "post" && categories.includes(currentTab)) {
                                 return edge;
                               }
                               else return null;
