@@ -1,0 +1,72 @@
+$def_height: 240px;
+
+.bio {
+  height: available;
+  box-shadow: 5px 5px 25px grey;
+  padding: 0;
+  overflow: hidden;
+
+  .bio-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .bio-images {
+        height: 100%;
+        display: flex;
+        flex: .3;
+        flex-direction: column;
+        padding: 20px 20px;
+
+        img {
+          height: 200px;
+          width: 180px;
+        }
+    }
+
+    .bio-top-layer {
+      height: available;
+      width: 0;
+      position: relative;
+
+      .bio-overlay {
+        background: linear-gradient(.75turn, rgba(70, 50, 153, .2), rgba(70, 50, 153, 0));
+        position: absolute;
+        width: 280px;
+        z-index: 3;
+        margin-left: -900px;
+        height: 100%;
+      }
+    }
+
+    .bio-text {
+      display: flex;
+      flex: .6;
+      min-height: 100%;
+      height: available;
+      flex-direction: column;
+
+       .bio-header {
+         h3 {
+           margin-top: 0;
+           margin-bottom: 10px;
+         }
+        ul {
+          list-style: none;
+          li {
+            margin-bottom: 0;
+            strong {
+              margin-right: 10px;
+            }
+          }
+        }
+      }
+
+      .bio-description {
+        height: available;
+      }
+    }
+  }
+}

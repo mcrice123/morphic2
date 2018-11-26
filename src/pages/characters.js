@@ -16,6 +16,7 @@ export default class Characters extends Component {
                     ){
                       edges {
                         node {
+                          html
                           frontmatter {
                             type
                        			name
@@ -23,6 +24,10 @@ export default class Characters extends Component {
                             hair
                             eyes
                             glow
+                            rank
+                            subcategories
+                            species
+                            abilities
                             firstpath
                             secpath
                       		}
@@ -36,7 +41,7 @@ export default class Characters extends Component {
             `}
                 render={data =>
                     <div id={"characters"}>
-                        <ul>
+                        <ul style={{ listStyle: "none"}}>
                           {
                             data.allMarkdownRemark.edges
                             .map(edge => {
