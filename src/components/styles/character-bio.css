@@ -36,15 +36,22 @@
       height: available;
       flex-direction: column; }
       .bio .bio-content .bio-text .bio-header h3 {
-        margin-top: 0;
+        margin-top: 10px;
         margin-bottom: 10px; }
-      .bio .bio-content .bio-text .bio-header ul {
-        list-style: none; }
-        .bio .bio-content .bio-text .bio-header ul li {
-          margin-bottom: 0; }
-          .bio .bio-content .bio-text .bio-header ul li strong {
-            margin-right: 10px; }
+      .bio .bio-content .bio-text .bio-header table tbody tr {
+        border-bottom-width: 0; }
+        .bio .bio-content .bio-text .bio-header table tbody tr th {
+          width: 10%;
+          border-bottom-width: 0; }
+        .bio .bio-content .bio-text .bio-header table tbody tr td {
+          border-bottom-width: 0; }
+          .bio .bio-content .bio-text .bio-header table tbody tr td ul {
+            display: flex;
+            flex-direction: row; }
+            .bio .bio-content .bio-text .bio-header table tbody tr td ul li {
+              flex: 1; }
       .bio .bio-content .bio-text .bio-description {
-        height: available; }
+        height: available;
+        margin-bottom: 10px; }
 
 /*# sourceMappingURL=character-bio.css.map */

@@ -50,22 +50,35 @@ $def_height: 240px;
 
        .bio-header {
          h3 {
-           margin-top: 0;
+           margin-top: 10px;
            margin-bottom: 10px;
          }
-        ul {
-          list-style: none;
-          li {
-            margin-bottom: 0;
-            strong {
-              margin-right: 10px;
-            }
-          }
-        }
+         table {
+           tbody {
+             tr {
+               border-bottom-width: 0;
+               th {
+                 width: 10%;
+                 border-bottom-width: 0;
+               }
+               td {
+                 border-bottom-width: 0;
+                 ul {
+                   display: flex;
+                   flex-direction: row;
+                   li {
+                      flex: 1;
+                   }
+                 }
+               }
+             }
+           }
+         }
       }
 
       .bio-description {
         height: available;
+        margin-bottom: 10px;
       }
     }
   }

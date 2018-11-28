@@ -5,21 +5,26 @@ require("./styles/character-bio.css");
 
 function toTitleCase(myString) {
   const lower = myString.toLowerCase();
-  const first_char = lower[0];
   let first_lower;
-  let second_lower;
-  let after_first = lower.split(first_char)[1];
-  if (after_first.includes("-")) {
-    first_lower = after_first.split("-")[0];
-    second_lower = after_first.split("-")[1];
-    after_first = first_lower + "-" + toTitleCase(second_lower);
+  let final = "";
+  let allParts = [myString];
+  let mySymbol = " ";
+  if (lower.includes("-")) {
+    allParts = lower.split("-");
+    mySymbol = "-";
   }
-  if (after_first.includes(" ")) {
-    first_lower = after_first.split(" ")[0];
-    second_lower = after_first.split(" ")[1];
-    after_first = first_lower + " " + toTitleCase(second_lower);
+  if (lower.includes(" ")) {
+    allParts = lower.split(" ");
   }
-  return first_char.toUpperCase() + after_first;
+
+  for (var i = 0; i < allParts.length; i++) {
+    if (allParts[i].length > 0) {
+      first_lower = allParts[i][0];
+      if (i !== 0) final += mySymbol;
+      final += (first_lower.toUpperCase() + allParts[i].slice(1));
+    }
+  }
+  return final;
 }
 
 export default class CharacterBio extends Component {
@@ -58,68 +63,90 @@ export default class CharacterBio extends Component {
           <div className="bio-text">
             <div className="bio-header">
               <h3>{name}</h3>
-              <ul>
-                <li>
-                  <strong>Species:</strong>
-                  {toTitleCase(species)}
-                  {
-                    subcategories.length > 0
-                    &&
-                    <ul>
-                      {
-                        subcategories.map(sub => {
-                          const key = name + "/" + sub;
-                          return <li key={key}>{toTitleCase(sub)}</li>;
-                        })
-                      }
-                    </ul>
-                  }
-                </li>
+              <table>
+              <tbody>
+                <tr>
+                  <th>
+                    <strong>Species:</strong>
+                  </th>
+                  <td>
+                    {toTitleCase(species)}
+                    {
+                      subcategories.length > 0
+                      &&
+                      <ul>
+                        {
+                          subcategories.map(sub => {
+                            const key = name + "/" + sub;
+                            return <li key={key}>{toTitleCase(sub)}</li>;
+                          })
+                        }
+                      </ul>
+                    }
+                  </td>
 
-                <li>
-                  <strong>Age:</strong>
-                  {age !== "" ? age : "[Classified]"}
-                </li>
+                  <th>
+                    <strong>Hair:</strong>
+                  </th>
+                  <td>
+                    {toTitleCase(hair)}
+                  </td>
+                </tr>
+
+                <tr>
+                  <th>
+                    <strong>Age:</strong>
+                  </th>
+                  <td>
+                    {age !== "" ? age : "[Classified]"}
+                  </td>
+
+                  <th>
+                    <strong>Eyes:</strong>
+                  </th>
+                  <td>
+                    {toTitleCase(eyes)}
+                  </td>
+                </tr>
                 {
-                  rank > 0
+                  rank > 0 && glow !== ""
                   &&
-                  <li>
-                    <strong>Level:</strong>
-                    {rank}
-                  </li>
+                  <tr>
+                    <th>
+                      <strong>Level:</strong>
+                    </th>
+                    <td>
+                      {rank}
+                    </td>
+                    <th>
+                      <strong>Glow:</strong>
+                    </th>
+                    <td>
+                      {toTitleCase(glow)}
+                    </td>
+                  </tr>
                 }
                 {
                   abilities.length > 0
                   &&
-                  <li>
-                    <strong>Abilities:</strong>
-                    <ul>
-                    {
-                        abilities.map((skill, index) => {
-                          const key = name + "/" + skill + (index + 1);
-                          return <li key={key}>{skill}</li>;
-                        })
-                    }
-                    </ul>
-                  </li>
+                  <tr>
+                    <th>
+                      <strong>Abilities:</strong>
+                    </th>
+                    <td colSpan="3">
+                      <ul>
+                      {
+                          abilities.map((skill, index) => {
+                            const key = name + "/" + skill + (index + 1);
+                            return <li key={key}>{toTitleCase(skill)}</li>;
+                          })
+                      }
+                      </ul>
+                    </td>
+                  </tr>
                 }
-                <li>
-                  <strong>Hair:</strong>
-                  {toTitleCase(hair)}
-                </li>
-                <li>
-                  <strong>Eyes:</strong>
-                  {toTitleCase(eyes)}
-                </li>
-                {
-                  glow !== ""
-                  &&
-                  <li>
-                    <strong>Glow:</strong>
-                    {toTitleCase(glow)}
-                  </li>
-                }
-              </ul>
+                </tbody>
+              </table>
             </div>
             <div className="bio-description" dangerouslySetInnerHTML={{ __html: this.props.bio.node.html }} />
           </div>
