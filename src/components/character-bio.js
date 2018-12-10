@@ -48,6 +48,9 @@ export default class CharacterBio extends Component {
     return (
         <div id={bioId} className="bio">
           <div className="bio-content">
+          <div id={overlayId} className="bio-top-layer">
+            <div className="bio-overlay" />
+          </div>
             <div className="bio-images">
               {
                 firstpath !== ""
@@ -65,12 +68,12 @@ export default class CharacterBio extends Component {
               <h3>{name}</h3>
               <table>
               <tbody>
-                <tr>
+                <tr className="first">
                   <th>
                     <strong>Species:</strong>
                   </th>
                   <td>
-                    {toTitleCase(species)}
+                    <b>{toTitleCase(species)}</b>
                     {
                       subcategories.length > 0
                       &&
@@ -84,7 +87,8 @@ export default class CharacterBio extends Component {
                       </ul>
                     }
                   </td>
-
+                </tr>
+                <tr>
                   <th>
                     <strong>Hair:</strong>
                   </th>
@@ -93,14 +97,15 @@ export default class CharacterBio extends Component {
                   </td>
                 </tr>
 
-                <tr>
+                <tr className="first">
                   <th>
                     <strong>Age:</strong>
                   </th>
                   <td>
                     {age !== "" ? age : "[Classified]"}
                   </td>
-
+                </tr>
+                <tr>
                   <th>
                     <strong>Eyes:</strong>
                   </th>
@@ -109,15 +114,21 @@ export default class CharacterBio extends Component {
                   </td>
                 </tr>
                 {
-                  rank > 0 && glow !== ""
+                  rank > 0  
                   &&
-                  <tr>
+                  <tr className="first">
                     <th>
                       <strong>Level:</strong>
                     </th>
                     <td>
                       {rank}
                     </td>
+                    </tr>
+                }
+                {
+                  glow !== "" 
+                  &&
+                  <tr>
                     <th>
                       <strong>Glow:</strong>
                     </th>
@@ -129,7 +140,7 @@ export default class CharacterBio extends Component {
                 {
                   abilities.length > 0
                   &&
-                  <tr>
+                  <tr className="first abilities">
                     <th>
                       <strong>Abilities:</strong>
                     </th>
@@ -150,9 +161,7 @@ export default class CharacterBio extends Component {
             </div>
             <div className="bio-description" dangerouslySetInnerHTML={{ __html: this.props.bio.node.html }} />
           </div>
-          <div id={overlayId} className="bio-top-layer">
-            <div className="bio-overlay" />
-          </div>
+
           </div>
         </div>
     );
