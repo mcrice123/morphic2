@@ -5,7 +5,8 @@ module.exports = {
           'Home',
           'About',
           'Archive',
-          'Characters'
+          'Characters',
+          'Subscribe'
       ],
       categories: [
           'Book 1',
