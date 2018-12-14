@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby'
 
 import Layout from '../components/layout';
 
@@ -26,7 +25,15 @@ const About = () => {
                     As of writing this description, it is currently in Book 2. 
                     While continuing to upload new colored pages, I am working to update older, uncolored pages. 
                     <b>I draw the pages with black ink pens and color them digitally 
-                        with <a target="_blank" href="https://www.gimp.org/">GIMP</a>.</b>
+                        with <a 
+                                target="_blank" 
+                                href="https://www.gimp.org/"
+                                rel="noopener noreferrer"
+                                >
+                                GIMP
+                            </a>
+                            .
+                    </b>
                 </p>
                 <p>
 

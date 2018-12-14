@@ -1,0 +1,24 @@
+$primary: #463299;
+
+#subscribe-form {
+    background: linear-gradient(.75turn, rgba(70, 50, 153, 0),rgba(70, 50, 153, .2));
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: calc(100vh - 60px);
+    margin: -10px 0 -30px 0;
+
+    h3 {
+        color: $primary;
+    }
+
+    input {
+        color: $primary;
+        width: 50%;
+    }
+    button {
+        width: 100px;
+    }
+}
