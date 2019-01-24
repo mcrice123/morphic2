@@ -1,0 +1,21 @@
+#about {
+  display: flex;
+  flex-direction: row;
+  height: 95vh;
+  align-items: flex-end;
+  position: fixed;
+  bottom: -5vh; }
+  #about div {
+    width: 40%;
+    margin-bottom: 30px; }
+  #about p {
+    font-size: 14px; }
+  #about h1 {
+    margin-bottom: 0;
+    margin-top: 10px; }
+  #about h3 {
+    margin-top: 20px; }
+  #about img {
+    width: 40%; }
+
+/*# sourceMappingURL=about.css.map */
