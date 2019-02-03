@@ -1,12 +1,13 @@
 #about {
   display: flex;
   flex-direction: row;
-  height: 95vh;
+  height: 85vh;
   align-items: flex-end;
   position: fixed;
   bottom: -5vh; }
-  #about div {
+  #about #text-container {
     width: 40%;
+    height: 100%;
     margin-bottom: 30px; }
   #about p {
     font-size: 14px; }
@@ -15,7 +16,54 @@
     margin-top: 10px; }
   #about h3 {
     margin-top: 20px; }
-  #about img {
+  #about #img-container {
     width: 40%; }
+    #about #img-container img {
+      width: 100%; }
+  @media screen and (max-width: 850px) {
+    #about {
+      height: 95%;
+      position: relative;
+      margin-bottom: 0; }
+      #about #img-container {
+        width: 50%; }
+        #about #img-container img {
+          margin-bottom: -5vh; } }
+  @media screen and (max-width: 700px) {
+    #about {
+      flex-direction: column;
+      align-items: flex-start; }
+      #about #text-container {
+        width: 100%;
+        z-index: 1; }
+      #about #img-container {
+        width: 100%;
+        z-index: 0; }
+        #about #img-container img {
+          margin-top: -40vh; } }
+  @media screen and (max-width: 500px) {
+    #about {
+      flex-direction: column;
+      align-items: flex-start; }
+      #about #text-container {
+        width: 100%;
+        z-index: 1; }
+      #about #img-container {
+        width: 100%;
+        z-index: 0; }
+        #about #img-container img {
+          margin-top: -30vh; } }
+  @media screen and (max-width: 400px) {
+    #about {
+      flex-direction: column;
+      align-items: flex-start; }
+      #about #text-container {
+        width: 100%;
+        z-index: 1; }
+      #about #img-container {
+        width: 100%;
+        z-index: 0; }
+        #about #img-container img {
+          margin-top: -20vh; } }
 
 /*# sourceMappingURL=about.css.map */
