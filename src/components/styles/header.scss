@@ -6,7 +6,41 @@ $highlight: rgba(255, 255, 255, .2);
 // Laptop width
 $laptop: 1290px;
 
-#header {
+#header-banner {
+  height: 40vh;
+  overflow: hidden;
+  img {
+    width: 100%;
+    margin-top: -250px;
+  }
+
+  @media screen and (max-width: 900px) {
+    height: 30vh;
+    img {
+      margin-top: -100px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    height: 30vh;
+    img {
+      margin-top: -100px;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    height: 20vh;
+    img {
+      margin-top: 0;//-50px;
+      left: -9999px;
+      right: -9999px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+}
+
+#header-links {
   background: $primary;
   display: inline-block;
   width: 100%;

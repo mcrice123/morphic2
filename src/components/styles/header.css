@@ -1,23 +1,49 @@
-#header {
+#header-banner {
+  height: 40vh;
+  overflow: hidden; }
+  #header-banner img {
+    width: 100%;
+    margin-top: -250px; }
+  @media screen and (max-width: 900px) {
+    #header-banner {
+      height: 30vh; }
+      #header-banner img {
+        margin-top: -100px; } }
+  @media screen and (max-width: 600px) {
+    #header-banner {
+      height: 30vh; }
+      #header-banner img {
+        margin-top: -100px; } }
+  @media screen and (max-width: 500px) {
+    #header-banner {
+      height: 20vh; }
+      #header-banner img {
+        margin-top: 0;
+        left: -9999px;
+        right: -9999px;
+        margin-right: auto;
+        margin-left: auto; } }
+
+#header-links {
   background: #463299;
   display: inline-block;
   width: 100%; }
-  #header .title {
+  #header-links .title {
     margin: 0 auto;
     max-width: 910px;
     height: 100%;
     padding: 10px;
     display: inline;
     float: left; }
-    #header .title:hover {
+    #header-links .title:hover {
       background-color: rgba(255, 255, 255, 0.1); }
-    #header .title h1 {
+    #header-links .title h1 {
       margin: 0 0 0 10px; }
-      #header .title h1 a {
+      #header-links .title h1 a {
         color: white;
         text-decoration: none;
         cursor: pointer; }
-  #header #menuIcon {
+  #header-links #menuIcon {
     float: right;
     margin: auto 0;
     padding: 10px;
@@ -26,29 +52,29 @@
     width: 60px;
     z-index: 2; }
     @media screen and (min-width: 1290px) {
-      #header #menuIcon {
+      #header-links #menuIcon {
         display: none; } }
-  #header #navbar {
+  #header-links #navbar {
     float: left;
     height: 40px;
     display: none; }
-    #header #navbar ul {
+    #header-links #navbar ul {
       list-style: none;
       margin-top: 0;
       height: 40px; }
-      #header #navbar ul li {
+      #header-links #navbar ul li {
         height: 60px;
         padding: 16px 20px;
         display: inline-block; }
-        #header #navbar ul li a {
+        #header-links #navbar ul li a {
           color: #fff;
           text-transform: uppercase;
           text-decoration: none; }
-        #header #navbar ul li:hover {
+        #header-links #navbar ul li:hover {
           background-color: rgba(255, 255, 255, 0.1);
           cursor: pointer; }
     @media screen and (min-width: 768px) {
-      #header #navbar {
+      #header-links #navbar {
         display: inline; } }
 
 /*# sourceMappingURL=header.css.map */
