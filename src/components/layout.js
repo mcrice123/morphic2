@@ -64,7 +64,6 @@ class Layout extends Component {
                              maxWidth: 960,
                              padding: '0px 1.0875rem 1.45rem',
                              paddingTop: 0,
-                             minHeight: 'calc(100vh - 70px)',
                          }}
                     >
                         {this.props.children}

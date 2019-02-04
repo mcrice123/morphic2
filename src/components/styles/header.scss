@@ -6,6 +6,11 @@ $highlight: rgba(255, 255, 255, .2);
 // Laptop width
 $laptop: 1290px;
 
+#header {
+  z-index: 10;
+  position: relative;
+}
+
 #header-banner {
   height: 40vh;
   overflow: hidden;
@@ -31,7 +36,7 @@ $laptop: 1290px;
   @media screen and (max-width: 500px) {
     height: 20vh;
     img {
-      margin-top: 0;//-50px;
+      margin-top: 0;
       left: -9999px;
       right: -9999px;
       margin-right: auto;
@@ -44,6 +49,8 @@ $laptop: 1290px;
   background: $primary;
   display: inline-block;
   width: 100%;
+  overflow: hidden;
+  z-index: 10;
 
   .title {
     margin: 0 auto;

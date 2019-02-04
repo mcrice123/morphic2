@@ -5,14 +5,14 @@ $even_smaller: 500px;
 #about {
     display: flex;
     flex-direction: row;
-    height: 85vh; 
     align-items: flex-end;
     position: fixed;
     bottom: -5vh;
+    overflow: hidden;
+    z-index: 0;
 
     #text-container {
         width: 40%;
-        height: 100%;
         margin-bottom: 30px;
     }
     p {
@@ -33,7 +33,6 @@ $even_smaller: 500px;
     }
 
     @media screen and (max-width: $large_screen) {
-        height: 95%;
         position: relative;
         margin-bottom: 0;
 
@@ -57,7 +56,7 @@ $even_smaller: 500px;
             width: 100%;
             z-index: 0;
             img {
-                margin-top: -40vh;
+                margin-top: -20vh;
                 
             }
         }
@@ -75,8 +74,7 @@ $even_smaller: 500px;
             width: 100%;
             z-index: 0;
             img {
-                margin-top: -30vh;
-                
+                margin-top: -10vh;
             }
         }
     }
@@ -93,7 +91,7 @@ $even_smaller: 500px;
             width: 100%;
             z-index: 0;
             img {
-                margin-top: -20vh;
+                margin-top: -10vh;
             }
         }
     }

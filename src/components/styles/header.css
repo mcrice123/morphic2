@@ -1,3 +1,7 @@
+#header {
+  z-index: 10;
+  position: relative; }
+
 #header-banner {
   height: 40vh;
   overflow: hidden; }
@@ -27,7 +31,9 @@
 #header-links {
   background: #463299;
   display: inline-block;
-  width: 100%; }
+  width: 100%;
+  overflow: hidden;
+  z-index: 10; }
   #header-links .title {
     margin: 0 auto;
     max-width: 910px;
