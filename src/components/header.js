@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'gatsby'
 import MenuIcon from './menuicon';
 import SlideMenu from './slidemenu';
-import BannerImage from '../../static/misc/main/wolf_art_colored.jpg';
+import BannerImage from '../images/banner.png';
 require('./styles/header.css');
 
 class Header extends Component {

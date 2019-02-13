@@ -14,33 +14,51 @@ $laptop: 1290px;
 #header-banner {
   height: 40vh;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin-left: -100px;
   img {
-    width: 100%;
-    margin-top: -250px;
+    max-height: 100%;
+    max-width: 200%;
+    width: auto;
+    height: auto;
+    align-self: flex-end;
+    left: -9999px;
+    right: -5999px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   @media screen and (max-width: 900px) {
     height: 30vh;
     img {
-      margin-top: -100px;
+      max-height: 100%;
+      max-width: 200%;
+      width: auto;
+      height: auto;
+      left: -9999px;
+      right: -5999px;
+      margin-right: auto;
+      margin-left: auto;
     }
   }
 
   @media screen and (max-width: 600px) {
     height: 30vh;
     img {
-      margin-top: -100px;
+      right: 0;
+      left: auto;
+      margin-right: 0;
+      margin-left: 0;
+      max-width: 200%;
     }
   }
 
   @media screen and (max-width: 500px) {
     height: 20vh;
     img {
-      margin-top: 0;
-      left: -9999px;
-      right: -9999px;
-      margin-right: auto;
-      margin-left: auto;
+      max-width: 250%;
+      margin-right: -50px;
     }
   }
 }
