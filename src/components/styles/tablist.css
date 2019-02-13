@@ -2,9 +2,9 @@
   display: inline-block;
   padding: 10px 10px;
   cursor: pointer;
-  color: #463299; }
+  color: #2b1f5a; }
   .tab-list .tab-item.selected {
-    background-color: #edeaf7;
+    background-color: rgba(43, 31, 90, 0.1);
     color: #000000; }
 
 /*# sourceMappingURL=tablist.css.map */

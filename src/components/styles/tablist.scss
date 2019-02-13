@@ -1,4 +1,4 @@
-$primary: #463299;
+$primary: #2b1f5a;
 
 .tab-list {
   .tab-item {
@@ -8,7 +8,7 @@ $primary: #463299;
     color: $primary;
 
     &.selected {
-      background-color: #edeaf7;
+      background-color: rgba($primary, .1);
       color: #000000;
     }
   }
