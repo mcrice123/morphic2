@@ -2,13 +2,13 @@
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  position: fixed;
+  margin-bottom: -90px;
   bottom: -5vh;
   overflow: hidden;
   z-index: 0; }
   #about #text-container {
     width: 40%;
-    margin-bottom: 30px; }
+    margin-bottom: 60px; }
   #about p {
     font-size: 14px; }
   #about h1 {
@@ -23,7 +23,8 @@
   @media screen and (max-width: 850px) {
     #about {
       position: relative;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      bottom: -5vh; }
       #about #img-container {
         width: 50%; }
         #about #img-container img {
@@ -31,7 +32,8 @@
   @media screen and (max-width: 700px) {
     #about {
       flex-direction: column;
-      align-items: flex-start; }
+      align-items: flex-start;
+      bottom: -5vh; }
       #about #text-container {
         width: 100%;
         z-index: 1; }
@@ -43,7 +45,8 @@
   @media screen and (max-width: 500px) {
     #about {
       flex-direction: column;
-      align-items: flex-start; }
+      align-items: flex-start;
+      bottom: -5vh; }
       #about #text-container {
         width: 100%;
         z-index: 1; }
@@ -55,7 +58,8 @@
   @media screen and (max-width: 400px) {
     #about {
       flex-direction: column;
-      align-items: flex-start; }
+      align-items: flex-start;
+      bottom: -5vh; }
       #about #text-container {
         width: 100%;
         z-index: 1; }
