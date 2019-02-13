@@ -1,54 +1,104 @@
 #header {
-  background: #463299;
+  z-index: 10;
+  position: relative; }
+
+#header-banner {
+  height: 40vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  margin-left: -100px;
+  background: linear-gradient(0.75turn, rgba(184, 225, 252, 0.5), #2b1f5a); }
+  #header-banner img {
+    max-height: 100%;
+    max-width: 200%;
+    width: auto;
+    height: auto;
+    align-self: flex-end;
+    left: -9999px;
+    right: -5999px;
+    margin-right: auto;
+    margin-left: auto; }
+  @media screen and (max-width: 900px) {
+    #header-banner {
+      height: 30vh; }
+      #header-banner img {
+        max-height: 100%;
+        max-width: 200%;
+        width: auto;
+        height: auto;
+        left: -9999px;
+        right: -5999px;
+        margin-right: auto;
+        margin-left: auto; } }
+  @media screen and (max-width: 600px) {
+    #header-banner {
+      height: 30vh; }
+      #header-banner img {
+        right: 0;
+        left: auto;
+        margin-right: 0;
+        margin-left: 0;
+        max-width: 200%; } }
+  @media screen and (max-width: 500px) {
+    #header-banner {
+      height: 20vh; }
+      #header-banner img {
+        max-width: 250%;
+        margin-right: -50px; } }
+
+#header-links {
+  background: #2b1f5a;
   display: inline-block;
-  width: 100%; }
-  #header .title {
+  width: 100%;
+  overflow: hidden;
+  z-index: 10; }
+  #header-links .title {
     margin: 0 auto;
     max-width: 910px;
     height: 100%;
     padding: 10px;
     display: inline;
     float: left; }
-    #header .title:hover {
+    #header-links .title:hover {
       background-color: rgba(255, 255, 255, 0.1); }
-    #header .title h1 {
+    #header-links .title h1 {
       margin: 0 0 0 10px; }
-      #header .title h1 a {
+      #header-links .title h1 a {
         color: white;
         text-decoration: none;
         cursor: pointer; }
-  #header #menuIcon {
+  #header-links #menuIcon {
     float: right;
     margin: auto 0;
     padding: 10px;
     display: inline;
-    height: 60px;
     width: 60px;
     z-index: 2; }
     @media screen and (min-width: 1290px) {
-      #header #menuIcon {
+      #header-links #menuIcon {
         display: none; } }
-  #header #navbar {
+  #header-links #navbar {
     float: left;
     height: 40px;
     display: none; }
-    #header #navbar ul {
+    #header-links #navbar ul {
       list-style: none;
       margin-top: 0;
       height: 40px; }
-      #header #navbar ul li {
+      #header-links #navbar ul li {
         height: 60px;
         padding: 16px 20px;
         display: inline-block; }
-        #header #navbar ul li a {
+        #header-links #navbar ul li a {
           color: #fff;
           text-transform: uppercase;
           text-decoration: none; }
-        #header #navbar ul li:hover {
+        #header-links #navbar ul li:hover {
           background-color: rgba(255, 255, 255, 0.1);
           cursor: pointer; }
-    @media screen and (min-width: 768px) {
-      #header #navbar {
+    @media screen and (min-width: 1290px) {
+      #header-links #navbar {
         display: inline; } }
 
 /*# sourceMappingURL=header.css.map */

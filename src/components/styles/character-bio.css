@@ -41,7 +41,7 @@
       width: 0;
       position: relative; }
       .bio .bio-content .bio-top-layer .bio-overlay {
-        background: linear-gradient(0.75turn, rgba(70, 50, 153, 0.2), rgba(70, 50, 153, 0));
+        background: linear-gradient(0.75turn, rgba(43, 31, 90, 0.2), rgba(43, 31, 90, 0));
         position: absolute;
         width: 280px;
         z-index: 3;

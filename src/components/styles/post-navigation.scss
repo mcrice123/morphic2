@@ -1,6 +1,6 @@
 
 // primary color
-$primary: #463299;
+$primary: #2b1f5a;
 // Laptop width
 $laptop: 1290px;
 $tablet: 768px;
@@ -50,9 +50,6 @@ $tablet: 768px;
 
 .next {
   order: 6;
-  @media screen and (min-width: $tablet) {
-    //order: 6;
-  }
 }
 
 .previous {
