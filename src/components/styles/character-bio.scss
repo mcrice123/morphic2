@@ -1,6 +1,7 @@
 $def_height: 240px;
 $large_screen: 1024px;
 $small_screen: 540px;
+$primary: #2b1f5a;
 
 .bio {
   height: available;
@@ -57,7 +58,7 @@ $small_screen: 540px;
       position: relative;
 
       .bio-overlay {
-        background: linear-gradient(.75turn, rgba(70, 50, 153, .2), rgba(70, 50, 153, 0));
+        background: linear-gradient(.75turn, rgba($primary, .2), rgba($primary, 0));
         position: absolute;
         width: 280px;
         z-index: 3;
