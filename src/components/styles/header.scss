@@ -1,6 +1,6 @@
 
 // Colors
-$primary: #463299;
+$primary: #2b1f5a;
 $highlight: rgba(255, 255, 255, .2);
 
 // Laptop width
@@ -17,6 +17,7 @@ $laptop: 1290px;
   display: flex;
   flex-direction: column;
   margin-left: -100px;
+  background: linear-gradient(0.75turn,  rgba(184, 225, 252, 0.5), $primary);
   img {
     max-height: 100%;
     max-width: 200%;

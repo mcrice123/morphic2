@@ -7,7 +7,8 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  margin-left: -100px; }
+  margin-left: -100px;
+  background: linear-gradient(0.75turn, rgba(184, 225, 252, 0.5), #2b1f5a); }
   #header-banner img {
     max-height: 100%;
     max-width: 200%;
@@ -47,7 +48,7 @@
         margin-right: -50px; } }
 
 #header-links {
-  background: #463299;
+  background: #2b1f5a;
   display: inline-block;
   width: 100%;
   overflow: hidden;
