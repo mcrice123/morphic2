@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
+import Favicon from '../images/favicon.png'
 
 class Layout extends Component {
     constructor() {
@@ -43,9 +44,14 @@ class Layout extends Component {
                     <Helmet
                         title={data.site.siteMetadata.title}
                         meta={[
-                            {name: 'description', content: 'Sample'},
-                            {name: 'keywords', content: 'sample, something'},
+                            {name: 'description', content: 'Morphic Graphic Novel Series: Erica Bright crosses paths with people who take the form of animals--and have other hidden abilities.'},
+                            {name: 'keywords', content: 'morphic, Maria, Rice, comic, graphic, novel, series'},
                         ]}
+                        link={[
+                            { rel: "icon", type: "image/png", sizes: "16x16", href: `${Favicon}` },
+                            { rel: "icon", type: "image/png", sizes: "32x32", href: `${Favicon}` },
+                            { rel: "shortcut icon", type: "image/png", href: `${Favicon}` },
+                          ]}
                     >
                         <html lang="en"/>
                     </Helmet>
