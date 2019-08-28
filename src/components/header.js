@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import MenuIcon from './menuicon';
 import SlideMenu from './slidemenu';
 import BannerImage from '../images/banner.png';
-require('./styles/header.css');
+require('./styles/header.scss');
 
 class Header extends Component {
 

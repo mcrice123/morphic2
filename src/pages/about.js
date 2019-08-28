@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import Layout from '../components/layout';
 
 import AboutImage from "../../static/misc/main/errie.jpg";
-require('../components/styles/about.css');
+require('../components/styles/about.scss');
 
 const About = () => {
     return (

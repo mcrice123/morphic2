@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-require('./styles/slidemenu.css');
+require('./styles/slidemenu.scss');
 
 export default ({ navLinks }) => (
     <div id={"slideMenu"}>
