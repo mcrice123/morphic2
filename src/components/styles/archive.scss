@@ -1,8 +1,16 @@
+$primary: #2b1f5a;
+
 #archive {
   ul li {
     margin-bottom: 0;
   }
   #search-results {
+    padding: 30px;
+    border: 1px solid $primary;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
     ul {
       margin: 0;
       list-style: none;
