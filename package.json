@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Maria Rice",
   "dependencies": {
+    "bufferutil": "^4.0.1",
     "gatsby": "^2.18.17",
     "gatsby-cli": "^2.8.22",
     "gatsby-plugin-manifest": "^2.2.34",
@@ -20,9 +21,11 @@
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
     "react-typography": "^0.16.19",
+    "typescript": "^3.7.4",
     "typography": "^0.16.19",
     "typography-theme-bootstrap": "^0.16.19",
-    "typography-theme-stow-lake": "^0.15.10"
+    "typography-theme-stow-lake": "^0.15.10",
+    "utf-8-validate": "^5.0.2"
   },
   "keywords": [
     "gatsby"
@@ -30,6 +33,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
+    "clean": "gatsby clean",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"

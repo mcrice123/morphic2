@@ -30,36 +30,42 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
-      {
-          resolve: `gatsby-plugin-typography`,
-          options: {
-              pathToConfigModule: `src/utils/typography.js`,
-          },
-      },
-      `gatsby-plugin-sass`,
-      {
-          resolve: `gatsby-source-filesystem`,
-          options: {
-              name: `src`,
-              path: `${__dirname}/src/`,
-          },
-      },
-      {
-        resolve: `gatsby-transformer-remark`,
+    {
+        resolve: `gatsby-plugin-typography`,
         options: {
-          plugins: [
-          {
-            resolve: "gatsby-remark-embed-video",
-            options: {
-              width: 800,
-              ratio: 1.77,
-              height: 400,
-              related: false,
-              noIframeBorder: true 
-            }
+            pathToConfigModule: `src/utils/typography.js`,
+        },
+    },
+    `gatsby-plugin-sass`,
+    {
+        resolve: `gatsby-source-filesystem`,
+        options: {
+            name: `src`,
+            path: `${__dirname}/src/`,
+        },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+        {
+          resolve: "gatsby-remark-embed-video",
+          options: {
+            width: 800,
+            ratio: 1.77,
+            height: 400,
+            related: false,
+            noIframeBorder: true 
           }
-          ]
         }
+        ]
       }
+    },
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
   ],
 }

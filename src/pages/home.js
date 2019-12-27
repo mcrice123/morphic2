@@ -2,6 +2,9 @@
 import { navigate } from "gatsby";
 
 export default () => {
-    navigate("/");
+    // Wrap the require in check for window
+    if (typeof window !== `undefined`) {
+        navigate("/");
+    }
     return null;
 };
