@@ -1,23 +1,23 @@
 {
   "name": "morphic",
-  "description": "Gatsby default starter",
+  "description": "Website for 'Morphic' graphic novel series",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Maria Rice",
   "dependencies": {
-    "gatsby": "^2.14.0",
-    "gatsby-cli": "^2.7.40",
-    "gatsby-plugin-manifest": "^2.2.9",
+    "gatsby": "^2.18.17",
+    "gatsby-cli": "^2.8.22",
+    "gatsby-plugin-manifest": "^2.2.34",
     "gatsby-plugin-offline": "^2.2.10",
-    "gatsby-plugin-react-helmet": "^3.1.5",
-    "gatsby-plugin-sass": "^2.1.12",
-    "gatsby-plugin-typography": "^2.3.5",
+    "gatsby-plugin-react-helmet": "^3.1.18",
+    "gatsby-plugin-sass": "^2.1.26",
+    "gatsby-plugin-typography": "^2.3.20",
     "gatsby-remark-embed-video": "^1.7.1",
-    "gatsby-source-filesystem": "^2.1.18",
-    "gatsby-transformer-remark": "^2.6.19",
-    "gatsby-transformer-toml": "^2.2.6",
-    "node-sass": "^4.12.0",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
+    "gatsby-source-filesystem": "^2.1.43",
+    "gatsby-transformer-remark": "^2.6.45",
+    "gatsby-transformer-toml": "^2.2.21",
+    "node-sass": "^4.13.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
     "react-typography": "^0.16.19",
     "typography": "^0.16.19",
@@ -35,10 +35,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "prettier": "^1.18.2"
+    "prettier": "^1.19.1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/mcrice123/morphic2"
   }
 }
