@@ -1,6 +1,6 @@
 import React from 'react';
 
-require('./styles/tablist.css');
+require('./styles/tablist.scss');
 
 /* Component for displaying styled tabs given a list of objects (items) containing the following:
     1. value (string)

@@ -4,8 +4,8 @@ import {StaticQuery, graphql, Link } from "gatsby";
 import Layout from '../components/layout';
 import TabList from '../components/tablist';
 import Preview from '../components/preview-image';
-require('../components/styles/archive.css');
-require('../components/styles/preview-img.css');
+require('../components/styles/archive.scss');
+require('../components/styles/preview-img.scss');
 
 export default class Archive extends Component {
 

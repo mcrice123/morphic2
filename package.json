@@ -1,28 +1,31 @@
 {
   "name": "morphic",
-  "description": "Gatsby default starter",
+  "description": "Website for 'Morphic' graphic novel series",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Maria Rice",
   "dependencies": {
-    "gatsby": "^2.11.6",
-    "gatsby-cli": "^2.7.7",
-    "gatsby-plugin-manifest": "^2.2.0",
-    "gatsby-plugin-offline": "^2.2.0",
-    "gatsby-plugin-react-helmet": "^3.1.0",
-    "gatsby-plugin-sass": "^2.1.0",
-    "gatsby-plugin-typography": "^2.3.0",
+    "bufferutil": "^4.0.1",
+    "gatsby": "^2.18.17",
+    "gatsby-cli": "^2.8.22",
+    "gatsby-plugin-manifest": "^2.2.34",
+    "gatsby-plugin-offline": "^2.2.10",
+    "gatsby-plugin-react-helmet": "^3.1.18",
+    "gatsby-plugin-sass": "^2.1.26",
+    "gatsby-plugin-typography": "^2.3.20",
     "gatsby-remark-embed-video": "^1.7.1",
-    "gatsby-source-filesystem": "^2.1.1",
-    "gatsby-transformer-remark": "^2.5.0",
-    "gatsby-transformer-toml": "^2.2.0",
-    "node-sass": "^4.12.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "gatsby-source-filesystem": "^2.1.43",
+    "gatsby-transformer-remark": "^2.6.45",
+    "gatsby-transformer-toml": "^2.2.21",
+    "node-sass": "^4.13.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
     "react-typography": "^0.16.19",
+    "typescript": "^3.7.4",
     "typography": "^0.16.19",
     "typography-theme-bootstrap": "^0.16.19",
-    "typography-theme-stow-lake": "^0.15.10"
+    "typography-theme-stow-lake": "^0.15.10",
+    "utf-8-validate": "^5.0.2"
   },
   "keywords": [
     "gatsby"
@@ -30,15 +33,16 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
+    "clean": "gatsby clean",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "prettier": "^1.18.2"
+    "prettier": "^1.19.1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/mcrice123/morphic2"
   }
 }

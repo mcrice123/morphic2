@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { StaticQuery, graphql, Link } from "gatsby";
-require('./styles/post-navigation.css');
+require('./styles/post-navigation.scss');
 
 export default ({currentSlug, data}) => {
 return (

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { withPrefix } from "gatsby";
 
-require("./styles/character-bio.css");
+require("./styles/character-bio.scss");
 
 function toTitleCase(myString) {
   const lower = myString.toLowerCase();
