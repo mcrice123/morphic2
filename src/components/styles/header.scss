@@ -2,9 +2,16 @@
 // Colors
 $primary: #2b1f5a;
 $highlight: rgba(255, 255, 255, .2);
+$backgroundBlue: #42618c;
+
 
 // Laptop width
 $laptop: 1290px;
+
+
+body {
+  background-color: $backgroundBlue;
+}
 
 #header {
   z-index: 10;
@@ -12,11 +19,11 @@ $laptop: 1290px;
 }
 
 #header-banner {
-  height: 40vh;
+  height: 200px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  margin-left: -100px;
+  //margin-left: -100px;
   background: linear-gradient(0.75turn,  rgba(184, 225, 252, 0.5), $primary);
   img {
     max-height: 100%;
