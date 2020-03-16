@@ -3,19 +3,32 @@
 $primary: #2b1f5a;
 $highlight: rgba(255, 255, 255, .2);
 $backgroundBlue: #42618c;
+$hoverPurple: #6e4786;
 
 
 // Laptop width
 $laptop: 1290px;
 
+// Tablet width
+$tablet: 768px;
+
 
 body {
   background-color: $backgroundBlue;
+  margin: 0;
+}
+
+.wrapper {
+  padding: 0 40px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 #header {
   z-index: 10;
   position: relative;
+  background: linear-gradient(0.75turn,  rgba(184, 225, 252, 0.5), $primary);
 }
 
 #header-banner {
@@ -23,79 +36,60 @@ body {
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  //margin-left: -100px;
-  background: linear-gradient(0.75turn,  rgba(184, 225, 252, 0.5), $primary);
-  img {
-    max-height: 100%;
-    max-width: 200%;
-    width: auto;
-    height: auto;
-    align-self: flex-end;
-    left: -9999px;
-    right: -5999px;
-    margin-right: auto;
-    margin-left: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  @media screen and (max-width: 900px) {
+
   }
 
-  @media screen and (max-width: 900px) {
-    height: 30vh;
-    img {
-      max-height: 100%;
-      max-width: 200%;
-      width: auto;
-      height: auto;
-      left: -9999px;
-      right: -5999px;
-      margin-right: auto;
-      margin-left: auto;
-    }
+  @media screen and (max-width: $tablet) {
+    height: 150px;
+    
   }
 
   @media screen and (max-width: 600px) {
-    height: 30vh;
-    img {
-      right: 0;
-      left: auto;
-      margin-right: 0;
-      margin-left: 0;
-      max-width: 200%;
-    }
-  }
-
-  @media screen and (max-width: 500px) {
-    height: 20vh;
-    img {
-      max-width: 250%;
-      margin-right: -50px;
-    }
+    height: 100px;
   }
 }
 
 #header-links {
   background: $primary;
-  display: inline-block;
   width: 100%;
   overflow: hidden;
   z-index: 10;
 
-  .title {
-    margin: 0 auto;
-    max-width: 910px;
-    height: 100%;
-    padding: 10px;
-    display: inline;
-    float: left;
-    &:hover {
-      background-color: rgba(255, 255, 255, .1);
+  .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #main-logo {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba($color: #000000, $alpha: 0.0);
+    padding: 0 20px;
+    margin-left: -20px;
+    svg {
+      fill: #fff;
+      width: 132px;
+      height: auto;
+      display: inline-block;
     }
 
-    h1 {
-      margin: 0 0 0 10px;
-
-      a {
-        color: white;
-        text-decoration: none;
-        cursor: pointer;
+    &:hover {
+      background-color: rgba($color: #000000, $alpha: 0.5);
+    }
+    @media screen and (max-width: 900px) {
+      svg {
+        width: 90px;
       }
     }
   }
@@ -108,39 +102,53 @@ body {
     width: 60px;
     z-index: 2;
 
-    @media screen and (min-width: $laptop) {
+    @media screen and (min-width: $tablet) {
       display: none;
     }
   }
 
   #navbar {
     float: left;
-    height: 40px;
+    height: 100%;
     display: none;
     ul {
       list-style: none;
       margin-top: 0;
-      height: 40px;
+      height: 100%;
+      margin-bottom: 0;
+      margin-left: 0;
+      padding-left: 0;
+      margin-right: -20px;
       li {
-        height: 60px;
         padding: 16px 20px;
         display: inline-block;
-
         a {
           color: #fff;
           text-transform: uppercase;
           text-decoration: none;
+          font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+          font-size: 20px;
         }
         &:hover {
-          background-color: rgba(255, 255, 255, .1);
+          background-color: $hoverPurple;
           cursor: pointer;
         }
       }
 
     }
 
-    @media screen and (min-width: $laptop){
-      display: inline;
+    @media screen and (max-width: 900px) {
+      ul {
+        li {
+          a {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+
+    @media screen and (min-width: $tablet){
+      display: inline-flex;
     }
   }
 }
