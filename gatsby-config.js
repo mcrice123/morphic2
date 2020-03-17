@@ -4,8 +4,9 @@ module.exports = {
       navLinks: [
           'Home',
           'About',
-          'Archive',
-          'Characters'
+          'Chapters',
+          'Cast',
+          'Subscribe'
       ],
       categories: [
           'Book 1',
@@ -28,13 +29,6 @@ module.exports = {
         display: 'minimal-ui',
         //icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
       },
-    },
-    'gatsby-plugin-offline',
-    {
-        resolve: `gatsby-plugin-typography`,
-        options: {
-            pathToConfigModule: `src/utils/typography.js`,
-        },
     },
     `gatsby-plugin-sass`,
     {
@@ -62,10 +56,20 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-typography`,
+      resolve: 'gatsby-plugin-web-font-loader',
       options: {
-        pathToConfigModule: `src/utils/typography`,
-      },
+        google: {
+          families: ['Open Sans', 'Gochi Hand']
+        }
+      }
     },
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /assets/ // See below to configure properly
+        }
+      }
+    }
   ],
 }

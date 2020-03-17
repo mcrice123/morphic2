@@ -26,6 +26,7 @@ class Layout extends Component {
     }
     render() {
         return (
+            <div style={{ margin: `0 auto`, maxWidth: 944, position: "relative", backgroundColor: '#fff', width: '90%' }}>
                 <StaticQuery
                     query={graphql`
               query SiteTitleQuery {
@@ -77,6 +78,7 @@ class Layout extends Component {
                 </>
             )}
         />
+        </div>
         );
     }
 }
