@@ -5,6 +5,9 @@ $highlight: rgba(255, 255, 255, .2);
 $backgroundBlue: #42618c;
 $hoverPurple: #6e4786;
 
+// Font families
+$opensans: 'Open Sans', Arial, Helvetica, sans-serif;
+$gochi: 'Gochi Hand', Arial, Helvetica, sans-serif;
 
 // Laptop width
 $laptop: 1290px;
@@ -12,10 +15,25 @@ $laptop: 1290px;
 // Tablet width
 $tablet: 768px;
 
+// Universal styles 
 
 body {
   background-color: $backgroundBlue;
   margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a, 
+span,
+div, 
+li {
+  font-family: $opensans;
 }
 
 .wrapper {
@@ -24,6 +42,15 @@ body {
   width: 100%;
   box-sizing: border-box;
 }
+
+.icon {
+  display: inline;
+  height: 100%;
+  width: 100%;
+  fill: currentColor;
+}
+
+// Header-specific styles
 
 #header {
   z-index: 10;
@@ -76,7 +103,7 @@ body {
     justify-content: center;
     background-color: rgba($color: #000000, $alpha: 0.0);
     padding: 0 20px;
-    margin-left: -20px;
+    margin-left: -40px;
     svg {
       fill: #fff;
       width: 132px;
@@ -96,10 +123,11 @@ body {
 
   #menuIcon {
     float: right;
-    margin: auto 0;
+    //margin: auto 0;
+    margin-right: -20px;
     padding: 10px;
     display: inline;
-    width: 60px;
+    width: 30px;
     z-index: 2;
 
     @media screen and (min-width: $tablet) {
@@ -120,14 +148,15 @@ body {
       padding-left: 0;
       margin-right: -20px;
       li {
-        padding: 16px 20px;
         display: inline-block;
         a {
           color: #fff;
           text-transform: uppercase;
           text-decoration: none;
-          font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+          font-family: $opensans;
           font-size: 20px;
+          padding: 16px 20px;
+          display: inline-block;
         }
         &:hover {
           background-color: $hoverPurple;
@@ -153,4 +182,184 @@ body {
   }
 }
 
+#main-funnels {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+  @media screen and (max-width: $tablet) {
+    height: 60px;
+  }
+
+  @media screen and (max-width: 550px) {
+    flex-wrap: wrap;
+    height: 140px;
+  }
+
+  @media screen and (max-width: 400px) {
+    height: 120px;
+  }
+}
+
+#start-reading,
+#latest-post,
+#social-media {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: auto;
+  color: #fff;
+  font-family: $gochi;
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 100;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: nowrap;
+  transition: background-image .5s ease-out;
+
+  span {
+    font-family: $gochi;
+    color: #fff;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    font-family: $gochi;
+  }
+
+  @media screen and (max-width: $tablet) {
+    font-size: 20px;
+    line-height: 20px;
+  }
+}
+
+#start-reading {
+  background-image: url('../../images/start-reading.jpg');
+  width: 226px;
+  text-align: center;
+  padding: 24px 16px;
+  align-items: flex-end;
+
+  span {
+    width: 130px;
+    flex-grow: 0;
+  }
+
+  &:hover {
+    background-image: url('../../images/start-reading-hover.jpg');
+  }
+
+  @media screen and (max-width: $tablet) {
+    padding: 12px 6px;
+    width: 25%;
+
+    span {
+      width: 100px;
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+#latest-post {
+  background-image: url('../../images/latest-post.jpg');
+  background-position: 100% 50%;
+  width: 230px;
+  text-align: center;
+  padding: 24px 18px;
+  align-items: flex-start;
+
+  span {
+    width: 90px;
+    flex-grow: 0;
+  }
+
+  &:hover {
+    background-image: url('../../images/latest-post-hover.jpg');
+  }
+
+  @media screen and (max-width: $tablet) {
+    padding: 12px 8px;
+    width: 25%;
+  }
+
+  @media screen and (max-width: 550px) {
+    width: 50%;
+    height: 50%;
+  }
+}
+
+#social-media {
+  background-image: url('../../images/social-media.jpg');
+  flex-grow: 1;
+  padding: 12px 32px;
+
+  .media-title {
+    font-family: $gochi;
+    color: #fff;
+  }
+
+  .media-links {
+    height: 36px;
+    width: 230px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 54px;
+
+    a {
+      width: 36px;
+      display: inline-block;
+      height: 100%;
+      margin-right: 28px;
+      color: #fff;
+
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+
+  &:hover {
+    background-image: url('../../images/social-media-hover.jpg');
+  }
+
+  @media screen and (max-width: 900px) {
+    .media-links {
+      margin-left: 0px;
+    }
+  }
+
+  @media screen and (max-width: $tablet) {
+    padding: 6px 24px;
+    flex-grow: 0;
+    width: 50%;
+
+    .media-links {
+      height: 24px;
+
+      a {
+        width: 24px;
+        margin-right: 20px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 550px) {
+    width: 100%;
+    height: 50%;
+  }
+}
 
