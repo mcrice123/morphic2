@@ -3,7 +3,6 @@ import React, { Component } from 'react'
 import { Link } from 'gatsby'
 
 // Components
-import MenuIcon from './menuicon';
 import SlideMenu from './slidemenu';
 
 // Images
@@ -50,9 +49,17 @@ class Header extends Component {
                         <div
                             id={"menuIcon"}
                             onClick={e => { this.props.toggleMenu(); e.stopPropagation();}}
-                            style={{ backgroundColor: this.props.menuOpen ? 'rgba(255, 255, 255, .2)' : 'transparent'}}
+                            className={ this.props.menuOpen ? 'active' : '' }
                         >
-                            <MenuIcon/>
+                            <div
+                                id={"first-bar"}
+                            />
+                            <div
+                                id={"second-bar"}
+                            />
+                            <div
+                                id={"third-bar"}
+                            />
                         </div>
                         {
                             this.props.menuOpen &&

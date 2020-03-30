@@ -83,13 +83,14 @@ li {
 #header-links {
   background: $primary;
   width: 100%;
-  overflow: hidden;
   z-index: 10;
 
   .wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 0;
+    position: relative;
   }
 
   #main-logo {
@@ -103,7 +104,6 @@ li {
     justify-content: center;
     background-color: rgba($color: #000000, $alpha: 0.0);
     padding: 0 20px;
-    margin-left: -40px;
     svg {
       fill: #fff;
       width: 132px;
@@ -122,13 +122,31 @@ li {
   }
 
   #menuIcon {
-    float: right;
-    //margin: auto 0;
-    margin-right: -20px;
     padding: 10px;
-    display: inline;
-    width: 30px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+    width: 28px;
     z-index: 2;
+
+    #first-bar,
+    #second-bar,
+    #third-bar {
+      width: 100%;
+      height: 2px;
+      background-color: #fff;
+      border-radius: 10px;
+    }
+
+    &.active {
+      background-color: rgba($color: #000000, $alpha: 0.5);
+    }
+
+    &:hover {
+      background-color: rgba($color: #000000, $alpha: 0.5);
+      cursor: pointer;
+    }
 
     @media screen and (min-width: $tablet) {
       display: none;
@@ -146,7 +164,6 @@ li {
       margin-bottom: 0;
       margin-left: 0;
       padding-left: 0;
-      margin-right: -20px;
       li {
         display: inline-block;
         a {

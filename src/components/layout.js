@@ -14,6 +14,10 @@ class Layout extends Component {
         };
         this.toggleMenu = this.toggleMenu.bind(this);
         this.closeMenu = this.closeMenu.bind(this);
+        this.checkForMaxWidthReached = this.checkForMaxWidthReached.bind(this);
+    }
+    componentDidMount() {
+        window.addEventListener('resize', this.checkForMaxWidthReached);
     }
     toggleMenu()
     {
@@ -23,6 +27,11 @@ class Layout extends Component {
     closeMenu()
     {
         this.setState({menuOpen: false});
+    }
+    checkForMaxWidthReached() {
+        if (window.innerWidth > 768) {
+            this.closeMenu();
+        }
     }
     render() {
         return (
