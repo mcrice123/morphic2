@@ -6,7 +6,7 @@ import { Link } from 'gatsby'
 import SlideMenu from './slidemenu';
 
 // Images
-import BannerImage from '../images/banner.png';
+import BannerImage from '../images/banner.jpg';
 
 // SVGs
 import MorphicLogo from "../assets/morphic_logo.svg";

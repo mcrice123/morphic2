@@ -4,6 +4,7 @@ $primary: #2b1f5a;
 $highlight: rgba(255, 255, 255, .2);
 $backgroundBlue: #42618c;
 $hoverPurple: #6e4786;
+$gray: #717070;
 
 // Font families
 $opensans: 'Open Sans', Arial, Helvetica, sans-serif;
@@ -55,7 +56,7 @@ li {
 #header {
   z-index: 10;
   position: relative;
-  background: linear-gradient(0.75turn,  rgba(184, 225, 252, 0.5), $primary);
+ // background: linear-gradient(0.75turn,  rgba(184, 225, 252, 0.5), $primary);
 }
 
 #header-banner {
@@ -292,7 +293,7 @@ li {
 
 #latest-post {
   background-image: url('../../images/latest-post.jpg');
-  background-position: 100% 50%;
+  background-position: 99% 50%;
   width: 230px;
   text-align: center;
   padding: 24px 18px;
@@ -377,6 +378,21 @@ li {
   @media screen and (max-width: 550px) {
     width: 100%;
     height: 50%;
+  }
+}
+
+// Copyright
+
+#copyright {
+  font-family: $gochi;
+  width: 100%;
+  text-align: center;
+  margin: 20px auto;
+  font-size: 16px;
+  color: $gray;
+
+  span {
+    font-family: $gochi;
   }
 }
 

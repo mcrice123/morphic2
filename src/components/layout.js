@@ -5,6 +5,7 @@ import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
 import Favicon from '../images/favicon.png'
+import CurrentYear from './current-year'
 
 class Layout extends Component {
     constructor() {
@@ -15,6 +16,7 @@ class Layout extends Component {
         this.toggleMenu = this.toggleMenu.bind(this);
         this.closeMenu = this.closeMenu.bind(this);
         this.checkForMaxWidthReached = this.checkForMaxWidthReached.bind(this);
+       // this.getYear = this.getYear.bind(this);
     }
     componentDidMount() {
         window.addEventListener('resize', this.checkForMaxWidthReached);
@@ -33,6 +35,9 @@ class Layout extends Component {
             this.closeMenu();
         }
     }
+    /*getYear() {
+        return <span>{(new Date().getFullYear())}</span>;
+    }*/
     render() {
         return (
             <div style={{ margin: `0 auto`, maxWidth: 944, position: "relative", backgroundColor: '#fff', width: '90%' }}>
@@ -83,6 +88,7 @@ class Layout extends Component {
                          }}
                     >
                         {this.props.children}
+                        <div id="copyright">&copy; Maria Rice <CurrentYear /></div>
                     </div>
                 </>
             )}
