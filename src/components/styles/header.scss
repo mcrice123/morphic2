@@ -131,6 +131,10 @@ li {
     height: 20px;
     width: 28px;
     z-index: 2;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
 
     #first-bar,
     #second-bar,
@@ -175,6 +179,7 @@ li {
           font-family: $opensans;
           font-size: 20px;
           padding: 16px 20px;
+          line-height: 28px;
           display: inline-block;
         }
         &:hover {
