@@ -61,12 +61,10 @@ class Header extends Component {
                                 id={"third-bar"}
                             />
                         </div>
-                        {
-                            this.props.menuOpen &&
-                            <SlideMenu
-                                navLinks={navLinks}
-                            />
-                        }
+                        <SlideMenu
+                            navLinks={navLinks}
+                            isOpen={this.props.menuOpen ? "isOpen" : ""}
+                        />
                     </div>
                 </div>
                 <div id="main-funnels">

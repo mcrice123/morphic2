@@ -3,8 +3,8 @@ import { Link } from 'gatsby';
 
 require('./styles/slidemenu.scss');
 
-export default ({ navLinks }) => (
-    <div id={"slideMenu"}>
+export default ({ navLinks, isOpen }) => (
+    <div id={"slideMenu"} className={isOpen}>
         <ul>
             {
                 navLinks.map((nav) => {
