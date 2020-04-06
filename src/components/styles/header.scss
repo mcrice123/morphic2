@@ -56,7 +56,6 @@ li {
 #header {
   z-index: 10;
   position: relative;
- // background: linear-gradient(0.75turn,  rgba(184, 225, 252, 0.5), $primary);
 }
 
 #header-banner {
@@ -66,7 +65,7 @@ li {
   flex-direction: column;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50% 100%;
+  background-position: 50% 99%;
   @media screen and (max-width: 900px) {
 
   }
@@ -85,6 +84,7 @@ li {
   background: $primary;
   width: 100%;
   z-index: 10;
+  height: 40px;
 
   .wrapper {
     display: flex;
@@ -92,13 +92,14 @@ li {
     justify-content: space-between;
     padding: 0;
     position: relative;
+    height: 100%;
   }
 
   #main-logo {
     color: #fff;
     text-decoration: none;
     cursor: pointer;
-    height: auto;
+    height: 100%;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -197,6 +198,10 @@ li {
     @media screen and (min-width: $tablet){
       display: inline-flex;
     }
+  }
+
+  @media screen and (min-width: $tablet) {
+    height: 60px;
   }
 }
 
