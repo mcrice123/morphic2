@@ -30,7 +30,6 @@ $hoverPurple: #6e4786;
     li {
       text-indent: 0;
       text-align: center;
-      padding: 10px 0;
       margin: auto;
       width: 100%;
       color: #fff;
@@ -51,6 +50,10 @@ $hoverPurple: #6e4786;
         color: #fff;
         font-size: 18px;
         text-transform: uppercase;
+        padding: 10px 0;
+        width: 100%;
+        height: 100%;
+        display: inline-block;
       }
     }
   }
