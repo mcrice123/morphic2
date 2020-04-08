@@ -63,7 +63,7 @@ $tablet: 768px;
     }
   }
 
-  @media screen and (min-width: $laptop) {
+  @media screen and (min-width: $tablet) {
     display: none;
   }
 
