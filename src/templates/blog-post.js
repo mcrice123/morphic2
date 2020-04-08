@@ -4,7 +4,7 @@ import { graphql } from "gatsby";
 
 import MainImage from '../components/main-image';
 import PostNavigation from '../components/post-navigation';
-//require('../components/styles/blog-post.css');
+require('../components/styles/blog-post.scss');
 
 export default ({data}) => {
     const post = data.markdownRemark;
@@ -13,8 +13,9 @@ export default ({data}) => {
     return (
         <Layout>
             <div>
-                <MainImage path={featuredpath} alt={title} />
-                <PostNavigation currentSlug={slug}/>
+                <PostNavigation currentSlug={slug} showTitleOnMobile={true} />
+                <MainImage path={featuredpath} />
+                <PostNavigation currentSlug={slug} showTitleOnMobile={false} />
                 <h1>{title}</h1>
                 <h3>{date}</h3>
                 <div dangerouslySetInnerHTML={{ __html: post.html }} />

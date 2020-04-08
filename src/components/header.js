@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import { Link } from 'gatsby'
 
 // Components
+import MainFunnels from './main-funnels';
 import SlideMenu from './slidemenu';
 
 // Images
@@ -10,9 +11,6 @@ import BannerImage from '../images/banner.jpg';
 
 // SVGs
 import MorphicLogo from "../assets/morphic_logo.svg";
-import FacebookLogo from '../assets/facebook.svg';
-import GithubLogo from '../assets/github.svg';
-import RSSLogo from '../assets/rss.svg';
 
 // Styles
 require('./styles/header.scss');
@@ -67,30 +65,7 @@ class Header extends Component {
                         />
                     </div>
                 </div>
-                <div id="main-funnels">
-                    <a id="start-reading" href="">
-                        <span>Start Reading</span>
-                    </a>
-                    <a id="latest-post" href="">
-                        <span>Latest Post</span>
-                    </a>
-                    <div id="social-media">
-                        <div className={"media-title"}>
-                            Social Media:
-                        </div>
-                        <div className={"media-links"}>
-                            <a href="" target="_blank">
-                                <FacebookLogo className={"icon"} />
-                            </a>
-                            <a href="" target="_blank">
-                                <GithubLogo className={"icon"} />
-                            </a>
-                            <a href="" target="_blank">
-                                <RSSLogo className={"icon"} />
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                <MainFunnels />
             </div>
         );
     }
