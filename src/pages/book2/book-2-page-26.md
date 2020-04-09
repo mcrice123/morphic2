@@ -2,7 +2,7 @@
 featuredpath: "/book2/main/page26.jpg"
 featured: ""
 preview: "/book2/preview/page26.jpg"
-title: "Book 2, Page 20"
+title: "Book 2, Page 26"
 categories: ["book2"]
 type: "post"
 linktitle: ""
