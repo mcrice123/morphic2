@@ -7,8 +7,10 @@ description: ""
 linktitle: ""
 featured: ""
 author: "Maria Rice"
-featuredpath: "/book1/main/bw_page68.jpg"
+featuredpath: "/book1/main/page68.jpg"
 categories: ["book1"]
-preview: "/book1/preview/preview68.jpg"
+preview: "/book1/preview/page68.jpg"
 
 ---
+
+Updated 11/30/19

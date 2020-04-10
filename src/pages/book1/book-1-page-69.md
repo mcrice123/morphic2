@@ -8,9 +8,9 @@ author: "Maria Rice"
 linktitle: ""
 date: "2018-01-12T17:20:59-06:00"
 description: ""
-featuredpath: "/book1/main/page69.jpg"
-preview: "/book1/preview/page69.jpg"
+featuredpath: "/book1/main/page69_2.jpg"
+preview: "/book1/preview/page69_2.jpg"
 
 ---
 
-Updated 7/13/18
+Updated ~~7/13/18~~ 11/30/19

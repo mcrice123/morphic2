@@ -8,7 +8,9 @@ type: "post"
 author: "Maria Rice"
 title: "Book 1, Page 47"
 linktitle: ""
-featuredpath: "/book1/main/bw_page47.jpg"
-preview: "/book1/preview/preview47.jpg"
+featuredpath: "/book1/main/page47.jpg"
+preview: "/book1/preview/page47.jpg"
 
 ---
+
+Colored in GIMP and updated 4/27/19.

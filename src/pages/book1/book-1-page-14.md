@@ -1,6 +1,6 @@
 ---
 linktitle: ""
-featuredpath: "/book1/main/bw_page14.jpg"
+featuredpath: "/book1/main/page14.jpg"
 description: ""
 author: "Maria Rice"
 type: "post"
@@ -9,6 +9,9 @@ categories: ["book1"]
 title: "Book 1, Page 14"
 featured: ""
 featuredalt: "Page14"
-preview: "/book1/preview/preview14.jpg"
+preview: "/book1/preview/page14.jpg"
 
 ---
+
+Colored and reworked with GIMP. Updated 2/2/19. 
+

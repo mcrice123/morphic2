@@ -5,10 +5,12 @@ description: ""
 categories: ["book1"]
 type: "post"
 linktitle: ""
-featuredpath: "/book1/main/bw_page70.jpg"
+featuredpath: "/book1/main/page70.jpg"
 featured: ""
 author: "Maria Rice"
 featuredalt: "Page70"
-preview: "/book1/preview/preview70.jpg"
+preview: "/book1/preview/page70.jpg"
 
 ---
+
+Updated 11/30/19

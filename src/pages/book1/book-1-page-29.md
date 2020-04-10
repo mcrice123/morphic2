@@ -1,6 +1,6 @@
 ---
 linktitle: ""
-featuredpath: "/book1/main/bw_page29.jpg"
+featuredpath: "/book1/main/page29_2.jpg"
 type: "post"
 title: "Book 1, Page 29"
 author: "Maria Rice"
@@ -9,6 +9,10 @@ date: "2017-03-11"
 categories: ["book1"]
 featuredalt: "Page29"
 featured: ""
-preview: "/book1/preview/preview29.jpg"
+preview: "/book1/preview/page29_2.jpg"
 
 ---
+
+Colored with GIMP. Updated 2/16/19. 
+
+Updated 2/29/20.

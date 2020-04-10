@@ -8,7 +8,9 @@ date: "2017-04-08"
 categories: ["book1"]
 type: "post"
 featuredalt: "Page33"
-featuredpath: "/book1/main/bw_page33.jpg"
-preview: "/book1/preview/preview33.jpg"
+featuredpath: "/book1/main/page33.jpg"
+preview: "/book1/preview/page33.jpg"
 
 ---
+
+Colored with GIMP and updated on 3/23/19.

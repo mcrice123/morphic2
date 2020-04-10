@@ -1,5 +1,5 @@
 ---
-featuredpath: "/book1/main/bw_page23.jpg"
+featuredpath: "/book1/main/page23_2.jpg"
 categories: ["book1"]
 author: "Maria Rice"
 linktitle: ""
@@ -9,6 +9,8 @@ type: "post"
 title: "Book 1, Page 23"
 description: ""
 date: "2017-01-21"
-preview: "/book1/preview/preview23.jpg"
+preview: "/book1/preview/page23_2.jpg"
 
 ---
+
+Colored and reworked with GIMP and uploaded on ~~1/11/18~~ 11/30/19. 
