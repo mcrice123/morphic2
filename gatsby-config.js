@@ -18,6 +18,7 @@ module.exports = {
   pathPrefix: `/static`, // Build with `gatsby build --prefix-paths`
   plugins: [
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-netlify-cms',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -32,11 +33,46 @@ module.exports = {
     },
     `gatsby-plugin-sass`,
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+          name: `pages`,
+          path: `${__dirname}/src/pages`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+          name: `characters`,
+          path: `${__dirname}/src/characters`,
+      },
+    },
+    {
         resolve: `gatsby-source-filesystem`,
         options: {
-            name: `src`,
-            path: `${__dirname}/src/`,
+            name: `book1`,
+            path: `${__dirname}/src/pages/book1`,
         },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+          name: `book2`,
+          path: `${__dirname}/src/pages/book2`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+          name: `book3`,
+          path: `${__dirname}/src/pages/book3`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+          name: `misc`,
+          path: `${__dirname}/src/pages/misc`,
+      },
     },
     {
       resolve: `gatsby-transformer-remark`,

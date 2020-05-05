@@ -1,0 +1,97 @@
+backend:
+  name: github
+  repo: mcrice123/morphic2
+  local_backend: true
+media_folder: "_site/static"
+public_folder: "/assets"
+collections:
+  - name: "book1"
+    label: "Book 1"
+    folder: "src/pages/book1"
+    media_folder: "book1"
+    public_folder: "/assets/book1"
+    create: true
+    fields:
+      - { name: "path", label: "Path", widget: "string" }
+      - { name: "date", label: "Date", widget: datetime }
+      - { name: "title", label: "Title", widget: "string" }
+      - { label: "Main Image", name: "featuredpath", widget: "image" }
+      - { name: "body", label: "Body", widget: markdown }
+      - { name: "featuredalt", label: "Featured Alt" }
+      - { name: "description", label: "Description" }
+      - { name: "author", label: "Author" }
+      - { name: "preview", label: "Preview Image", widget: "image" }
+      - name: "categories" 
+        label: "Categories"
+        widget: 'list'
+        field:
+          - { label: "Category Name", name: "category_name", widget: "string", default: "book1" }
+  - name: "book2"
+    label: "Book 2"
+    folder: "src/pages/book2"
+    create: true
+    fields:
+      - { name: "path", label: "Path", widget: "string" }
+      - { name: "date", label: "Date", widget: datetime }
+      - { name: "title", label: "Title", widget: "string" }
+      - { label: "Main Image", name: "featuredpath", widget: "image" }
+      - { name: "body", label: "Body", widget: markdown }
+      - { name: "featuredalt", label: "Featured Alt" }
+      - { name: "description", label: "Description" }
+      - { name: "author", label: "Author" }
+      - { name: "preview", label: "Preview Image", widget: "image" }
+      - name: "categories" 
+        label: "Categories"
+        widget: 'list'
+        field:
+          - { label: "Category Name", name: "category_name", widget: "string", default: "book2" }
+  - name: "book3"
+    label: "Book 3"
+    folder: "src/pages/book3"
+    create: true
+    fields:
+      - { name: "path", label: "Path", widget: "string" }
+      - { name: "date", label: "Date", widget: datetime }
+      - { name: "title", label: "Title", widget: "string" }
+      - { label: "Main Image", name: "featuredpath", widget: "image" }
+      - { name: "body", label: "Body", widget: markdown }
+      - { name: "featuredalt", label: "Featured Alt" }
+      - { name: "description", label: "Description" }
+      - { name: "author", label: "Author" }
+      - { name: "preview", label: "Preview Image", widget: "image" }
+      - name: "categories" 
+        label: "Categories"
+        widget: 'list'
+        field:
+          - { label: "Category Name", name: "category_name", widget: "string", default: "book3" }
+  - name: "characters"
+    label: "Characters"
+    folder: "src/characters"
+    create: true
+    identifier_field: "name"
+    fields:
+      - { name: "path", label: "Path", widget: "string" }
+      - { name: "date", label: "Date", widget: "datetime" }
+      - { name: "name", label: "Name", widget: "string" }
+      - { name: "color", label: "Color", widget: "string" }
+      - { name: "firstpath", label: "Image 1", widget: "string" }
+      - { name: "secpath", label: "Image 2", widget: "string" }
+  - name: "misc"
+    label: "Misc"
+    folder: "src/pages/misc"
+    create: true
+    fields:
+      - { name: "path", label: "Path", widget: "string" }
+      - { name: "date", label: "Date", widget: datetime }
+      - { name: "title", label: "Title", widget: "string" }
+      - { label: "Main Image", name: "featuredpath", widget: "image" }
+      - { name: "body", label: "Body", widget: markdown }
+      - { name: "featuredalt", label: "Featured Alt" }
+      - { name: "description", label: "Description" }
+      - { name: "author", label: "Author" }
+      - { name: "preview", label: "Preview Image", widget: "image" }
+      - name: "categories" 
+        label: "Categories"
+        widget: 'list'
+        field:
+          - { label: "Category Name", name: "category_name", widget: "string", default: "misc" }
