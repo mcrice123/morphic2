@@ -1,8 +1,10 @@
 backend:
-  name: github
-  repo: mcrice123/morphic2
-  local_backend: true
-  api_root: https://api.github.com
+  name: "github"
+  repo: "mcrice123/morphic2"
+  # local_backend: true
+  api_root: "https://api.github.com"
+  # site_domain: https://cocky-goldwasser-cbfcf1.netlify.app/
+
 media_folder: "static"
 public_folder: "/assets"
 collections:
