@@ -2,6 +2,7 @@ backend:
   name: github
   repo: mcrice123/morphic2
   local_backend: true
+  api_root: https://api.github.com
 media_folder: "static"
 public_folder: "/assets"
 collections:
