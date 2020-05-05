@@ -3,8 +3,8 @@ backend:
   repo: "mcrice123/morphic2"
   # local_backend: true
   api_root: "https://api.github.com"
-  # site_domain: https://cocky-goldwasser-cbfcf1.netlify.app/
-
+  site_domain: "https://cocky-goldwasser-cbfcf1.netlify.app/"
+  auth_endpoint: "auth"
 media_folder: "static"
 public_folder: "/assets"
 collections:
