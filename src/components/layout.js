@@ -6,6 +6,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import Header from './header'
 import Favicon from '../images/favicon.png'
 import CurrentYear from './current-year'
+import BackToTop from './back-to-top'
 
 class Layout extends Component {
     constructor() {
@@ -77,6 +78,7 @@ class Layout extends Component {
                         closeMenu={this.closeMenu}
                         menuOpen={this.state.menuOpen}
                     />
+                    <BackToTop />
                     <div
                          id={"allcontent"}
                          onClick={this.closeMenu}

@@ -57,13 +57,13 @@ export default () => {
                                 Social Media:
                             </div>
                             <div className={"media-links"}>
-                                <a href="" target="_blank">
+                                <a href="https://www.facebook.com/MorphicGraphicNovel/" target="_blank" aria-label="Link to Facebook page">
                                     <FacebookLogo className={"icon"} />
                                 </a>
-                                <a href="" target="_blank">
+                                <a href="https://github.com/mcrice123/morphic2" target="_blank" aria-label="Link to Github project">
                                     <GithubLogo className={"icon"} />
                                 </a>
-                                <a href="" target="_blank">
+                                <a href="" target="_blank" aria-label="Link to follow via RSS feed">
                                     <RSSLogo className={"icon"} />
                                 </a>
                             </div>

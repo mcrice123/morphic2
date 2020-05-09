@@ -26,7 +26,7 @@ class Header extends Component {
                 </div>
                 <div id={"header-links"} onClick={this.props.closeMenu}>
                     <div className={"wrapper"}>
-                        <Link id={"main-logo"} to="/">
+                        <Link id={"main-logo"} to="/" aria-label="Link to homepage">
                             <MorphicLogo />
                         </Link>
                         <nav id={"navbar"}>

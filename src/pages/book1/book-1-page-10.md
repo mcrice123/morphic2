@@ -8,9 +8,12 @@ author: "Maria Rice"
 featured: ""
 date: "2016-10-08"
 title: "Book 1, Page 10"
-featuredpath: "/book1/main/page10.jpg"
-preview: "/book1/preview/page10.jpg"
+featuredpath: "/book1/main/page10_2.jpg"
+preview: "/book1/preview/page10_2.jpg"
 
 ---
 
-Colored with GIMP and updated 1/5/19
+Colored with GIMP ~~and updated 1/5/19.~~
+
+Updated 5/8/20.
+
