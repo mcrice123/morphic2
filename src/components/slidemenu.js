@@ -16,6 +16,11 @@ export default ({ navLinks, isOpen }) => (
                     );
                 })
             }
+            <li key="subscribe">
+                <a href={"http://eepurl.com/g8TzPb"} target="_blank">
+                    Subscribe
+                </a>
+            </li>
         </ul>
     </div>
 );

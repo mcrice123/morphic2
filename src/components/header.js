@@ -42,6 +42,11 @@ class Header extends Component {
                                         );
                                     })
                                 }
+                                <li key="subscribe">
+                                    <a href={"http://eepurl.com/g8TzPb"} target="_blank">
+                                        Subscribe
+                                    </a>
+                                </li>
                             </ul>
                         </nav>
                         <div

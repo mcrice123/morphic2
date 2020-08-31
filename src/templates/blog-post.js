@@ -16,10 +16,11 @@ export default ({data}) => {
                 <PostNavigation currentSlug={slug} showTitleOnMobile={true} />
                 <MainImage path={featuredpath} />
                 <PostNavigation currentSlug={slug} showTitleOnMobile={false} />
+                <hr/>
                 <div className={"wrapper"}>
-                  <h1>{title}</h1>
-                  <h3>{date}</h3>
-                  <div dangerouslySetInnerHTML={{ __html: post.html }} />
+                  <h1 class="post-title">{title}</h1>
+                  <p class="subtitle">{date}</p>
+                  <div class="post-body" dangerouslySetInnerHTML={{ __html: post.html }} />
                 </div>
             </div>
         </Layout>

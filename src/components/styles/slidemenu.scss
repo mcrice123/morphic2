@@ -1,8 +1,6 @@
 // Colors
-$primary: #2b1f5a;
+$primary: #b5aa50;
 $highlight: rgba(255, 255, 255, .2);
-$backgroundBlue: #42618c;
-$hoverPurple: #6e4786;
 
 // Laptop width
 $laptop: 1290px;
@@ -46,7 +44,7 @@ $tablet: 768px;
 
       &:hover {
         cursor: pointer;
-        background-color: $hoverPurple;
+        background-color: #000;
       }
 
       a {

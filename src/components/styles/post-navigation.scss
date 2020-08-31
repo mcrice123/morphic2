@@ -1,8 +1,8 @@
 
 // primary color
-$primary: #2b1f5a;
+$primary: #ffffff;
 // secondary color
-$hoverPurple: #6e4786;
+$linkColor: #b5aa50;
 
 // Font families
 $boldopensans: 'Open Sans Bold', Helvetica, sans-serif;
@@ -61,32 +61,34 @@ $tablet: 768px;
 
 .next,
 .previous {
-  color: $hoverPurple;
+  color: #000;
   text-decoration: none;
   font-family: $gochi;
   font-size: 44px;
-  flex-grow: 1;
   flex-shrink: 0;
+  padding: 0px 20px;
 
   span {
-    color: $hoverPurple;
-    font-family: $gochi;
-    font-size: 44px;
+    color: #000;
+    font-family: $opensans;
+    font-size: 16px;
   }
 
   &:hover {
-    color: #000;
+    color: #fff;
+    background-color: $linkColor;
 
     span {
-      color: #000;
+      color: #fff;
     }
   }
 
   @media screen and (min-width: $laptop) {
     font-size: 24px;
+    padding: 10px 20px;
 
     span {
-      font-size: 24px;
+      font-size: 16px;
     }
   }
 }
@@ -102,11 +104,6 @@ $tablet: 768px;
 .next {
   order: 4;
   text-align: right;
-  padding-right: 20px;
-
-  &:last-child {
-    padding-right: 0;
-  }
 
   @media screen and (min-width: $tablet) {
     order: 6;
@@ -115,11 +112,6 @@ $tablet: 768px;
 
 .previous {
   order: 3;
-  padding-left: 20px;
-
-  &:first-child {
-    padding-left: 0;
-  }
 }
 
 .invisible {

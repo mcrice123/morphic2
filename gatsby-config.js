@@ -6,7 +6,6 @@ module.exports = {
           'About',
           'Chapters',
           'Cast',
-          'Subscribe'
       ],
       categories: [
           'Book 1',
