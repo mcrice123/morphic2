@@ -377,7 +377,7 @@ li {
       color: #fff;
 
       &:hover {
-        color: $primary;
+        color: #000;
       }
     }
   }
@@ -469,5 +469,23 @@ li {
   &.show {
     opacity: 1;
     visibility: visible;
+  }
+}
+
+
+// Cross-site styles
+
+.highlight-btn {
+  font-size: 24px;
+  padding: 10px 20px;
+  background-color: #b5aa50;
+  color: #fff !important;
+  margin-top: 10px;
+  display: inline-block;
+  font-family: $gochi;
+  text-align: center;
+
+  &:hover {
+    background-color: #000;
   }
 }

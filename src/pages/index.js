@@ -60,13 +60,16 @@ const IndexPage = () => {
           <div id="home">
             <Layout>
               <div className="post-body">
-                <h1>Welcome to my site!</h1>
-                <p><Link to={first.slug}>Click here to read from the beginning</Link> or read the latest posts!</p>
+                <h1>You can read <em>Morphic</em> for free!</h1>
+                <p><Link to={first.slug}>Click here to read the webcomic from the beginning</Link> or check out the latest posts below!</p>
+                <h2>Interested in the printed version?</h2>
+                <p><a href={"http://eepurl.com/g8TzPb"} target="_blank">Subscribe to my mailing list</a> to get all updates on <em>Morphic</em>'s future crowdfund campaign!</p>
                 <div className="two-col">
                   <div className="col">
                     <a id="preview-last" href={last.slug}>
                       <img src={last.preview} alt={last.title}></img>
                       <div>
+                        <h1>Latest Post&nbsp;&raquo;</h1>
                         <strong>{last.title}</strong>
                         <span>{last.date}</span>
                       </div>
@@ -74,9 +77,10 @@ const IndexPage = () => {
                   </div>
                   <div className="col">
                     {fiveLast}
+                    <Link className="highlight-btn" to="/chapters">See more posts &raquo;</Link>
                   </div>
                 </div>
-                <Link className="gochi" to="/chapters">See more posts &raquo;</Link>
+                
               </div>
             </Layout>
           </div>
