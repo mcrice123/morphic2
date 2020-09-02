@@ -3,7 +3,7 @@ featuredalt: ""
 featured: ""
 description: ""
 preview: "/book2/preview/page52.jpg"
-title: "Book 2, Page 52"
+title: "Book 3, Page TEST"
 featuredpath: "/book2/main/page52.jpg"
 categories: ["book2"]
 linktitle: ""

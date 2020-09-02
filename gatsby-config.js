@@ -94,7 +94,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Open Sans', 'Gochi Hand']
+          families: ['Open Sans', 'Open Sans Bold 700', 'Gochi Hand']
         }
       }
     },
