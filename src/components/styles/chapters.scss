@@ -13,6 +13,10 @@ $laptop: 1290px;
 // Tablet width
 $tablet: 768px;
 
+.tab-list {
+  padding: 0 0 12px 0;
+}
+
 .two-col {
   display: flex;
   flex-direction: row;
@@ -97,7 +101,7 @@ $tablet: 768px;
         margin-bottom: 10px;
 
         .link-image {
-          width: 80px;
+          width: 100px;
           background-color: #000;
 
           img {
@@ -111,7 +115,7 @@ $tablet: 768px;
           color: #000;
           justify-content: space-between;
           width: calc(100% - 100px);
-          padding: 10px 20px;
+          padding: 20px 30px;
 
           strong {
             font-weight: 700;
@@ -161,6 +165,7 @@ $tablet: 768px;
 
       &:first-child {
         margin-top: 0;
+        margin-bottom:0;
       }
   
       &:last-child {
@@ -169,6 +174,8 @@ $tablet: 768px;
 
       a:not(.highlight-btn) {
         &#preview-last {
+          margin-bottom: 10px; 
+
           div {
             font-size: 16px;
 
@@ -183,11 +190,13 @@ $tablet: 768px;
         }
 
         &.post-link {
-          .link-image {
-            width: 80px;
+          &:last-child {
+            margin-bottom: 0;
           }
 
           .link-text {
+            padding: 10px 20px;
+
             strong {
               font-size: 16px;
             }

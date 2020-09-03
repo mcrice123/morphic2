@@ -20,6 +20,8 @@ export default class Archive extends Component {
         this.generateTabItems = this.generateTabItems.bind(this);
         this.changeTabs = this.changeTabs.bind(this);
         this.renderTabs = this.renderTabs.bind(this);
+        this.firstHalf = this.firstHalf.bind(this);
+        this.secondHalf = this.secondHalf.bind(this);
     }
 
     changeTabs(index) {
@@ -36,6 +38,44 @@ export default class Archive extends Component {
             };
         });
         return items;
+    }
+
+    firstHalf(map) {
+      const mapLength = map.length;
+      return map.map((edge, index) => {
+        const { title, date, preview } = edge.node.frontmatter;
+        const { slug } = edge.node.fields;
+        if (index < Math.ceil(mapLength / 2)) {
+          return (
+            <PostLink 
+              key={title} 
+              title={title} 
+              link={slug}
+              img={preview}
+              date={date}
+            />
+          );
+        }
+      })
+    }
+
+    secondHalf(map) {
+      const mapLength = map.length;
+      return map.map((edge, index) => {
+        const { title, date, preview } = edge.node.frontmatter;
+        const { slug } = edge.node.fields;
+        if (index >= Math.ceil(mapLength / 2)) {
+          return (
+            <PostLink 
+              key={title} 
+              title={title} 
+              link={slug}
+              img={preview}
+              date={date}
+            />
+          );
+        }
+      })
     }
 
     renderTabs() {
@@ -78,29 +118,36 @@ export default class Archive extends Component {
                           {
                             (this.state.tabIndex < data.site.siteMetadata.categories.length)
                             &&
-                            data.allMarkdownRemark.edges
-                            .filter(edge => {
-                              const { categories, type } = edge.node.frontmatter;
-                              const allCategories = data.site.siteMetadata.categories;
-                              const currentTab = allCategories[this.state.tabIndex].toLowerCase().replace(/\s+/g, "");
-                              if (type === "post" && categories.includes(currentTab)) {
-                                return edge;
-                              }
-                              else return null;
-                            })
-                            .map(edge => {
-                              const { title, date, preview } = edge.node.frontmatter;
-                              const { slug } = edge.node.fields;
-                              return (
-                                  <PostLink 
-                                    key={title} 
-                                    title={title} 
-                                    link={slug}
-                                    img={preview}
-                                    date={date}
-                                  />
-                              );
-                            })
+                            this.firstHalf(
+                              data.allMarkdownRemark.edges
+                              .filter(edge => {
+                                const { categories, type } = edge.node.frontmatter;
+                                const allCategories = data.site.siteMetadata.categories;
+                                const currentTab = allCategories[this.state.tabIndex].toLowerCase().replace(/\s+/g, "");
+                                if (type === "post" && categories.includes(currentTab)) {
+                                  return edge;
+                                }
+                                else return null;
+                              })
+                            )
+                          }
+                        </div>
+                        <div className="col">
+                          {
+                            (this.state.tabIndex < data.site.siteMetadata.categories.length)
+                            &&
+                            this.secondHalf(
+                              data.allMarkdownRemark.edges
+                              .filter(edge => {
+                                const { categories, type } = edge.node.frontmatter;
+                                const allCategories = data.site.siteMetadata.categories;
+                                const currentTab = allCategories[this.state.tabIndex].toLowerCase().replace(/\s+/g, "");
+                                if (type === "post" && categories.includes(currentTab)) {
+                                  return edge;
+                                }
+                                else return null;
+                              })
+                            )
                           }
                         </div>
                       </div>

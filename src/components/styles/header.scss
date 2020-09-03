@@ -503,4 +503,10 @@ li {
   &:hover {
     background-color: #000;
   }
+
+  @media screen and (max-width: 800px) {
+    &.tab {
+      margin-bottom: 10px;
+    }
+  }
 }
