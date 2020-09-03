@@ -13,10 +13,6 @@ $laptop: 1290px;
 // Tablet width
 $tablet: 768px;
 
-.tab-list {
-  padding: 0 0 12px 0;
-}
-
 .two-col {
   display: flex;
   flex-direction: row;
@@ -49,6 +45,7 @@ $tablet: 768px;
 
       &#preview-last {
         position: relative;
+        display: block;
 
         div {
           position: absolute;
