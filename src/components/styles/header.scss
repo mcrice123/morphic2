@@ -237,7 +237,7 @@ li {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  background-color: $primary;
+  background-color: #000;
 
   @media screen and (max-width: $tablet) {
     height: 60px;
@@ -298,6 +298,7 @@ li {
   text-align: center;
   padding: 24px 16px;
   align-items: flex-end;
+  background-color: #000;
 
   span {
     width: 130px;
@@ -330,6 +331,7 @@ li {
   text-align: center;
   padding: 24px 18px;
   align-items: flex-start;
+  background-color: #000;
 
   span {
     width: 90px;
@@ -355,6 +357,7 @@ li {
   background-image: url('../../images/social-media.jpg');
   flex-grow: 1;
   padding: 12px 32px;
+  background-color: #000;
 
   .media-title {
     font-family: $gochi;
