@@ -484,9 +484,21 @@ li {
   background-color: #b5aa50;
   color: #fff !important;
   margin-top: 10px;
+  margin-bottom: 10px;
   display: inline-block;
   font-family: $gochi;
   text-align: center;
+  cursor: pointer;
+
+  &.tab {
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 0;
+
+    &.selected {
+      background-color: #000;
+    }
+  }
 
   &:hover {
     background-color: #000;

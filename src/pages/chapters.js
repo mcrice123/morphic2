@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {StaticQuery, graphql, Link } from "gatsby";
 
 import Layout from '../components/layout';
+import PostLink from '../components/post-link';
 import TabList from '../components/tablist';
 import Preview from '../components/preview-image';
 require('../components/styles/chapters.scss');
@@ -68,12 +69,12 @@ export default class Archive extends Component {
                   }
             `}
                 render={data =>
-                    <div id={"archive"}>
+                    <div id={"chapters"}>
                       <TabList
                           items={this.generateTabItems(data.site.siteMetadata.categories)}
                       />
-                      <div id={"search-results"}>
-                        <ul>
+                      <div className="two-col">
+                        <div className="col">
                           {
                             (this.state.tabIndex < data.site.siteMetadata.categories.length)
                             &&
@@ -91,21 +92,17 @@ export default class Archive extends Component {
                               const { title, date, preview } = edge.node.frontmatter;
                               const { slug } = edge.node.fields;
                               return (
-                                <li key={slug} style={{ display: 'inline-block'}}>
-                                    <Link to={slug}>
-                                        <Preview
-                                          path={preview}
-                                          alt={title}
-                                          className="archive-preview-img"
-                                          title={title}
-                                          date={date}
-                                          />
-                                    </Link>
-                                </li>
+                                  <PostLink 
+                                    key={title} 
+                                    title={title} 
+                                    link={slug}
+                                    img={preview}
+                                    date={date}
+                                  />
                               );
                             })
                           }
-                        </ul>
+                        </div>
                       </div>
                     </div>
                 }
@@ -116,7 +113,7 @@ export default class Archive extends Component {
     render() {
         return (
             <Layout>
-                <h1>Archive</h1>
+                <h1 className="gochi">Chapters</h1>
                 {
                     this.renderTabs()
                 }

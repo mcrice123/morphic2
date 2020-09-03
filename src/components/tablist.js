@@ -15,7 +15,7 @@ export default ({ items }) => {
             items.map(item => {
                 return (
                     <div
-                        className={`tab-item${item.selected ? " selected" : ""}`}
+                        className={`highlight-btn tab${item.selected ? " selected" : ""}`}
                         key={item.value}
                         onClick={() => item.onClick(item.value)}
                     >
