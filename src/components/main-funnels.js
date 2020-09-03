@@ -4,6 +4,7 @@ import { StaticQuery, graphql, Link } from "gatsby";
 
 // SVGs
 import FacebookLogo from '../assets/facebook.svg';
+import InstagramLogo from '../assets/instagram.svg'
 import GithubLogo from '../assets/github.svg';
 import RSSLogo from '../assets/rss.svg';
 
@@ -59,6 +60,9 @@ export default () => {
                             <div className={"media-links"}>
                                 <a href="https://www.facebook.com/MorphicGraphicNovel/" target="_blank" aria-label="Link to Facebook page">
                                     <FacebookLogo className={"icon"} />
+                                </a>
+                                <a href="https://www.instagram.com/mariacatrice222/" target="_blank" aria-label="Link to Instagram">
+                                    <InstagramLogo className={"icon"} />
                                 </a>
                                 <a href="https://github.com/mcrice123/morphic2" target="_blank" aria-label="Link to Github project">
                                     <GithubLogo className={"icon"} />
