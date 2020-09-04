@@ -1,7 +1,19 @@
+//@import "src/components/styles/chapters";
+
 $large_screen: 850px;
 $small_screen: 700px;
 $even_smaller: 500px;
 
+#about {
+    img {
+        display: flex;
+        align-self: center;
+        width: 100%;
+        margin-top: 50px;
+        padding: 10px;
+    }
+}
+/*
 #about {
     display: flex;
     flex-direction: row;
@@ -100,4 +112,4 @@ $even_smaller: 500px;
         }
     }
 }
-
+*/
