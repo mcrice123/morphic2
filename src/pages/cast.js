@@ -63,10 +63,10 @@ export default class Characters extends Component {
     render() {
       return (
         <Layout>
+          <div class="post-body">
             <h1>Characters</h1>
-            {
-              this.renderList()
-            }
+            <p>Work in progress... <em>Check back later for more updates!</em></p>
+          </div>
         </Layout>
     );
   }
