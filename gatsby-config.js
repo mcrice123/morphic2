@@ -1,18 +1,21 @@
 module.exports = {
   siteMetadata: {
     title: 'Morphic',
-      navLinks: [
-          'Home',
-          'About',
-          'Chapters',
-          'Cast',
-      ],
-      categories: [
-          'Book 1',
-          'Book 2',
-          'Book 3',
-          'Misc'
-      ]
+    author: 'Maria Rice',
+    description: `A plea for help from a mysterious girl sidetracks Errie Bright and Lane Valerie on their way to a local festival. Although they expect to see people dressed up as animals for the event, the girls soon realize that the people they meet in the woods that day are not in costume...`,
+    navLinks: [
+        'Home',
+        'About',
+        'Chapters',
+        'Cast',
+    ],
+    categories: [
+        'Book 1',
+        'Book 2',
+        'Book 3',
+        'Misc'
+    ],
+    siteUrl: 'https://cocky-goldwasser-cbfcf1.netlify.app/'
   },
   pathPrefix: `/static`, // Build with `gatsby build --prefix-paths`
   plugins: [

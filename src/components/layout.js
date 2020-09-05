@@ -17,7 +17,6 @@ class Layout extends Component {
         this.toggleMenu = this.toggleMenu.bind(this);
         this.closeMenu = this.closeMenu.bind(this);
         this.checkForMaxWidthReached = this.checkForMaxWidthReached.bind(this);
-       // this.getYear = this.getYear.bind(this);
     }
     componentDidMount() {
         window.addEventListener('resize', this.checkForMaxWidthReached);
@@ -36,24 +35,23 @@ class Layout extends Component {
             this.closeMenu();
         }
     }
-    /*getYear() {
-        return <span>{(new Date().getFullYear())}</span>;
-    }*/
+
     render() {
         return (
             <div style={{ margin: `0 auto`, maxWidth: 944, position: "relative", backgroundColor: '#fff', width: '90%' }}>
                 <StaticQuery
                     query={graphql`
-              query SiteTitleQuery {
-                site {
-                  siteMetadata {
-                    title
-                    navLinks
-                    categories
-                  }
-                }
-              }
-            `}
+                        query SiteTitleQuery {
+                            site {
+                                siteMetadata {
+                                    title
+                                    navLinks
+                                    categories
+                                    siteUrl
+                                }
+                            }
+                        }
+                    `}
 
             render={data => (
                 <>
@@ -62,6 +60,7 @@ class Layout extends Component {
                         meta={[
                             {name: 'description', content: 'Morphic Graphic Novel Series: Erica Bright crosses paths with people who take the form of animals--and have other hidden abilities.'},
                             {name: 'keywords', content: 'morphic, Maria, Rice, comic, graphic, novel, series'},
+                            {name: 'image', content: `${data.site.siteMetadata.siteUrl}` + '/seo/default.jpg'}
                         ]}
                         link={[
                             { rel: "icon", type: "image/png", sizes: "16x16", href: `${Favicon}` },
