@@ -61,7 +61,35 @@ class Layout extends Component {
                             {name: 'description', content: 'Morphic Graphic Novel Series: Erica Bright crosses paths with people who take the form of animals--and have other hidden abilities.'},
                             {name: 'keywords', content: 'morphic, Maria, Rice, comic, graphic, novel, series'},
                             {name: 'image', content: `${data.site.siteMetadata.siteUrl}` + '/seo/default.jpg'}
-                        ]}
+                        ]
+                        .concat(
+                        //    metaImage
+                        //      ? [
+                            [
+                                  {
+                                    property: "og:image",
+                                    content: `${data.site.siteMetadata.siteUrl}` + '/seo/default.jpg',
+                                  },
+                                  {
+                                    property: "og:image:width",
+                                    content: 1200,
+                                  },
+                                  {
+                                    property: "og:image:height",
+                                    content: 630,
+                                  },
+                                  {
+                                    name: "twitter:card",
+                                    content: "summary_large_image",
+                                  },
+                                ]
+                             // : [
+                            //      {
+                            //        name: "twitter:card",
+                            //        content: "summary",
+                            //      },
+                            //    ]
+                        )}
                         link={[
                             { rel: "icon", type: "image/png", sizes: "16x16", href: `${Favicon}` },
                             { rel: "icon", type: "image/png", sizes: "32x32", href: `${Favicon}` },
