@@ -48,6 +48,8 @@ class Layout extends Component {
                                     navLinks
                                     categories
                                     siteUrl
+                                    description
+                                    keywords
                                 }
                             }
                         }
@@ -58,9 +60,33 @@ class Layout extends Component {
                     <Helmet
                         title={data.site.siteMetadata.title}
                         meta={[
-                            {name: 'description', content: 'Morphic Graphic Novel Series: Erica Bright crosses paths with people who take the form of animals--and have other hidden abilities.'},
-                            {name: 'keywords', content: 'morphic, Maria, Rice, comic, graphic, novel, series'},
-                            {name: 'image', content: `${data.site.siteMetadata.siteUrl}` + '/seo/default.jpg'}
+                            {name: 'description', content: `${data.site.siteMetadata.description}`},
+                            {name: 'keywords', content: `${data.site.siteMetadata.keywords}`},
+                            {name: 'image', content: `${data.site.siteMetadata.siteUrl}` + '/seo/default.jpg'},
+                            {
+                                property: `og:title`,
+                                content: data.site.siteMetadata.title,
+                            },
+                            {
+                                property: `og:description`,
+                                content: data.site.siteMetadata.description,
+                            },
+                            {
+                                property: `og:type`,
+                                content: `website`,
+                            },
+                            {
+                                name: `twitter:creator`,
+                                content: data.site.siteMetadata.author,
+                            },
+                            {
+                                name: `twitter:title`,
+                                content: data.site.siteMetadata.title,
+                            },
+                            {
+                                name: `twitter:description`,
+                                content: data.site.siteMetadata.description,
+                            },
                         ]
                         .concat(
                         //    metaImage
