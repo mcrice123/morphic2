@@ -50,6 +50,7 @@ class Layout extends Component {
                                     siteUrl
                                     description
                                     keywords
+                                    author
                                 }
                             }
                         }
@@ -61,7 +62,7 @@ class Layout extends Component {
                             const description = this.props.description && this.props.description.length ? this.props.description.join('') : data.site.siteMetadata.description.join('');
                             const keywords = data.site.siteMetadata.keywords.join(',') + ',' + this.props.keywords.join(',');
                             const siteUrl = data.site.siteMetadata.siteUrl;
-                            const author = this.props.author ? this.props.author : data.site.siteMetadata.author;
+                            const author = data.site.siteMetadata.author;
                             const metaImage = siteUrl + (this.props.image ? this.props.image : '/seo/default.jpg');
                             const slug = this.props.slug;
                             return (
@@ -151,7 +152,7 @@ class Layout extends Component {
                                         }}
                                     >
                                         {this.props.children}
-                                        <div id="copyright">&copy; `${author}` <CurrentYear /></div>
+                                        <div id="copyright">&copy; {author} <CurrentYear /></div>
                                     </div>
                                 </>
                             );
