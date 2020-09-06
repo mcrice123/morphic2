@@ -58,7 +58,7 @@ class Layout extends Component {
                         data => {
                             const navLinks = data.site.siteMetadata.navLinks;
                             const title = this.props.title ? this.props.title + ' | ' + data.site.siteMetadata.title : data.site.siteMetadata.title;
-                            const description = this.props.description.length > 0 ? this.props.description.join('') : data.site.siteMetadata.description.join('');
+                            const description = this.props.description ? this.props.description.join('') : data.site.siteMetadata.description.join('');
                             const keywords = data.site.siteMetadata.keywords.join(',') + ',' + this.props.keywords.join(',');
                             const siteUrl = data.site.siteMetadata.siteUrl;
                             const author = this.props.author ? this.props.author : data.site.siteMetadata.author;
