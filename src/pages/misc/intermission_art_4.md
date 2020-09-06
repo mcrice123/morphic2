@@ -2,7 +2,7 @@
 categories: ["misc"]
 type: "post"
 title: "Intermission Art #4"
-description: ""
+description2: []
 date: "2018-03-09T20:38:45-06:00"
 featuredalt: ""
 featured: ""

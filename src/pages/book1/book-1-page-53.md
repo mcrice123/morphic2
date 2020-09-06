@@ -3,7 +3,7 @@ featured: ""
 date: "2017-08-26"
 featuredpath: "/book1/main/bw_page53.jpg"
 featuredalt: "Page53"
-description: ""
+description2: []
 author: "Maria Rice"
 type: "post"
 title: "Book 1, Page 53"

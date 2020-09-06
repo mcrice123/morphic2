@@ -8,7 +8,7 @@ categories: ["book1"]
 featuredpath: "/book1/main/bw_page59.jpg"
 featuredalt: "Page59"
 author: "Maria Rice"
-description: ""
+description2: []
 preview: "/book1/preview/preview59.jpg"
 
 ---

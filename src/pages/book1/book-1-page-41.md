@@ -2,7 +2,7 @@
 title: "Book 1, Page 41"
 linktitle: ""
 featuredpath: "/book1/main/page41.jpg"
-description: ""
+description2: []
 categories: ["book1"]
 featuredalt: "Page41"
 date: "2017-06-03"

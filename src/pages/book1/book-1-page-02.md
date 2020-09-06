@@ -1,6 +1,8 @@
 ---
 featuredalt: "Page2"
-description: "Next page goes to 9 (Pages 3-8 are removed)"
+description2: [
+    "Next page goes to 9 (Pages 3-8 are removed)",
+]
 date: "2016-08-27T17:46:29-06:00"
 categories: ["book1"]
 author: "Maria Rice"
@@ -10,6 +12,21 @@ featured: ""
 linktitle: ""
 type: "post"
 preview: "/book1/preview/page02_2.jpg"
+keywords: [
+    "Errie", 
+    "doodling", 
+    "notebook", 
+    "taking",
+    "notes", 
+    "school", 
+    "read", 
+    "book", 
+    "Ancient",
+    "Creatures",
+    "wolf",
+    "settlers",
+    "native"
+]
 
 ---
 

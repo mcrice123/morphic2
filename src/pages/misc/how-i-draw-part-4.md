@@ -1,7 +1,7 @@
 ---
 linktitle: ""
 featuredpath: "/misc/main/hid_pt4.jpg"
-description: ""
+description2: []
 author: "Maria Rice"
 title: "How I Draw, Part 4"
 preview: "/misc/preview/hid_pt4_preview.jpg"

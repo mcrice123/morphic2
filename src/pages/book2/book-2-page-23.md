@@ -9,7 +9,7 @@ linktitle: ""
 date: "2018-08-24T22:38:33-05:00"
 author: "Maria Rice"
 featuredalt: ""
-description: ""
+description2: []
 ---
 
 **OUT INTO THE SUN AT LAST!**

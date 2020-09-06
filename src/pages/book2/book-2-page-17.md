@@ -5,7 +5,7 @@ type: "post"
 categories: ["book2"]
 linktitle: ""
 featured: ""
-description: ""
+description2: []
 featuredpath: "/book2/main/page17.jpg"
 date: "2018-07-13T18:09:14-05:00"
 featuredalt: ""

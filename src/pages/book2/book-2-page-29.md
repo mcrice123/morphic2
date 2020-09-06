@@ -9,7 +9,7 @@ linktitle: ""
 date: "2018-10-06T11:13:26-05:00"
 author: "Maria Rice"
 featuredalt: ""
-description: ""
+description2: []
 ---
 
 Errie is ready to go!

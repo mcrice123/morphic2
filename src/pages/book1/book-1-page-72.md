@@ -3,7 +3,7 @@ date: "2018-01-27"
 categories: ["book1"]
 featuredpath: "/book1/main/page72.jpg"
 featuredalt: "Page72"
-description: ""
+description2: []
 type: "post"
 linktitle: ""
 author: "Maria Rice"

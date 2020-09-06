@@ -9,7 +9,7 @@ linktitle: ""
 date: "2018-09-29T09:29:51-05:00"
 author: "Maria Rice"
 featuredalt: ""
-description: ""
+description2: []
 ---
 
 It took almost _30_ pages for Errie to realize something's

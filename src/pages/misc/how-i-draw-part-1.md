@@ -2,7 +2,7 @@
 title: "How I Draw, Part 1"
 featuredalt: ""
 preview: "/misc/preview/hid_pt1_preview.jpg"
-description: ""
+description2: []
 author: "Maria Rice"
 type: "post"
 date: "2018-09-01T10:47:18-05:00"

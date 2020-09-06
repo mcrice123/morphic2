@@ -1,5 +1,5 @@
 ---
-description: ""
+description2: []
 title: "Original Prologue, Page 3"
 categories: ["misc"]
 featuredalt: "Page3"

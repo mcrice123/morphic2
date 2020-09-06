@@ -6,7 +6,7 @@ featuredalt: "Page51"
 featuredpath: "/book1/main/bw_page51.jpg"
 author: "Maria Rice"
 type: "post"
-description: ""
+description2: []
 date: "2017-08-12"
 linktitle: ""
 preview: "/book1/preview/preview51.jpg"

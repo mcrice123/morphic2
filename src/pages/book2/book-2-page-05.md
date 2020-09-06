@@ -9,7 +9,7 @@ linktitle: ""
 date: "2018-04-20T18:12:07-05:00"
 author: "Maria Rice"
 featuredalt: ""
-description: ""
+description2: []
 ---
 
 Gosh...some days it feels like I go overboard on these inks, _but talk about shading

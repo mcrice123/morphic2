@@ -2,7 +2,7 @@
 linktitle: ""
 featuredpath: "/book1/main/bw_page66.jpg"
 categories: ["book1"]
-description: ""
+description2: []
 date: "2017-11-24"
 type: "post"
 featuredalt: "Page66"

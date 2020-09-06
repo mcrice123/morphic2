@@ -6,7 +6,7 @@ title: "Book 1, Page 74"
 linktitle: ""
 featuredalt: "Page74"
 categories: ["book1"]
-description: ""
+description2: []
 author: "Maria Rice"
 type: "post"
 preview: "/book1/preview/page74.jpg"

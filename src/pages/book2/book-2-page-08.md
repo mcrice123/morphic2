@@ -9,7 +9,7 @@ linktitle: ""
 date: "2018-05-11T23:51:57-05:00"
 author: "Maria Rice"
 featuredalt: ""
-description: ""
+description2: []
 ---
 
 Definitely proud of this page---especially the last panel.

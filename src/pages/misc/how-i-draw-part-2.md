@@ -3,7 +3,7 @@ title: "How I Draw, Part 2"
 featuredalt: ""
 categories: ["misc"]
 linktitle: ""
-description: ""
+description2: []
 featured: ""
 featuredpath: "/misc/main/hid_pt2.jpg"
 date: "2018-09-07T20:24:10-05:00"

@@ -4,7 +4,7 @@ type: "post"
 linktitle: ""
 featuredpath: "/book1/main/page60.jpg"
 featured: ""
-description: ""
+description2: []
 categories: ["book1"]
 author: "Maria Rice"
 featuredalt: "Page60"

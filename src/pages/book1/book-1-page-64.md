@@ -7,7 +7,7 @@ categories: ["book1"]
 linktitle: ""
 featuredpath: "/book1/main/bw_page64.jpg"
 featuredalt: "Page64"
-description: ""
+description2: []
 title: "Book 1, Page 64"
 preview: "/book1/preview/preview64.jpg"
 

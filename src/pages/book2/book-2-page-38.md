@@ -1,7 +1,7 @@
 ---
 featuredalt: ""
 featured: ""
-description: ""
+description2: []
 preview: "/book2/preview/page38.jpg"
 title: "Book 2, Page 38"
 featuredpath: "/book2/main/page38.jpg"

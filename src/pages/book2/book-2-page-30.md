@@ -9,7 +9,7 @@ linktitle: ""
 date: "2018-10-12T20:05:36-05:00"
 author: "Maria Rice"
 featuredalt: ""
-description: ""
+description2: []
 ---
 
 **So excited right now.**

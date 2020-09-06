@@ -8,7 +8,7 @@ author: "Maria Rice"
 linktitle: ""
 featuredpath: "/book1/main/bw_page49.jpg"
 featuredalt: "Page49"
-description: ""
+description2: []
 preview: "/book1/preview/preview49.jpg"
 
 ---

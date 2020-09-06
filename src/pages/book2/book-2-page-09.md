@@ -9,7 +9,7 @@ linktitle: ""
 date: "2018-05-16T08:14:28-05:00"
 author: "Maria Rice"
 featuredalt: ""
-description: ""
+description2: []
 ---
 
 Doodling Capri is the best.

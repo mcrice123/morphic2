@@ -1,6 +1,6 @@
 ---
 featuredalt: "Page38"
-description: ""
+description2: []
 type: "post"
 categories: ["book1"]
 author: "Maria Rice"

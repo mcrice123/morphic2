@@ -8,7 +8,7 @@ author: "Maria Rice"
 title: "Book 1, Page 46"
 featuredalt: "Page46"
 featured: ""
-description: ""
+description2: []
 preview: "/book1/preview/preview46.jpg"
 
 ---

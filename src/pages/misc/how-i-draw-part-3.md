@@ -4,7 +4,7 @@ type: "post"
 featuredpath: "/misc/main/hid_pt3.jpg"
 linktitle: ""
 featured: ""
-description: ""
+description2: []
 date: "2018-09-14T20:40:01-05:00"
 title: "How I Draw, Part 3"
 author: "Maria Rice"

@@ -7,7 +7,7 @@ featured: ""
 categories: ["book1"]
 title: "Book 1, Page 73"
 featuredalt: "Page73"
-description: ""
+description2: []
 date: "2018-02-04"
 preview: "/book1/preview/preview73.jpg"
 

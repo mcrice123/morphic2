@@ -8,7 +8,7 @@ featured: ""
 date: "2017-10-28"
 title: "Book 1, Page 62"
 featuredalt: "Page 62"
-description: ""
+description2: []
 preview: "/book1/preview/preview62.jpg"
 
 ---

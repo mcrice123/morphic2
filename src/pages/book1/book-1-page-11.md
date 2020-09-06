@@ -2,7 +2,7 @@
 date: "2016-10-15"
 type: "post"
 featured: ""
-description: ""
+description2: []
 title: "Book 1, Page 11"
 linktitle: ""
 featuredalt: "Page11"
@@ -10,6 +10,7 @@ categories: ["book1"]
 featuredpath: "/book1/main/page11_2.jpg"
 author: "Maria Rice"
 preview: "/book1/preview/page11_2.jpg"
+keywords: []
 
 ---
 

@@ -9,7 +9,7 @@ date: "2018-03-03T07:42:10-06:00"
 linktitle: ""
 featuredpath: "/misc/main/capri_vines001W.jpg"
 title: "Intermission Art #3"
-description: ""
+description2: []
 
 ---
 

@@ -6,7 +6,7 @@ type: "post"
 featured: ""
 preview: "/book2/preview/page31.jpg"
 linktitle: ""
-description: ""
+description2: []
 author: "Maria Rice"
 featuredalt: ""
 title: "Book 2, Page 31"

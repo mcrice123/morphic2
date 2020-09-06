@@ -3,7 +3,7 @@ type: "post"
 featuredalt: "Page34"
 author: "Maria Rice"
 linktitle: ""
-description: ""
+description2: []
 date: "2017-04-15"
 title: "Book 1, Page 34"
 categories: ["book1"]

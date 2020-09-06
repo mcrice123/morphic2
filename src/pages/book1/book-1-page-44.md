@@ -1,6 +1,6 @@
 ---
 linktitle: ""
-description: ""
+description2: []
 author: "Maria Rice"
 type: "post"
 featuredpath: "/book1/main/bw_page44.jpg"

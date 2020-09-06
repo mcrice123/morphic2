@@ -4,7 +4,7 @@ title: "Book 1, Page 40"
 featuredalt: "Page40"
 categories: ["book1"]
 featured: ""
-description: ""
+description2: []
 date: "2017-05-27"
 linktitle: ""
 author: "Maria Rice"

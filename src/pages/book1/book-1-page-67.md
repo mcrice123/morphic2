@@ -1,6 +1,6 @@
 ---
 title: "Book 1, Page 67"
-description: ""
+description2: []
 linktitle: ""
 featuredpath: "/book1/main/page67.jpg"
 featuredalt: "Page67"

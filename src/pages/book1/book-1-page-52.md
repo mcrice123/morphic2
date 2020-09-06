@@ -8,7 +8,7 @@ categories: ["book1"]
 type: "post"
 featured: ""
 title: "Book 1, Page 52"
-description: ""
+description2: []
 preview: "/book1/preview/preview52.jpg"
 
 ---

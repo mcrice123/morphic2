@@ -3,7 +3,7 @@ title: "Book 1, Page 18"
 linktitle: ""
 featuredpath: "/book1/main/page18.jpg"
 featuredalt: "Page18"
-description: ""
+description2: []
 type: "post"
 date: "2016-12-17"
 categories: ["book1"]

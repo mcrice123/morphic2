@@ -9,7 +9,7 @@ linktitle: ""
 date: "2018-07-21T07:47:18-05:00"
 author: "Maria Rice"
 featuredalt: ""
-description: ""
+description2: []
 ---
 
 The sheriff makes another appearance.

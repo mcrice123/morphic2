@@ -54,14 +54,16 @@ class Layout extends Component {
                             }
                         }
                     `}
-
                     render={
                         data => {
-                            let title = data.site.siteMetadata.title;
-                            let description = data.site.siteMetadata.description;
-                            let keywords = data.site.siteMetadata.keywords;
-                            let siteUrl = data.site.siteMetadata.siteUrl;
-                            let author = data.site.siteMetadata.author;
+                            const navLinks = data.site.siteMetadata.navLinks;
+                            const title = this.props.title ? this.props.title + ' | ' + data.site.siteMetadata.title : data.site.siteMetadata.title;
+                            const description = this.props.description.length > 0 ? this.props.description.join('') : data.site.siteMetadata.description.join('');
+                            const keywords = data.site.siteMetadata.keywords.join(',') + ',' + this.props.keywords.join(',');
+                            const siteUrl = data.site.siteMetadata.siteUrl;
+                            const author = this.props.author ? this.props.author : data.site.siteMetadata.author;
+                            const metaImage = siteUrl + (this.props.image ? this.props.image : '/seo/default.jpg');
+                            const slug = this.props.slug;
                             return (
                                 <>
                                     <Helmet
@@ -70,7 +72,7 @@ class Layout extends Component {
                                             [
                                                 {name: 'description', content: description},
                                                 {name: 'keywords', content: keywords},
-                                                {name: 'image', content: siteUrl + '/seo/default.jpg'},
+                                                {name: 'image', content: metaImage},
                                                 {
                                                     property: `og:title`,
                                                     content: title,
@@ -85,7 +87,7 @@ class Layout extends Component {
                                                 },
                                                 {
                                                     property: `og:url`,
-                                                    content: siteUrl,
+                                                    content: siteUrl + slug,
                                                 },
                                                 {
                                                     name: `twitter:creator`,
@@ -101,12 +103,10 @@ class Layout extends Component {
                                                 },
                                             ]
                                             .concat(
-                                            //    metaImage
-                                            //      ? [
                                                 [
                                                     {
                                                         property: "og:image",
-                                                        content: siteUrl + '/seo/default.jpg',
+                                                        content: metaImage,
                                                     },
                                                     {
                                                         property: "og:image:width",
@@ -120,14 +120,9 @@ class Layout extends Component {
                                                         name: "twitter:card",
                                                         content: "summary_large_image",
                                                     },
-                                                    ]
-                                                // : [
-                                                //      {
-                                                //        name: "twitter:card",
-                                                //        content: "summary",
-                                                //      },
-                                                //    ]
+                                                ]
                                             )
+                                            .concat(this.props.meta)
                                         }
                                         link={[
                                             { rel: "icon", type: "image/png", sizes: "16x16", href: `${Favicon}` },
@@ -135,11 +130,11 @@ class Layout extends Component {
                                             { rel: "shortcut icon", type: "image/png", href: `${Favicon}` },
                                         ]}
                                     >
-                                        <html lang="en"/>
+                                        <html lang={this.props.lang} />
                                     </Helmet>
                                     <Header
                                         siteTitle={title}
-                                        navLinks={data.site.siteMetadata.navLinks}
+                                        navLinks={navLinks}
                                         toggleMenu={this.toggleMenu}
                                         closeMenu={this.closeMenu}
                                         menuOpen={this.state.menuOpen}
@@ -156,7 +151,7 @@ class Layout extends Component {
                                         }}
                                     >
                                         {this.props.children}
-                                        <div id="copyright">&copy; Maria Rice <CurrentYear /></div>
+                                        <div id="copyright">&copy; `${author}` <CurrentYear /></div>
                                     </div>
                                 </>
                             );
@@ -168,8 +163,26 @@ class Layout extends Component {
     }
 }
 
+Layout.defaultProps = {
+    lang: `en`,
+    title: '',
+    meta: [],
+    description: [],
+    keywords: [],
+    author: '',
+    slug: '',
+}
+
 Layout.propTypes = {
-  children: PropTypes.node.isRequired,
+    children: PropTypes.node.isRequired,
+    description: PropTypes.arrayOf(PropTypes.string),
+    lang: PropTypes.string,
+    meta: PropTypes.arrayOf(PropTypes.object),
+    title: PropTypes.string.isRequired,
+    keywords: PropTypes.arrayOf(PropTypes.string),
+    author: PropTypes.string.isRequired,
+    image: PropTypes.string,
+    slug: PropTypes.string.isRequired,
 }
 
 export default Layout

@@ -4,7 +4,7 @@ title: "Book 1, Page 54"
 linktitle: ""
 type: "post"
 featured: ""
-description: ""
+description2: []
 categories: ["book1"]
 featuredalt: "Page54"
 featuredpath: "/book1/main/bw_page54.jpg"

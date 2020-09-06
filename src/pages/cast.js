@@ -62,7 +62,18 @@ export default class Characters extends Component {
 
     render() {
       return (
-        <Layout>
+        <Layout
+          title="Cast"
+          description={[
+            "Work in Progress: Come back later to see a glimpse of each of the characters in the webcomic, Morphic!",
+          ]}
+          keywords={[
+            "characters",
+            "cast",
+            "glimpse",
+            "slideshow",
+          ]}
+        >
           <div class="post-body">
             <h1>Characters</h1>
             <p>Work in progress... <em>Check back later for more updates!</em></p>

@@ -1,7 +1,7 @@
 ---
 date: "2018-01-12T17:21:59-06:00"
 title: "Book 1, Page 70"
-description: ""
+description2: []
 categories: ["book1"]
 type: "post"
 linktitle: ""

@@ -2,7 +2,7 @@
 type: "post"
 title: "Book 1, Page 39"
 linktitle: ""
-description: ""
+description2: []
 categories: ["book1"]
 featuredalt: "Page39"
 featured: ""

@@ -6,7 +6,7 @@ linktitle: ""
 date: "2018-02-17T10:05:33-06:00"
 categories: ["misc"]
 title: "Intermission Art #1"
-description: ""
+description2: []
 type: "post"
 featuredpath: "/misc/main/errie001W.jpg"
 featuredalt: "ErrieArt"

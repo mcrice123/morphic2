@@ -4,19 +4,26 @@ import { graphql } from "gatsby";
 
 import MainImage from '../components/main-image';
 import PostNavigation from '../components/post-navigation';
-//import SEO from "../components/seo";
 
 require('../components/styles/blog-post.scss');
 
 export default ({data}) => {
   const post = data.markdownRemark;
-  const { title, date, featuredpath, seo, author, description, keywords } = post.frontmatter;
+  const { title, date, featuredpath, metaimage, author, description2 } = post.frontmatter;
+  const keywords = post.frontmatter.keywords ? post.frontmatter.keywords : [];
   const { slug } = post.fields;
   return (
-    <Layout>
+    <Layout 
+      title={title}
+      description={description2}
+      keywords={keywords}
+      author={author}
+      image={metaimage}
+      slug={slug}
+    >
       <div>
           <PostNavigation currentSlug={slug} showTitleOnMobile={true} />
-          <MainImage path={featuredpath} />
+          <MainImage path={featuredpath} description={description2} />
           <PostNavigation currentSlug={slug} showTitleOnMobile={false} />
           <hr/>
           <div className={"wrapper"}>
@@ -29,6 +36,8 @@ export default ({data}) => {
   );
 };
 
+
+
 export const query = graphql`
   query($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
@@ -38,9 +47,9 @@ export const query = graphql`
         date(formatString: "MMMM DD, YYYY")
         featuredpath
         author
-        description
         keywords
-        seo
+        metaimage
+        description2
       }
       fields {
         slug

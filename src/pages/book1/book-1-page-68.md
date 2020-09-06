@@ -3,7 +3,7 @@ date: "2017-12-30"
 type: "post"
 title: "Book 1, Page 68"
 featuredalt: "Page68"
-description: ""
+description2: []
 linktitle: ""
 featured: ""
 author: "Maria Rice"

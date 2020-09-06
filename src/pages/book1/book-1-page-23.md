@@ -7,7 +7,7 @@ featured: ""
 featuredalt: "Page 23"
 type: "post"
 title: "Book 1, Page 23"
-description: ""
+description2: []
 date: "2017-01-21"
 preview: "/book1/preview/page23_2.jpg"
 

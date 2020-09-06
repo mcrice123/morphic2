@@ -3,7 +3,7 @@ featuredalt: "Page6"
 categories: ["misc"]
 linktitle: ""
 author: "Maria Rice"
-description: ""
+description2: []
 date: "2018-03-18T08:54:18-06:00"
 type: "post"
 featuredpath: "/book1/main/page06.jpg"

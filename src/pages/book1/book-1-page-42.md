@@ -1,6 +1,6 @@
 ---
 title: "Book 1, Page 42"
-description: ""
+description2: []
 featuredpath: "/book1/main/page42.jpg"
 author: "Maria Rice"
 featuredalt: "Page 42"

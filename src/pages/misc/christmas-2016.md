@@ -9,6 +9,6 @@ preview: "/misc/preview/preview_christmas2016.jpg"
 type: "post"
 title: "Merry Christmas 2016"
 categories: ["misc"]
-description: ""
+description2: []
 
 ---

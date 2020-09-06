@@ -5,7 +5,7 @@ date: "2017-09-09"
 author: "Maria Rice"
 linktitle: ""
 title: "Book 1, Page 55"
-description: ""
+description2: []
 featuredalt: "Page55"
 type: "post"
 featuredpath: "/book1/main/bw_page55.jpg"

@@ -1,7 +1,7 @@
 ---
 featuredpath: "/book1/main/page35.jpg"
 featuredalt: "Page35"
-description: ""
+description2: []
 author: "Maria Rice"
 type: "post"
 linktitle: ""

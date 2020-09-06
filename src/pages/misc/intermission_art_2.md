@@ -1,7 +1,7 @@
 ---
 featuredalt: "SirenaCanissandroArt"
 featured: ""
-description: ""
+description2: []
 preview: "/misc/preview/preview_sirena_canissandro_art.jpg"
 date: "2018-02-23T19:07:10-06:00"
 categories: ["misc"]

@@ -9,7 +9,7 @@ linktitle: ""
 date: "2018-05-04T07:50:35-05:00"
 author: "Maria Rice"
 featuredalt: ""
-description: ""
+description2: []
 ---
 
 # NICE TAIL CHAN

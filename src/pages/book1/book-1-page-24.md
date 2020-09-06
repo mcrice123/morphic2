@@ -8,7 +8,7 @@ type: "post"
 author: "Maria Rice"
 featuredpath: "/book1/main/page24.jpg"
 featured: ""
-description: ""
+description2: []
 preview: "/book1/preview/page24.jpg"
 
 ---

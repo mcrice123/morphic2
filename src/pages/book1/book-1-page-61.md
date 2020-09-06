@@ -6,7 +6,7 @@ author: "Maria Rice"
 featuredpath: "/book1/main/page61.jpg"
 title: "Book 1, Page 61"
 featuredalt: "Page61"
-description: ""
+description2: []
 type: "post"
 categories: ["book1"]
 preview: "/book1/preview/page61.jpg"

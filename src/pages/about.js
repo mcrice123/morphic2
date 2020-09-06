@@ -8,7 +8,21 @@ require('../components/styles/about.scss');
 
 const About = () => {
     return (
-        <Layout>
+        <Layout
+            title="About"
+            description={[
+                "I will print the completed webcomic as a 200+ page graphic novel and I will hold a crowdfund campaign on Kickstarter to fund the printing by the end of 2024.\n",
+                "Plot: A plea for help from a mysterious girl sidetracks Errie Bright and Lane Valerie on their way to a local festival. Although they expect to see people dressed up as animals for the event, the girls soon realize that the people they meet in the woods that day are not in costume...",
+            ]}
+            keywords={[
+                "about",
+                "kickstarter",
+                "crowdfund",
+                "crowdfunding",
+                "campaign",
+                "print"
+            ]}
+        >
             <div id="about" className="two-col">
                 <div id="text-container" className="col post-body">
                     <h1>Morphic: The Graphic Novel</h1>

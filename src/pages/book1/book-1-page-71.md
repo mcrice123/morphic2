@@ -1,7 +1,7 @@
 ---
 title: "Book 1, Page 71"
 linktitle: ""
-description: ""
+description2: []
 featuredalt: "Page71"
 author: "Maria Rice"
 type: "post"
