@@ -23,7 +23,7 @@ export default ({data}) => {
     >
       <div>
           <PostNavigation currentSlug={slug} showTitleOnMobile={true} />
-          <MainImage path={featuredpath} description={description2} />
+          <MainImage path={featuredpath} description={description2} title={title} />
           <PostNavigation currentSlug={slug} showTitleOnMobile={false} />
           <hr/>
           <div className={"wrapper"}>
