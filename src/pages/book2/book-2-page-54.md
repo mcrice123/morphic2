@@ -1,7 +1,35 @@
 ---
 featuredalt: ""
 featured: ""
-description2: []
+description2: [
+    "1. Errie: Aren",
+    "'",
+    "t YOU a guardian? There",
+    "'",
+    "s a LOT you don",
+    "'",
+    "t seem to know about!\n",
+    "   Wolf: ...YES. Which begs the question of how YOU know so much!\n",
+    "2. Errie: I met a GOAT and a DOG yesterday.\n",
+    "   Wolf: ...YOU talked to CAPRI?\n",
+    "   Errie: You got THAT right!\n",
+    "   [Unbeknownst to the three, a see-through tiger with a red glow emerges from a nearby wall behind them.]\n",
+    "3. [A closer look at the tiger reveals tears falling from its closed eyes.]\n",
+    "   Errie: And TODAY--\n",
+    "   Wolf: You met Vix and Meppie.\n",
+    "4. Errie: --AND got chased by a SQUID! ...And a bat.\n",
+    "   Wolf: Oh BROTHER...\n",
+    "   [The unconscious woman, left in an alley by the rogue squid earlier, starts to glow red. Black veins appear on her arms.]\n",
+    "5. Errie: [turns to face Wolf] Now it",
+    "'",
+    "s MY turn!\n",
+    "   Wolf: Hey!\n",
+    "6. Errie: [walking backwards at Wolf",
+    "'",
+    "s brisk pace] WHY are there so many DOORS all over town? WHY isn",
+    "'",
+    "t cell service WORKING? And WHY are morphics around for CENTURIES and no one KNOWS about them?!\n"
+]
 preview: "/book2/preview/page54.jpg"
 title: "Book 2, Page 54"
 featuredpath: "/book2/main/page54.jpg"
@@ -10,6 +38,29 @@ linktitle: ""
 date: "2020-05-24"
 author: "Maria Rice"
 type: "post"
+keywords: [
+    "Errie", 
+    "Chan",
+    "Wolf",
+    "tiger",
+    "Lily",
+    "ghost",
+    "spirit",
+    "guardian",
+    "goat",
+    "dog",
+    "Capri",
+    "Vix",
+    "Meppie",
+    "squid",
+    "bat",
+    "doors",
+    "cell",
+    "service",
+    "morphic",
+    "centuries", 
+    "knows", 
+]
 
 ---
 
