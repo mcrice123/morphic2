@@ -117,4 +117,4 @@ Get excited for some new pages! I'll post the next one in two weeks.
 
 Have a fun and safe holiday weekend!
 
-[1]: /book1/book-2-page-31/
+[1]: /book2/book-2-page-31/
