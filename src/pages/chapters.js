@@ -42,9 +42,9 @@ export default class Archive extends Component {
 
     firstHalf(map) {
       const mapLength = map.length;
-      if (mapLength < 1) {
+      /*if (mapLength < 1) {
         return <em>Sorry, no posts here yet!</em>;
-      }
+      }*/
       return map.map((edge, index) => {
         const { title, date, preview } = edge.node.frontmatter;
         const { slug } = edge.node.fields;
