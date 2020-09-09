@@ -82,13 +82,14 @@ module.exports = {
           path: `${__dirname}/src/pages/book2`,
       },
     },
+    /* RE-ADD this section when BOOK 3 starts! 
     {
       resolve: `gatsby-source-filesystem`,
       options: {
           name: `book3`,
           path: `${__dirname}/src/pages/book3`,
       },
-    },
+    },*/
     {
       resolve: `gatsby-source-filesystem`,
       options: {
