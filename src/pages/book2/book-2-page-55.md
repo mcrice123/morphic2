@@ -60,7 +60,7 @@ keywords: [
 
 _I guess this means the Q & A session is over..._
 
-So much stuff happening on this page! **Including a proper intro for that [tiger girl](https://mcrice123.github.io/morphic/blog/book2/book-2-page-31/)!**
+So much stuff happening on this page! **Including a proper intro for that [tiger girl][1]!**
 
 ## Welcome Back! And Happy 4th of July!
 
@@ -69,7 +69,7 @@ During my very restful break, I got to do some casual sketching and writing...an
 
 **This week I added a bunch of updates and fixes to the website!**
 
-{{< img-post "/img/inline" "maria-rice_logo_transparent.png" "Maria Rice logo -- black cat with a bowl of rice" "right" >}}
+![Maria Rice logo -- black cat with a bowl of rice](/embed/maria-rice_logo_transparent.png)
 
 ### Website Updates
 
@@ -116,3 +116,5 @@ Please don't forget to **[subscribe](http://eepurl.com/g8TzPb)** and **[like the
 Get excited for some new pages! I'll post the next one in two weeks.
 
 Have a fun and safe holiday weekend!
+
+[1]: /book1/book-2-page-31/

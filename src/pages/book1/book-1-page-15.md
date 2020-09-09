@@ -54,5 +54,3 @@ keywords: [
 metaimage: "/seo/15_book1.jpg"
 
 ---
-
-Updated 8/24/18

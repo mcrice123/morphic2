@@ -33,10 +33,12 @@ Anyways...
 
 ### Another Book 1 page colored!
 
-Check out [page 12!](https://mcrice123.github.io/morphic/blog/book-1-page-12/)
+Check out [page 12][1]!
 
 
 And thanks for reading! Check out next week's page to learn
 more about the police interview!
 
 Have a great weekend!
+
+[1]: /book1/book-1-page-12/

@@ -13,4 +13,3 @@ preview: "/book1/preview/page61.jpg"
 
 ---
 
-Colored in GIMP and updated 5/4/19.

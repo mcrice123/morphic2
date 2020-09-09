@@ -52,11 +52,11 @@ Along with this new page, I have uploaded 5 more revised pages in Book 1!
 Two of them had not previously been colored. 
 
 Here are the pages: 
-* [Page 13](https://mcrice123.github.io/morphic/blog/book-1-page-13/)
-* [Page 14](https://mcrice123.github.io/morphic/blog/book-1-page-14/)
-* [Page 15](https://mcrice123.github.io/morphic/blog/book-1-page-15/)
-* [Page 16](https://mcrice123.github.io/morphic/blog/book-1-page-16/)
-* [Page 17](https://mcrice123.github.io/morphic/blog/book-1-page-17/)
+* [Page 13][1]
+* [Page 14][2]
+* [Page 15][3]
+* [Page 16][4]
+* [Page 17][5]
 
 ### New Font Family
 
@@ -100,3 +100,9 @@ This turned into another long post. Oh well.
 I appreciate all the support. 
 
 I'll be back in two weeks with the next page! Have a great weekend.
+
+[1]: /book1/book-1-page-13/
+[2]: /book1/book-1-page-14/
+[3]: /book1/book-1-page-15/
+[4]: /book1/book-1-page-16/
+[5]: /book1/book-1-page-17/

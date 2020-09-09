@@ -23,7 +23,7 @@ Book 2 page buffer is still growing. Yay!
 
 I decided to redraw and color one of the Book 1 pages
 and now that it's done, it's uploaded! Check out
-[page 5](https://mcrice123.github.io/morphic/blog/book-1-page-05/)!
+[page 5][1]!
 
 ### Thanks for reading!
 
@@ -31,3 +31,5 @@ Come back next week to see the next page of book 2! And who
 knows, there _could_ be another colored/updated page of
 book 1..._maybe_. No promises, but just saying. It could
 happen.
+
+[1]: /misc/original-prologue-5/

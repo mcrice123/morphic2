@@ -28,13 +28,13 @@ I had a lot of fun drawing this kid. I look forward to drawing him more!
 Three of them were colored last year, but I redid the cell-shading to match the newly-colored pages. 
 Here are the five pages I updated: 
 
-* [Page 25](https://mcrice123.github.io/morphic/blog/book-1-page-25/)
-* [Page 26](https://mcrice123.github.io/morphic/blog/book-1-page-26/)
-* [Page 27](https://mcrice123.github.io/morphic/blog/book-1-page-27/)
-* [Page 28](https://mcrice123.github.io/morphic/blog/book-1-page-28/)
-* [Page 29](https://mcrice123.github.io/morphic/blog/book-1-page-29/)
+* [Page 25][1]
+* [Page 26][2]
+* [Page 27][3]
+* [Page 28][4]
+* [Page 29][5]
 
-In addition, I added some extra lettering to [page 31](https://mcrice123.github.io/morphic/blog/book-1-page-31/) so that there are consistent sound effects across all these pages. 
+In addition, I added some extra lettering to [page 31][6] so that there are consistent sound effects across all these pages. 
 
 With that, **February goal achieved!** Now onto March...
 
@@ -51,3 +51,10 @@ So that's something for me to keep an eye on this month.
 ## Thanks for reading!
 
 Come back in two weeks to see the next page! Have a great weekend!
+
+[1]: /book1/book-1-page-25/
+[2]: /book1/book-1-page-26/
+[3]: /book1/book-1-page-27/
+[4]: /book1/book-1-page-28/
+[5]: /book1/book-1-page-29/
+[6]: /book1/book-1-page-31/

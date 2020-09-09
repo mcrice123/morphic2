@@ -33,5 +33,3 @@ might post one soon that I stopped in the middle of coloring.
 Have a great weekend everybody! I'll post next week's page as
 scheduled.  
 
-AND DON'T FORGET TO CHECK OUT THE [FINAL POST](https://mcrice123.github.io/morphic/blog/how-i-draw-part-4/)
-OF How I Draw!

@@ -29,7 +29,7 @@ two latest pages.
 
 ### But hey---Another Colored Page for Book 1!
 
-Check out [page 34](https://mcrice123.github.io/morphic/blog/book-1-page-34/)
+Check out [page 34][1]
 of Book 1!
 
 ### Thanks for reading!
@@ -40,3 +40,5 @@ Check out next week's post for the wrap-up of this scene!
 time.
 
 Have a great weekend!
+
+[1]: /book1/book-1-page-34/

@@ -62,8 +62,3 @@ keywords: [
     "shuts",
 ]
 ---
-
-Colored with GIMP ~~and updated 1/5/19.~~
-
-Updated 5/8/20.
-

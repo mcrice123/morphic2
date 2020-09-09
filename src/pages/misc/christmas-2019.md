@@ -28,39 +28,39 @@ Ok, _moving on_ to what you were _really_ waiting for...
 They're all in different sections of Book 1, so here are the links to each individual page that's updated as of this post. 
 Check 'em out! 
 
-* [Page 18](https://mcrice123.github.io/morphic/blog/book-1-page-18/)
+* [Page 18][1]
 
-* [Page 19](https://mcrice123.github.io/morphic/blog/book-1-page-19/)
+* [Page 19][2]
 
-* [Page 20](https://mcrice123.github.io/morphic/blog/book-1-page-20/)
+* [Page 20][3]
 
-* [Page 21](https://mcrice123.github.io/morphic/blog/book-1-page-21/)
+* [Page 21][4]
 
-* [Page 22](https://mcrice123.github.io/morphic/blog/book-1-page-22/)
+* [Page 22][5]
 
-* [Page 23](https://mcrice123.github.io/morphic/blog/book-1-page-23/)
+* [Page 23][6]
 
-* [Page 24](https://mcrice123.github.io/morphic/blog/book-1-page-24/)
+* [Page 24][7]
 
-* [Page 30](https://mcrice123.github.io/morphic/blog/book-1-page-30/)
+* [Page 30][8]
 
-* [Page 31](https://mcrice123.github.io/morphic/blog/book-1-page-31/)
+* [Page 31][9]
 
-* [Page 32](https://mcrice123.github.io/morphic/blog/book-1-page-32/)
+* [Page 32][10]
 
-* [Page 67](https://mcrice123.github.io/morphic/blog/book-1-page-67/)
+* [Page 67][11]
 
-* [Page 68](https://mcrice123.github.io/morphic/blog/book-1-page-68/)
+* [Page 68][12]
 
-* [Page 69](https://mcrice123.github.io/morphic/blog/book-1-page-69/)
+* [Page 69][13]
 
-* [Page 70](https://mcrice123.github.io/morphic/blog/book-1-page-70/)
+* [Page 70][14]
 
-* [Page 71](https://mcrice123.github.io/morphic/blog/book-1-page-71/)
+* [Page 71][15]
 
-* [Page 72](https://mcrice123.github.io/morphic/blog/book-1-page-72/)
+* [Page 72][16]
 
-* [Page 74](https://mcrice123.github.io/morphic/blog/book-1-page-74/)
+* [Page 74][17]
 
 And why did I choose these sections, you may ask? **B/c they're short.** 
 For me, finishing pages is hard and I knew it would be even harder if I started out doing **one** big section. 
@@ -82,3 +82,21 @@ Please like/follow the ["Morphic" Facebook page](https://www.facebook.com/Morphi
 I'm looking forward to another great year and _especially_ to sharing the next few pages.
 
 Merry Christmas and Happy Holidays! See you in 2020! 
+
+[1]: /book1/book-1-page-18/
+[2]: /book1/book-1-page-19/
+[3]: /book1/book-1-page-20/
+[4]: /book1/book-1-page-21/
+[5]: /book1/book-1-page-22/
+[6]: /book1/book-1-page-23/
+[7]: /book1/book-1-page-24/
+[8]: /book1/book-1-page-30/
+[9]: /book1/book-1-page-31/
+[10]: /book1/book-1-page-32/
+[11]: /book1/book-1-page-67/
+[12]: /book1/book-1-page-68/
+[13]: /book1/book-1-page-69/
+[14]: /book1/book-1-page-70/
+[15]: /book1/book-1-page-71/
+[16]: /book1/book-1-page-72/
+[17]: /book1/book-1-page-74/

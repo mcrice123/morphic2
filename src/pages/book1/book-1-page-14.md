@@ -65,6 +65,3 @@ keywords: [
 metaimage: "/seo/14_book1.jpg"
 
 ---
-
-Colored and reworked with GIMP. Updated 2/2/19. 
-

@@ -13,11 +13,9 @@ preview: "/book1/preview/page02.jpg"
 
 ---
 
-## Originally posted 8/27/16.
+[See this page's replacement][1]
 
-Colored in GIMP and updated 3/2/19. 
+First posted in 2016.
+Colored in 2019.
 
-Replaced with new page on 5/8/20. 
-[See the new page.](https://mcrice123.github.io/morphic/blog/book-1-page-02/)
-
-**Moved from Book 1 to Misc on 5/8/20.**
+[1]: /book1/book-1-page-02/

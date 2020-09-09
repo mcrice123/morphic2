@@ -33,9 +33,9 @@ Even with Chan's hair I struggled quite a bit to get it right.
 
 Check out the newly colored pages of Book 1!
 
-* [Book 1, Page 11](https://mcrice123.github.io/morphic/blog/book-1-page-11/)
+* [Book 1, Page 11][1]
 
-* [Book 1, Page 69](https://mcrice123.github.io/morphic/blog/book-1-page-69/)
+* [Book 1, Page 69][2]
 
 You'd probably like to know more about how I produce these
 pages. I'm hoping to make a behind-the-scenes post about it
@@ -47,3 +47,6 @@ early to hype it up**.
 ### Thanks for reading!
 
 And come back next week for more Lane! Have a great weekend!
+
+[1]: /book1/book-1-page-11/
+[2]: /book1/book-1-page-69/

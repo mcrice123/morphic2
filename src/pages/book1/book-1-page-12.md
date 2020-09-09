@@ -62,7 +62,3 @@ keywords: [
 ]
 
 ---
-
-Colored in GIMP ~~and updated 7/21/18.~~
-
-Updated 5/8/20.

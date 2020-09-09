@@ -28,7 +28,7 @@ update.
 
 ### Another colored page in Book 1
 
-Check out [page 27](https://mcrice123.github.io/morphic/blog/book-1-page-27/)
+Check out [page 27][1]
 ! It's fun to see how the glowing vines turn out. **And
 nothing makes my day like painting grass. LOOK AT THE
 BEAUTIFUL GRASS!**
@@ -39,3 +39,5 @@ Come back next week to find out **WHAT THE HEY** is going on
 in Lane's house!
 
 Have a great weekend!
+
+[1]: /book1/book-1-page-27/

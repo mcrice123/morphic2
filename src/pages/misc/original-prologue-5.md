@@ -13,10 +13,5 @@ preview: "/book1/preview/page05.jpg"
 
 ---
 
-## Originally posted 9/3/16.
-
-Colored and reworked in GIMP. Updated 6/15/18.
-
-Updated again 2/2/19. Shifted color balance and color of lighting.
-
-**Moved from Book 1 to Misc on 5/8/20.**
+First posted in 2016.
+Colored in 2019.

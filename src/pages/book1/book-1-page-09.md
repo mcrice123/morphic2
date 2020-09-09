@@ -50,4 +50,3 @@ keywords: [
 
 ---
 
-Colored in GIMP and updated 5/8/20.

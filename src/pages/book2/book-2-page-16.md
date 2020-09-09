@@ -22,8 +22,10 @@ to see the start of the next scene. _We'll get to see what
 
 ### Page 9 of Book 1 is now in color!
 
-[Check it out here!](https://mcrice123.github.io/morphic/blog/book-1-page-09/)
+[Check it out here!][1]
 
 ### Thanks for reading!
 
 And have a great weekend!
+
+[1]: /book1/book-1-page-09/

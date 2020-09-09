@@ -13,6 +13,4 @@ preview: "/book1/preview/page31_2.jpg"
 
 ---
 
-Updated 11/30/19
 
-Updated 2/29/20, with sound effects added. 

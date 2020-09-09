@@ -42,6 +42,3 @@ keywords: [
     "glow"
 ]
 ---
-
-Updated 11/30/19
-

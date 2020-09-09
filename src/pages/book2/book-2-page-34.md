@@ -19,9 +19,7 @@ _Translator:_ "Pass the ketchup, please."
 
 _Translator:_ Uh, wait...
 
-![Jim Kirk GIF](blog/book2/jim-kirk-translator.gif)
-
-![Jim Kirk](../jim-kirk-translator.gif)
+![Jim Kirk](/embed/jim-kirk-translator.gif)
 
 # Hope you like this pouncing cat!
 

@@ -20,17 +20,17 @@ Now Errie and Chan think that Wolf needs to take some lessons on etiquette, beca
 As promised, I have uploaded the newest wave of pages for Book 1! 
 Check them out below!
 
-* [Page 1](https://mcrice123.github.io/morphic/blog/book-1-page-01/)
+* [Page 1][1]
 
-* [Page 2](https://mcrice123.github.io/morphic/blog/book-1-page-02/)
+* [Page 2][2]
 
-* [Page 9](https://mcrice123.github.io/morphic/blog/book-1-page-09/)
+* [Page 9][3]
 
-* [Page 10](https://mcrice123.github.io/morphic/blog/book-1-page-10/)
+* [Page 10][4]
 
-* [Page 11](https://mcrice123.github.io/morphic/blog/book-1-page-11/)
+* [Page 11][5]
 
-* [Page 12](https://mcrice123.github.io/morphic/blog/book-1-page-12/)
+* [Page 12][6]
 
 ### Goodbye Prologue
 
@@ -39,21 +39,21 @@ I decided to remove them because I didn't want to redo them and I felt that the 
 **However, I added them as miscellaneous pages with new titles so that people can still see them.** 
 Here are where you can find them now (including the original pages for 1 and 2): 
 
-* [Page 1 (Original Lineart)](https://mcrice123.github.io/morphic/blog/book-1-page-01-old)
+* [Page 1 (Original Lineart)][7]
 
-* [Page 2 (Previous Version)](https://mcrice123.github.io/morphic/blog/book-1-page-02-old)
+* [Page 2 (Previous Version)][8]
 
-* [Page 3](https://mcrice123.github.io/morphic/blog/book-1-page-03)
+* [Page 3][9]
 
-* [Page 4](https://mcrice123.github.io/morphic/blog/book-1-page-04)
+* [Page 4][10]
 
-* [Page 5](https://mcrice123.github.io/morphic/blog/book-1-page-05)
+* [Page 5][11]
 
-* [Page 6](https://mcrice123.github.io/morphic/blog/book-1-page-06)
+* [Page 6][12]
 
-* [Page 7](https://mcrice123.github.io/morphic/blog/book-1-page-07)
+* [Page 7][13]
 
-* [Page 8](https://mcrice123.github.io/morphic/blog/book-1-page-08)
+* [Page 8][14]
 
 And now there's only 68 pages in Book 1, instead of 72!
 
@@ -63,3 +63,18 @@ Stay safe and stay healthy as best you can!
 I'll be back in two weeks with the next page...**which will be the last page I'll post before I go on break for the month of June.**
 
 Have a great weekend!
+
+[1]: /book1/book-1-page-01/
+[2]: /book1/book-1-page-02/
+[3]: /book1/book-1-page-09/
+[4]: /book1/book-1-page-10/
+[5]: /book1/book-1-page-11/
+[6]: /book1/book-1-page-12/
+[7]: /misc/original-prologue-1/
+[8]: /misc/original-prologue-2/
+[9]: /misc/original-prologue-3/
+[10]: /misc/original-prologue-4/
+[11]: /misc/original-prologue-5/
+[12]: /misc/original-prologue-6/
+[13]: /misc/original-prologue-7/
+[14]: /misc/original-prologue-8/

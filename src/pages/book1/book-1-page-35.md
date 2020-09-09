@@ -12,5 +12,3 @@ categories: ["book1"]
 preview: "/book1/preview/page35.jpg"
 
 ---
-
-Colored in GIMP and uploaded on 3/30/19.

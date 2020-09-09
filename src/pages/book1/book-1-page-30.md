@@ -12,4 +12,3 @@ featured: ""
 preview: "/book1/preview/page30_2.jpg"
 ---
 
-Colored in GIMP and updated ~~3/8/19~~ 11/30/19. 

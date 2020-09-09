@@ -13,4 +13,3 @@ preview: "/book1/preview/page23_2.jpg"
 
 ---
 
-Colored and reworked with GIMP and uploaded on ~~1/11/18~~ 11/30/19. 

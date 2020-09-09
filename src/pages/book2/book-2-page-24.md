@@ -27,14 +27,6 @@ pages in August, hurrying to get them done by the end of the
 month, then posting them on the first weekend of September.
 So I consider Sept 1st to be the birthday of "Morphic".
 
-In celebration, I created extra posts that I'll upload
-alongside the regular page updates. These posts describe
-my drawing process in **4 stages**. Today's post covers
-stage 1, next week's post will cover stage 2, etc.
-
-Want to read the first post for "How I Draw"? Follow the
-link [here](https://mcrice123.github.io/morphic/blog/how-i-draw-part-1/).
-
 ### In other news
 
 1. There's no new colored Book 1 page this week. I'm

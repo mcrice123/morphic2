@@ -13,8 +13,5 @@ preview: "/book1/preview/page06.jpg"
 
 ---
 
-## Originally posted 9/10/16.
-
-Colored in GIMP and updated on 1/25/19.
-
-**Moved from Book 1 to Misc on 5/8/20.**
+First posted in 2016.
+Colored in 2019.

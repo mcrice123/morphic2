@@ -13,5 +13,3 @@ preview: "/book1/preview/page20.jpg"
 
 ---
 
-Updated 11/30/19
-

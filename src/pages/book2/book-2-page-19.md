@@ -17,7 +17,7 @@ investigation dramas, but making one is pretty fun.
 
 # Another Colored Page
 
-Check out [page 16](https://mcrice123.github.io/morphic/blog/book-1-page-16/) of Book 1!
+Check out [page 16][1] of Book 1!
 
 If you're wondering how I'm choosing which pages to work on,
 basically I'm starting out with the pages that need the most
@@ -44,3 +44,5 @@ pages. I dreamed for a long time to see them in color.**
 
 Come back next week to see the end of the police follow-up!
 _Hint, hint---expect a surprise!_
+
+[1]: /book1/book-1-page-16/

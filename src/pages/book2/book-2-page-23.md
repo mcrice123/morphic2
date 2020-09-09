@@ -19,7 +19,7 @@ I expect to have those done by the end of next week.
 
 #  Colored Page 15 is up!
 
-Check out [page 15 of Book 1](https://mcrice123.github.io/morphic/blog/book-1-page-15/) to see
+Check out [page 15 of Book 1][1] to see
 the new changes!
 
 Also, I'm _hoping_ this is a local server issue when I
@@ -64,3 +64,5 @@ Come back next week to see who's talking in that last panel!
 Also, I'll be posting an extra something, celebrating
 **2 years** since I first started drawing "Morphic"! Stay
 tuned and have a great weekend!
+
+[1]: /book1/book-1-page-15/

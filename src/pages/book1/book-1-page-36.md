@@ -12,5 +12,3 @@ type: "post"
 preview: "/book1/preview/page36.jpg"
 
 ---
-
-Colored in GIMP and uploaded on 4/6/19.

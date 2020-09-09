@@ -21,9 +21,9 @@ In addition, I finished page 34 this morning, _so it's ready to be uploaded next
 
 **This calls for a victory dance!**
 
-![Jimmy Fallon](../jimmy_fallon_dance.gif)
+![Jimmy Fallon](/embed/jimmy_fallon_dance.gif)
 
-And here's a quick link to [page 32](https://mcrice123.github.io/morphic/blog/book2/book-2-page-32/) if you need a refresher on what the previous page looks like. 
+And here's a quick link to [page 32][1] if you need a refresher on what the previous page looks like. 
 
 ### So what took me so long?
 
@@ -61,3 +61,5 @@ I look forward to sharing the next page with you next week!
 **Have a great weekend!**
 
  _Happy Memorial Day!_
+
+ [1]: /book2/book-2-page-32/

@@ -13,8 +13,3 @@ preview: "/book1/preview/page27_2.jpg"
 
 ---
 
-Colored in GIMP and updated 8/3/18.
-
-Re-uploaded with new text for sound effects 1/19/19.
-
-Updated 2/29/20.

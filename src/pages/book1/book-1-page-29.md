@@ -13,6 +13,3 @@ preview: "/book1/preview/page29_2.jpg"
 
 ---
 
-Colored with GIMP. Updated 2/16/19. 
-
-Updated 2/29/20.

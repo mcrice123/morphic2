@@ -13,7 +13,8 @@ preview: "/book1/preview/preview1.jpg"
 
 ---
 
-Colored with GIMP and replaced original page on 6/23/2018.
-[See original page.](https://mcrice123.github.io/morphic/blog/book-1-page-01-old/)
+[See this page's replacement][1]
 
-Updated 5/9/20.
+First posted in 2016.
+
+[1]: /book1/book-1-page-01/

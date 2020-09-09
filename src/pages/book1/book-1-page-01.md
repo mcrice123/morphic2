@@ -39,7 +39,15 @@ keywords: [
 
 ---
 
-Colored with GIMP and replaced original page on 6/23/2018.
-[See original page.](https://cocky-goldwasser-cbfcf1.netlify.app/misc/original-prologue-1/)
+# Welcome!
 
-Updated 5/9/20.
+For anyone who's curious about the _original_ first page of the webcomic...
+Prepare to avert your eyes.
+
+[Original page (2016)][1]
+
+It's also stored in a small section of pages following Book 1, so if you keep clicking the 'Next' button, you'll eventually run into it!
+
+Enjoy.
+
+[1]: /misc/original-prologue-1/

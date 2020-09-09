@@ -12,7 +12,3 @@ type: "post"
 preview: "/book1/preview/page28_2.jpg"
 
 ---
-
-Colored and reworked with GIMP. Updated 1/19/19.
-
-Updated 2/29/20.

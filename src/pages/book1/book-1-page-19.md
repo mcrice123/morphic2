@@ -12,5 +12,3 @@ type: "post"
 preview: "/book1/preview/page19.jpg"
 
 ---
-
-Updated 11/30/19

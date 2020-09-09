@@ -53,9 +53,5 @@ keywords: [
 
 ---
 
-Colored in GIMP ~~and updated 7/13/18.~~ 
-
-Updated 5/8/20.
-
 _Errie... a true rebel. Exhibit A._
 
