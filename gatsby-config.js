@@ -41,7 +41,6 @@ module.exports = {
   pathPrefix: `/static`, // Build with `gatsby build --prefix-paths`
   plugins: [
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-netlify-cms',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
