@@ -22,12 +22,9 @@ Remember what I usually do when we see a Morphic transform for the first time in
 
 Without further ado...
 
-WHAT DOES THE FOX SAY
-
 `video: https://www.youtube.com/embed/jofNR_WkoCE`
 
-
-
+WHAT DOES THE FOX SAY
 
 ### Thanks for reading!
 
