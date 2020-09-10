@@ -6,7 +6,7 @@ import { StaticQuery, graphql, Link } from "gatsby";
 import FacebookLogo from '../assets/facebook.svg';
 import InstagramLogo from '../assets/instagram.svg'
 import GithubLogo from '../assets/github.svg';
-import RSSLogo from '../assets/rss.svg';
+//import RSSLogo from '../assets/rss.svg';
 
 // Styles
 require('./styles/post-navigation.scss');
@@ -58,17 +58,14 @@ export default () => {
                                 Social Media:
                             </div>
                             <div className={"media-links"}>
-                                <a href="https://www.facebook.com/MorphicGraphicNovel/" target="_blank" aria-label="Link to Facebook page">
+                                <a href="https://www.facebook.com/MorphicGraphicNovel/" target="_blank" aria-label="Link to Facebook page" rel="noreferrer">
                                     <FacebookLogo className={"icon"} />
                                 </a>
-                                <a href="https://www.instagram.com/mariacatrice222/" target="_blank" aria-label="Link to Instagram">
+                                <a href="https://www.instagram.com/mariacatrice222/" target="_blank" aria-label="Link to Instagram" rel="noreferrer">
                                     <InstagramLogo className={"icon"} />
                                 </a>
-                                <a href="https://github.com/mcrice123/morphic2" target="_blank" aria-label="Link to Github project">
+                                <a href="https://github.com/mcrice123/morphic2" target="_blank" aria-label="Link to Github project" rel="noreferrer">
                                     <GithubLogo className={"icon"} />
-                                </a>
-                                <a href="" target="_blank" aria-label="Link to follow via RSS feed">
-                                    <RSSLogo className={"icon"} />
                                 </a>
                             </div>
                         </div>

@@ -43,7 +43,7 @@ const IndexPage = () => {
             date: edges[lastIndex].node.frontmatter.date,
         };
         let fiveLast = edges.map((item, index) => {
-          if (index < 6 && index != lastIndex) {
+          if (index < 6 && index !== lastIndex) {
             return (
               <PostLink 
                 key={item.node.frontmatter.title} 
@@ -54,7 +54,7 @@ const IndexPage = () => {
               />
             );
           }
-          else return;
+          else return null;
         });
         return (
           <div id="home">
@@ -63,7 +63,7 @@ const IndexPage = () => {
                 <h1>You can read <em>Morphic</em> for free!</h1>
                 <p><Link to={first.slug}>Click here to read the webcomic from the beginning</Link> or check out the latest posts below!</p>
                 <h2>Interested in the printed version?</h2>
-                <p><a href={"http://eepurl.com/g8TzPb"} target="_blank">Subscribe to my mailing list</a> to get all updates on <em>Morphic</em>'s future crowdfund campaign!</p>
+                <p><a href={"http://eepurl.com/g8TzPb"} target="_blank" rel="noreferrer">Subscribe to my mailing list</a> to get all updates on <em>Morphic</em>'s future crowdfund campaign!</p>
                 <div className="two-col">
                   <div className="col">
                     <a id="preview-last" href={last.slug}>

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby'
 
 import Layout from '../components/layout';
 
@@ -46,21 +45,21 @@ const About = () => {
                     </p>
 
                     <p>
-                        I draw the pages with black fineliner ink pen and use <a href="https://www.gimp.org/" target="_blank">GIMP</a> to add speech bubbles and cell shading.
+                        I draw the pages with black fineliner ink pen and use <a href="https://www.gimp.org/" target="_blank" rel="noreferrer">GIMP</a> to add speech bubbles and cell shading.
                     </p>
 
                     <h2>Author</h2>
 
                     <p>
-                        My name is Maria Rice and I develop websites for a living. In my spare time, I like to read comics and graphic novels. <strong>I am a self-taught artist, with years of experience drawing in traditional ink and <a href="https://www.gimp.org/" target="_blank">GIMP</a>.</strong> 
+                        My name is Maria Rice and I develop websites for a living. In my spare time, I like to read comics and graphic novels. <strong>I am a self-taught artist, with years of experience drawing in traditional ink and <a href="https://www.gimp.org/" target="_blank" rel="noreferrer">GIMP</a>.</strong> 
                     </p>
 
                     <p>
-                        <a href="http://eepurl.com/g8TzPb" target="_blank">Subscribe to my mailing list</a> to recieve notifications about the future <em>Morphic</em> Kickstarter!
+                        <a href="http://eepurl.com/g8TzPb" target="_blank" rel="noreferrer">Subscribe to my mailing list</a> to recieve notifications about the future <em>Morphic</em> Kickstarter!
                     </p>
 
                     <p>
-                        You can also <a href="https://www.facebook.com/MorphicGraphicNovel/" target="_blank">like and follow "Morphic" on Facebook!</a>
+                        You can also <a href="https://www.facebook.com/MorphicGraphicNovel/" target="_blank" rel="noreferrer">like and follow "Morphic" on Facebook!</a>
                     </p>
 
                     <hr/>

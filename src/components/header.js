@@ -18,7 +18,7 @@ require('./styles/header.scss');
 class Header extends Component {
 
     render() {
-        const siteTitle = this.props.siteTitle;
+       // const siteTitle = this.props.siteTitle;
         const navLinks = this.props.navLinks;
         return (
             <div id={"header"}>

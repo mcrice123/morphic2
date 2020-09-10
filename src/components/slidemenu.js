@@ -17,7 +17,7 @@ export default ({ navLinks, isOpen }) => (
                 })
             }
             <li key="subscribe">
-                <a href={"http://eepurl.com/g8TzPb"} target="_blank">
+                <a href={"http://eepurl.com/g8TzPb"} target="_blank" rel="noreferrer">
                     Subscribe
                 </a>
             </li>

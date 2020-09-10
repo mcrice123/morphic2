@@ -14,13 +14,14 @@ export default ({ items }) => {
         {
             items.map(item => {
                 return (
-                    <div
+                    <button
                         className={`highlight-btn tab${item.selected ? " selected" : ""}`}
                         key={item.value}
                         onClick={() => item.onClick(item.value)}
+                        onKeyDown={() => item.onClick(item.value)}
                     >
                         {item.label}
-                    </div>
+                    </button>
                 );
             })
         }

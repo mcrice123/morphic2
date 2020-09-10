@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import {StaticQuery, graphql, Link } from "gatsby";
+import {StaticQuery, graphql } from "gatsby";
 
 import Layout from '../components/layout';
 import PostLink from '../components/post-link';
 import TabList from '../components/tablist';
-import Preview from '../components/preview-image';
 require('../components/styles/chapters.scss');
 require('../components/styles/preview-img.scss');
 
@@ -42,9 +41,6 @@ export default class Archive extends Component {
 
     firstHalf(map) {
       const mapLength = map.length;
-      /*if (mapLength < 1) {
-        return <em>Sorry, no posts here yet!</em>;
-      }*/
       return map.map((edge, index) => {
         const { title, date, preview } = edge.node.frontmatter;
         const { slug } = edge.node.fields;
@@ -59,6 +55,7 @@ export default class Archive extends Component {
             />
           );
         }
+        else return null;
       })
     }
 
@@ -78,6 +75,7 @@ export default class Archive extends Component {
             />
           );
         }
+        else return null;
       })
     }
 

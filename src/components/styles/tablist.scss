@@ -1,9 +1,16 @@
 $primary: #2b1f5a;
 
+button {
+  border: none;
+
+  &:active, &:focus {
+    outline: none;
+  }
+}
+
 .tab-list {
   .tab-item {
     display: inline-block;
-    //padding: 20px 10px;
     cursor: pointer;
     color: $primary;
 
