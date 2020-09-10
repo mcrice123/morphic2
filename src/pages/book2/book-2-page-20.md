@@ -1,5 +1,5 @@
 ---
-featuredpath: "/book2/main/page20.jpg"
+featuredpath: "/book2/main/page20_2.jpg"
 featured: ""
 preview: "/book2/preview/page20.jpg"
 title: "Book 2, Page 20"

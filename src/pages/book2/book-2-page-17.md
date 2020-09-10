@@ -6,7 +6,7 @@ categories: ["book2"]
 linktitle: ""
 featured: ""
 description2: []
-featuredpath: "/book2/main/page17.jpg"
+featuredpath: "/book2/main/page17_2.jpg"
 date: "2018-07-13T18:09:14-05:00"
 featuredalt: ""
 author: "Maria Rice"
