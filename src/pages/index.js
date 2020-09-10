@@ -66,8 +66,7 @@ const IndexPage = () => {
                 <p><a href={"http://eepurl.com/g8TzPb"} target="_blank" rel="noreferrer">Subscribe to my mailing list</a> to get all updates on <em>Morphic</em>'s future crowdfund campaign!</p>
                 <div className="two-col">
                   <div className="col">
-                    <a id="preview-last" href={last.slug}>
-                      <img src={last.preview} alt={last.title}></img>
+                    <a id="preview-last" href={last.slug} style={{ backgroundImage: 'url(' + last.preview + ')' }}>
                       <div>
                         <h1>Latest Post&nbsp;&raquo;</h1>
                         <strong>{last.title}</strong>
