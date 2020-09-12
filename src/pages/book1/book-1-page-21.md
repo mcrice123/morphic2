@@ -17,7 +17,7 @@ description2: [
     "4. [A girl glowing the same light purple color suddenly appears at Errie",
     "'",
     "s left.]\n",
-    "   Nascha: [crying] HELP!\n",
+    "   Nascha (purple speech bubble): [crying] HELP!\n",
     "   Errie: [turns in alarm] WHA--?!",
 ]
 date: "2017-01-08T16:21:01-06:00"

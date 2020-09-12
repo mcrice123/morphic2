@@ -60,6 +60,12 @@ hr {
     }
   }
 
+  li {
+    strong {
+      font-family: $boldopensans;
+    }
+  }
+
   a:not(.post-link) {
     color: $highlight;
     text-decoration: none;

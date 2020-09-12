@@ -29,7 +29,7 @@ author: "Maria Rice"
 featured: ""
 date: "2016-10-08"
 title: "Book 1, Page 10"
-featuredpath: "/book1/main/page10_2.jpg"
+featuredpath: "/book1/main/page10_3.jpg"
 preview: "/book1/preview/page10_2.jpg"
 keywords: [
     "Errie", 
@@ -61,4 +61,6 @@ keywords: [
     "book",
     "shuts",
 ]
+metaimage: "/seo/10_book1.jpg"
+
 ---

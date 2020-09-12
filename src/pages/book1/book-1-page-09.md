@@ -2,7 +2,7 @@
 type: "post"
 date: "2016-10-01"
 title: "Book 1, Page 9"
-featuredpath: "/book1/main/page09_2.jpg"
+featuredpath: "/book1/main/page09_3.jpg"
 featured: ""
 description2: [
     "1. Teacher: ERICA BRIGHT.\n",
@@ -47,6 +47,7 @@ keywords: [
     "McDaniels",
     "wake"
 ]
+metaimage: "/seo/9_book1.jpg"
 
 ---
 
