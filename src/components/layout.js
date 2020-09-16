@@ -48,7 +48,7 @@ class Layout extends Component {
                                     navLinks
                                     categories
                                     siteUrl
-                                    description
+                                    description2
                                     keywords
                                     author
                                 }
@@ -59,7 +59,7 @@ class Layout extends Component {
                         data => {
                             const navLinks = data.site.siteMetadata.navLinks;
                             const title = this.props.title ? this.props.title + ' | ' + data.site.siteMetadata.title : data.site.siteMetadata.title;
-                            const description = this.props.description && this.props.description.length ? this.props.description.join('') : data.site.siteMetadata.description.join('');
+                            const description = this.props.description2 && this.props.description2.length ? this.props.description2.join('') : data.site.siteMetadata.description2.join('');
                             const keywords = data.site.siteMetadata.keywords.join(',') + ',' + this.props.keywords.join(',');
                             const siteUrl = data.site.siteMetadata.siteUrl;
                             const author = data.site.siteMetadata.author;
@@ -167,7 +167,7 @@ Layout.defaultProps = {
     lang: `en`,
     title: '',
     meta: [],
-    description: [],
+    description2: [],
     keywords: [],
     author: '',
     slug: '',
@@ -175,7 +175,7 @@ Layout.defaultProps = {
 
 Layout.propTypes = {
     children: PropTypes.node.isRequired,
-    description: PropTypes.arrayOf(PropTypes.string),
+    description2: PropTypes.arrayOf(PropTypes.string),
     lang: PropTypes.string,
     meta: PropTypes.arrayOf(PropTypes.object),
     title: PropTypes.string.isRequired,

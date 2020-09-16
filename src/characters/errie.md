@@ -1,18 +1,11 @@
 ---
-name: "Erica ('Errie') Bright"
-age: "18"
-hair: "red"
-eyes: "grey"
-glow: ""
-species: "human"
-subcategories: []
-rank: 0
-abilities: []
+name: "Errie"
 date: "2018-02-19T13:37:47-06:00"
-firstpath: "/characters/errie.jpg"
-secpath: ""
+image: "/characters/B1-Errie(test).png"
 type: "characters"
+categories: ["book1"]
+color: "#a22a4a"
+whiteText: "true"
 
 ---
 
-While Errie waits to attend a local festival, an unnamed girl seeks her help in the woods and there Errie meets a Rogue Morphic.

@@ -21,7 +21,7 @@ module.exports = {
       'Valerie', 
       'costume'
     ],
-    description: [
+    description2: [
       "A plea for help from a mysterious girl sidetracks Errie Bright and Lane Valerie on their way to a local festival. Although they expect to see people dressed up as animals for the event, the girls soon realize that the people they meet in the woods that day are not in costume...",
     ],
     navLinks: [

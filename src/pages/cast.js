@@ -1,9 +1,40 @@
 import React, { Component } from 'react';
 import {StaticQuery, graphql } from "gatsby";
-
+import Slider from "react-slick";
 import Layout from '../components/layout';
-import CharacterBio from '../components/character-bio';
+import TabList from '../components/tablist';
+
+require("slick-carousel/slick/slick.css");
+require("slick-carousel/slick/slick-theme.css");
+require('../components/styles/character-bio.scss');
+
 export default class Characters extends Component {
+
+  constructor() {
+    super();
+
+    this.state = {
+        tabIndex: 0,
+        tabItems: [],
+    };
+    this.generateTabItems = this.generateTabItems.bind(this);
+  }
+
+  generateTabItems(categories) {
+    var items = categories.map((cat, index) => {
+        return {
+            value: cat.toLowerCase().replace(/\s+/g, ""),
+            label: cat,
+            onClick: () => this.changeTabs(index),
+            selected: this.state.tabIndex === index,
+        };
+    });
+    return items;
+}
+
+changeTabs(index) {
+  this.setState({ tabIndex: index });
+}
 
     renderList() {
         return (
@@ -20,16 +51,10 @@ export default class Characters extends Component {
                           frontmatter {
                             type
                        			name
-                            age
-                            hair
-                            eyes
-                            glow
-                            rank
-                            subcategories
-                            species
-                            abilities
-                            firstpath
-                            secpath
+                            image
+                            categories
+                            color
+                            whiteText
                       		}
                       		fields {
                         		slug
@@ -39,23 +64,77 @@ export default class Characters extends Component {
                     }
                   }
             `}
-                render={data =>
-                    <div id={"characters"}>
-                        <ul style={{ listStyle: "none"}}>
-                          {
-                            data.allMarkdownRemark.edges
-                            .map(edge => {
-                              const { slug } = edge.node.fields;
-                              return (
-                                <li key={slug}>
-                                    <CharacterBio bio={edge}/>
-                                </li>
-                              );
-                            })
-                          }
-                        </ul>
-                      </div>
+              render={
+                data => {
+                  const slides = data.allMarkdownRemark.edges.map(
+                    (item) => {
+                      return {
+                        name: item.node.frontmatter.name,
+                        image: item.node.frontmatter.image,
+                        categories: item.node.frontmatter.categories,
+                        color: item.node.frontmatter.color,
+                        whiteText: item.node.frontmatter.whiteText,
+                        slug: item.node.fields.slug
+                      };
+                    }
+                  );
+                  const settings = {
+                    dots: false,
+                    infinite: true,
+                    speed: 500,
+                    arrows: true,
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    responsive: [
+                      {
+                        breakpoint: 1024,
+                        settings: {
+                          slidesToShow: 2,
+                          dots: false,
+                          infinite: true,
+                          speed: 500,
+                          arrows: true,
+                          slidesToScroll: 1,
+                        }
+                      },
+                      {
+                        breakpoint: 750,
+                        settings: {
+                          slidesToShow: 1,
+                          dots: false,
+                          infinite: true,
+                          speed: 500,
+                          arrows: true,
+                          slidesToScroll: 1,
+                        }
+                      },
+                    ]
+                  }
+                  return ( 
+                    <div id={"cast"}>
+                      <Slider {...settings}>
+                        {slides.map(slide => {
+                          return (
+                            <div className="slide" key={slide.slug}>
+                              <div className="bottom" style={{backgroundColor: slide.color}}></div>
+                              <div className="top">
+                                <img src={slide.image} alt={slide.name} />
+                                {
+                                  slide.whiteText
+                                  ?
+                                  <h1 style={{color: "#fff"}}>{slide.name}</h1>
+                                  :
+                                  <h1>{slide.name}</h1>
+                                }
+                              </div>
+                            </div>
+                          );
+                        })}
+                      </Slider>
+                    </div>
+                  );
                 }
+              }
             />
         );
     }
@@ -74,9 +153,10 @@ export default class Characters extends Component {
             "slideshow",
           ]}
         >
-          <div class="post-body">
+          <div className="post-body">
             <h1>Characters</h1>
-            <p>Work in progress... <em>Check back later for more updates!</em></p>
+            <TabList items={this.generateTabItems(['Book 1','Book 2','Book 3'])} />
+            {this.renderList()}
           </div>
         </Layout>
     );

@@ -15,7 +15,7 @@ export default ({data}) => {
   return (
     <Layout 
       title={title}
-      description={description2}
+      description2={description2}
       keywords={keywords}
       author={author}
       image={metaimage}
