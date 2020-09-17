@@ -1,9 +1,9 @@
 ---
 name: "Errie"
 date: "2020-09-01"
-image: "/characters/B1-Errie(test).png"
+image: "/characters/B2-Errie(test).png"
 type: "characters"
-categories: ["book1"]
+categories: ["book2"]
 color: "#a22a4a"
 
 ---
