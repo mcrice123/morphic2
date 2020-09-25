@@ -1,6 +1,6 @@
 ---
 type: "post"
-featuredpath: "/book1/main/page20.jpg"
+featuredpath: "/book1/main/page20_2.jpg"
 date: "2017-01-08T16:19:29-06:00"
 categories: ["book1"]
 author: "Maria Rice"
@@ -32,6 +32,7 @@ keywords: [
     "pearl",
     "marble",
 ]
+metaimage: "/seo/20_book1.jpg"
 
 ---
 

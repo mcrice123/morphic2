@@ -1,7 +1,6 @@
 ---
-featured: ""
 date: "2016-12-31"
-featuredpath: "/book1/main/page19.jpg"
+featuredpath: "/book1/main/page19_2.jpg"
 title: "Book 1, Page 19"
 description2: [
     "1. Lane: HEY!\n",
@@ -35,9 +34,7 @@ description2: [
     "'",
     "ll wait out here.\n",
 ]
-featuredalt: "Page19"
 categories: ["book1"]
-linktitle: ""
 author: "Maria Rice"
 type: "post"
 preview: "/book1/preview/page19.jpg"
@@ -75,5 +72,6 @@ keywords: [
     "wait",
     "outside",
 ]
+metaimage: "/seo/19_book1.jpg"
 
 ---
