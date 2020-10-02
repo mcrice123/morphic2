@@ -1,14 +1,81 @@
 ---
 type: "post"
 title: "Book 1, Page 40"
-featuredalt: "Page40"
 categories: ["book1"]
-featured: ""
-description2: []
+description2: [
+    "1. [Lane holds phone up to her ear.]\n",
+    "   Sheriff: [ringing] Sheriff speaking.\n",
+    "   Lane: Hey Sheriff! This is Lane. Remember me?\n",
+    "   Sheriff: You one of Errie",
+    "'",
+    "s friends?\n",
+    "   Lane: Yeah! We",
+    "'",
+    "re in the woods and this shady guy is here! Could you come and check him out?\n", 
+    "2. [Camera switches to Sheriff Charles A. Rudigor",
+    "'",
+    "s office, where he sits at his desk as he talks on the phone.]\n",
+    "   Sheriff: Is this ol",
+    "'",
+    " McDaniels",
+    "'",
+    " woods?\n",
+    "   Lane: Why, yes!\n",
+    "   Sheriff: Don",
+    "'",
+    "t tell me there",
+    "'",
+    "s a creep with horns!\n",
+    "   Lane: Wha--yes! How did you--?\n",
+    "   Sheriff: This is the UPTEENTH call today... About some guy with vines in his back! You think I",
+    "'",
+    "m going to come out there AGAIN?\n",
+    "3. [Camera switches back to Lane.]\n",
+    "   Sheriff: There",
+    "'",
+    "s NO ONE out there!\n",
+    "   Lane: [surprised] WHAT? NO! Please listen to me--!\n",
+    "4. Sheriff: I",
+    "'",
+    "M CALLING YOUR MOTHER!\n",
+    "   [The astonished Lane hears a click as the sheriff hangs up.]\n",
+]
 date: "2017-05-27"
-linktitle: ""
 author: "Maria Rice"
 featuredpath: "/book1/main/bw_page40.jpg"
 preview: "/book1/preview/preview40.jpg"
+keywords: [
+    "Lane",
+    "sheriff",
+    "Charles",
+    "Rudigor",
+    "call",
+    "phone",
+    "ring",
+    "remember",
+    "friend",
+    "Errie",
+    "woods",
+    "shady",
+    "guy",
+    "check",
+    "McDaniels",
+    "creep",
+    "horns",
+    "upteenth",
+    "today",
+    "vines",
+    "back",
+    "again",
+    "listen",
+    "mother",
+    "suprised",
+    "astonished",
+    "click",
+    "hang",
+    "up",
+    "desk",
+    "office",
+]
 
 ---
