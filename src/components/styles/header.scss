@@ -482,7 +482,7 @@ li {
   font-size: 24px;
   padding: 10px 20px;
   background-color: #b5aa50;
-  color: #fff !important;
+  color: #000 !important;
   margin-top: 10px;
   margin-bottom: 10px;
   display: inline-block;
@@ -497,11 +497,13 @@ li {
 
     &.selected {
       background-color: #000;
+      color: #fff !important;
     }
   }
 
   &:hover {
-    background-color: #000;
+    background-color: darken($highlight, 20%);
+    color: #fff !important;
   }
 
   @media screen and (max-width: 800px) {
