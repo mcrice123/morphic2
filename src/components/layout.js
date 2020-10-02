@@ -8,6 +8,23 @@ import Favicon from '../images/favicon.png'
 import CurrentYear from './current-year'
 //import BackToTop from './back-to-top'
 
+// Favicons
+import Favicon57x57 from '../images/favicon/apple-icon-57x57.png';
+import Favicon60x60 from '../images/favicon/apple-icon-60x60.png';
+import Favicon72x72 from '../images/favicon/apple-icon-72x72.png';
+import Favicon76x76 from '../images/favicon/apple-icon-76x76.png';
+import Favicon114x114 from '../images/favicon/apple-icon-114x114.png';
+import Favicon120x120 from '../images/favicon/apple-icon-120x120.png';
+import Favicon144x144 from '../images/favicon/apple-icon-144x144.png';
+import Favicon152x152 from '../images/favicon/apple-icon-152x152.png';
+import Favicon180x180 from '../images/favicon/apple-icon-180x180.png';
+import Favicon192x192 from '../images/favicon/android-icon-192x192.png';
+import Favicon32x32 from '../images/favicon/favicon-32x32.png';
+import Favicon96x96 from '../images/favicon/favicon-96x96.png';
+import Favicon16x16 from '../images/favicon/favicon-16x16.png';
+import FaviconManifest from '../images/favicon/manifest.json';
+import TileImage from '../images/favicon/ms-icon-144x144.png';
+
 class Layout extends Component {
     constructor() {
         super();
@@ -74,6 +91,9 @@ class Layout extends Component {
                                                 {name: 'description', content: description},
                                                 {name: 'keywords', content: keywords},
                                                 {name: 'image', content: metaImage},
+                                                {name: "msapplication-TileColor", content: "#ffffff"},
+                                                {name: "msapplication-TileImage", content: `${TileImage}`},
+                                                {name: "theme-color", content: "#ffffff"},
                                                 {
                                                     property: `og:title`,
                                                     content: title,
@@ -126,9 +146,21 @@ class Layout extends Component {
                                             .concat(this.props.meta)
                                         }
                                         link={[
-                                            { rel: "icon", type: "image/png", sizes: "16x16", href: `${Favicon}` },
-                                            { rel: "icon", type: "image/png", sizes: "32x32", href: `${Favicon}` },
                                             { rel: "shortcut icon", type: "image/png", href: `${Favicon}` },
+                                            { rel: "apple-touch-icon", sizes: "57x57", href: `${Favicon57x57}` },
+                                            { rel: "apple-touch-icon", sizes: "60x60", href: `${Favicon60x60}` },
+                                            { rel: "apple-touch-icon", sizes: "72x72", href: `${Favicon72x72}` },
+                                            { rel: "apple-touch-icon", sizes: "76x76", href: `${Favicon76x76}` },
+                                            { rel: "apple-touch-icon", sizes: "114x114", href: `${Favicon114x114}` },
+                                            { rel: "apple-touch-icon", sizes: "120x120", href: `${Favicon120x120}` },
+                                            { rel: "apple-touch-icon", sizes: "144x144", href: `${Favicon144x144}` },
+                                            { rel: "apple-touch-icon", sizes: "152x152", href: `${Favicon152x152}` },
+                                            { rel: "apple-touch-icon", sizes: "180x180", href: `${Favicon180x180}` },
+                                            { rel: "icon", type: "image/png", sizes: "192x192", href: `${Favicon192x192}` },
+                                            { rel: "icon", type: "image/png", sizes: "32x32", href: `${Favicon32x32}` },
+                                            { rel: "icon", type: "image/png", sizes: "96x96", href: `${Favicon96x96}` },
+                                            { rel: "icon", type: "image/png", sizes: "16x16", href: `${Favicon16x16}` },
+                                            { rel: "manifest", href: `${FaviconManifest}` },
                                         ]}
                                     >
                                         <html lang={this.props.lang} />
