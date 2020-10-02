@@ -9,6 +9,10 @@ $gochi: 'Gochi Hand', Arial, Helvetica, sans-serif;
 .slick-list {
     margin: 0 50px;
 
+    .dragging {
+        cursor: grab;
+    }
+
     @media screen and (max-width: 750px) {
         margin: 0 30px;
     }
