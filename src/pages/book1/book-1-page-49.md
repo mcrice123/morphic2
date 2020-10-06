@@ -2,13 +2,81 @@
 date: "2017-07-29"
 type: "post"
 title: "Book 1, Page 49"
-featured: ""
 categories: ["book1"]
 author: "Maria Rice"
-linktitle: ""
 featuredpath: "/book1/main/bw_page49.jpg"
-featuredalt: "Page49"
-description2: []
+description2: [
+    'Black and white page.',
+    "\n\n",
+    'Panel 1.',
+    "\n",
+    'The silhouetted, glowing figure of Canissandro leaps off a hill, still carrying the boy in his arms as the mass of glowing vines continue to pursue them. He hears screams from someone offscreen.',
+    "\n",
+    'The person yells, "AHHH! Get off me!"',
+    "\n\n",
+    'Panel 2.',
+    "\n",
+    'On a branch sits a squirrel with a heart-shaped stone on her chest, who also hears the offscreen cries for help.',
+    "\n",
+    'Another voice cries, "OWW! HELP!"',
+    "\n\n",
+    'Panel 3.',
+    "\n",
+    'A close-up of the dazed boy looking up at his rescuer reveals a look of alarm on Canissandro',
+    "'",
+    's face.',
+    "\n",
+    'Canissandro shouts, with double-outlined speech bubbles and a slight accent, "Sirena!"',
+    "\n\n",
+    'Panel 4.',
+    "\n",
+    'The squirrel, now glowing, leaps into the air with a serious look on her face.',
+    "\n",
+    'Canissandro continues, "Someone',
+    "'",
+    's in trouble--!"',
+    "\n",
+    'Sirena replies with an accent, "I',
+    "'",
+    'm on it!"',
+    "\n\n",
+    'Panel 5.',
+    "\n",
+    'The glowing vines wrap around Errie and Lane, circling their arms. Errie holds back the vines from her neck, but sees that Lane failed to do the same.',
+    "\n",
+    'Errie shouts in alarm, "Oh no--LANE!',
+]
 preview: "/book1/preview/preview49.jpg"
-
+keywords: [
+    "Errie",
+    "Lane",
+    "boy",
+    "striped",
+    "shirt",
+    "Canissandro",
+    "carry",
+    "blond",
+    "ponytail",
+    "green",
+    "glow",
+    "vines",
+    "yellow",
+    "pursue",
+    "run",
+    "scream",
+    "hill",
+    "leap",
+    "squirrel",
+    "Sirena",
+    "heart",
+    "shaped",
+    "branch",
+    "hears",
+    "dazed",
+    "help",
+    "neck",
+    "hold",
+    "back",
+    "fail",
+]
 ---
