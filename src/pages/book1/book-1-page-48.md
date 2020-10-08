@@ -15,7 +15,7 @@ description2: [
     "\n\n",
     'Panel 2.',
     "\n",
-    'A man with a blond ponytail and a fencing sword carries the boy in the striped shirt in his arms as he zooms in a glow away from a mass of glowing, rustling vines pursuing them.',
+    'A man with a blond ponytail, a closely-trimmed beard, and a fencing sword carries the boy in the striped shirt in his arms as he zooms in a glow away from a mass of glowing, rustling vines pursuing them.',
     "\n\n",
     'Panel 3.',
     "\n",
