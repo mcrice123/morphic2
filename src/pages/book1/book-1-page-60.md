@@ -1,15 +1,109 @@
 ---
 date: "2017-10-14"
 type: "post"
-linktitle: ""
 featuredpath: "/book1/main/page60.jpg"
-featured: ""
-description2: []
 categories: ["book1"]
 author: "Maria Rice"
-featuredalt: "Page60"
 title: "Book 1, Page 60"
 preview: "/book1/preview/page60.jpg"
+description2: [
+    'Full color page.',
+    "\n\n",
+
+    'Panel 1.',
+    "\n",
+    'Only the back of the golden retriever',
+    "'",
+    's head is seen in the foreground as the view looks up at the two teenagers. Lane stands on the left, gazing offscreen to her left, while Errie looks down inquisitively at the dog from the right side of the panel.',
+    "\n",
+    'Errie asks, "What was THAT about?"',
+    "\n",
+    'The dog sighs.',
+    "\n\n",
+
+    'Panel 2.',
+    "\n",
+    'Canissandro, the golden retriever, holds his solemn, forward-facing gaze in a closeup of his left side profile.',
+    "\n",
+    'He explains with a slight accent, "We',
+    "'",
+    're not allowed to show ourselves...Let alone talk to you...except in emergency."',
+    "\n\n",
+
+    'Panel 3.',
+    "\n",
+    'A closeup of Errie',
+    "'",
+    's face shows a similarly solemn expression on her face as she listens to the offscreen speaker.',
+    "\n",
+    'The speaker says, "But I DO owe you an explanation. This all happened because I chatted with the guard..."',
+    "\n\n",
+
+    'Panel 4.',
+    "\n",
+    'A closeup of Lane',
+    "'",
+    's face from her right side profile shows her to be calmly listening to the offscreen speaker as well. She appears on the left side of the panel, looking to the right.',
+    "\n",
+    'The speaker continues, "...Right when he could have stopped Capri. Usually, there would be more guards around an open blue door...But one couldn',
+    "'",
+    't come, another didn',
+    "'",
+    't show up..."',
+    "\n\n",
+
+    'Panel 5.',
+    "\n",
+    'Capri, the young man with blonde hair and goat horns, also wearing the same white shirt, brown pants and boots as in previous pages, appears to be falling face down through some unknown blue substance, which looks similar to that which Errie and Lane saw when they leapt through the blue door earlier. The morphic holds out his palms in front of him and he appears distressed.',
+    "\n",
+    'The offscreen speaker continues, saying, "Sirena was there, but she was training someone...She was distracted. Capri managed to sneak into the room. I saw him jump into the door. That',
+    "'",
+    's how he got HERE."',
+]
+keywords: [
+    "Errie",
+    "Lane",
+    "Sirena",
+    "Canissandro",
+    "Capri",
+    "sigh",
+    "blue",
+    "allow",
+    "show",
+    "ourselves",
+    "let",
+    "alone",
+    "talk",
+    "to",
+    "you",
+    "dog",
+    "golden",
+    "retriever",
+    "except",
+    "emergency",
+    "owe",
+    "explanation",
+    "chat",
+    "guard",
+    "stop",
+    "right",
+    "more",
+    "guards",
+    "open",
+    "door",
+    "come",
+    "show",
+    "training",
+    "someone",
+    "distracted",
+    "sneak",
+    "fall",
+    "unknown",
+    "substance",
+    "similar",
+    "jump",
+    "here",
+]
 
 ---
 
