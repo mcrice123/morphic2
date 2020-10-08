@@ -1,28 +1,67 @@
 ---
-featuredalt: "Page1"
-description2: [
-    "1. Teacher: The process of photosynthesis takes energy from the sun...\n",
-    "   [Errie sits at her desk.]\n",
-    "2. Teacher: And stores it to power the cell... [fading] The cell's proteins absorb the sun's energy...\n",
-    "3. Teacher: [fading] And transform it into sugars...\n",
-    "   [Errie takes book from her bag.]\n",
-    "4. Teacher: [unintelligible]\n",
-    "   [Errie opens book.]\n",
-    "5. Teacher: [unintelligible]\n",
-    "   [Errie writes in notebook.]\n",
-    "6. Teacher: [unintelligible]\n",
-    "   [Errie continues writing while looking down at book open on her lap.]\n",
-]
 date: "2016-08-27"
 categories: ["book1"]
 author: "Maria Rice"
 title: "Book 1, Page 1"
 featuredpath: "/book1/main/page01_3.jpg"
-featured: ""
-linktitle: ""
 type: "post"
 preview: "/book1/preview/page01_2.jpg"
 metaimage: "/seo/1_book1.jpg"
+description2: [
+    'Full color page.',
+    "\n\n",
+
+    'Panel 1.',
+    "\n",
+    'Errie stares point blank at the viewer with a penetrating expression. She sits at her wooden desk with her elbows resting on its flat surface and her face leaning slightly against her right palm. The teenager has straight red hair and wears an orange vest over her white shirt.',
+    "\n",
+    'A voice from offscreen speaks, saying, "The process of photosynthesis takes energy from the sun..."',
+    "\n\n",
+
+    'Panel 2.',
+    "\n",
+    'The offscreen voice keeps talking, but in smaller font, "And stores it to power the cell..."',
+    "\n",
+    'The font grows smaller and blurry as the voice continues, saying, "The cell',
+    "'",
+    's proteins absorb the sun',
+    "'",
+    's energy..."',
+    "\n",
+    'As the voice continues to speak from offscreen, three silhouetted figures sit in a line of table-like desks with backpacks at their feet. Unlike the figures to the left and right who lean back in their chairs, the one in the middle leans forward, resting her face on her hand. The middle and right figures have their legs crossed.',    
+    "\n\n",
+
+    'Panel 3.',
+    "\n",
+    'Someone',
+    "'",
+    's left hand reaches down from above and takes out a book with a mint green hardcover from a pink backpack leaning against a wooden desk leg.',
+    "\n",
+    'A voice offscreen speaks, but with small and blurry font, saying, "And transform it into sugars..."',
+    "\n\n",
+
+    'Panel 4.',
+    "\n",
+    'In a view from Errie',
+    "'",
+    's left side, her hands lean the book against the desk as they open it to the middle. Some of her red hair shows up on the small part of the front of her outfit that is visible within the panel.',
+    "\n",
+    'An offscreen voice speaks, but unintelligibly now, with small and excessively blurry font.',
+    "\n\n",
+
+    'Panel 5.',
+    "\n",
+    'The desk is now in view as if the viewer were sitting in the chair. Two hands rest on the surface of the desk, the right one writing on an open notebook with a pen. The pen has a blue cap on its top end and only one paragraph of scribbles appears at the top of the page.',
+    "\n",
+    'An unintelligible offscreen voice continues to speak in small, blurry font.',
+    "\n\n",
+
+    'Panel 6.',
+    "\n",
+    'A zoomed-out left side profile of Errie sitting at her desk shows her writing with the blue-cap pen in the notebook while hiding the open book on her lap under the desk. Her red skirt is now visible.',
+    "\n",
+    'The unintellible offscreen voice keeps talking in the same font.',
+]
 keywords: [
     "Errie", 
     "teacher",
@@ -34,7 +73,20 @@ keywords: [
     "reading", 
     "book", 
     "Ancient",
-    "Creatures"
+    "Creatures",
+    "hands",
+    "arms",
+    "red",
+    "skirt",
+    "orange",
+    "vest",
+    "white",
+    "shirt",
+    "hair",
+    "bored",
+    "expression",
+    "lean",
+    "desk",
 ]
 
 ---
