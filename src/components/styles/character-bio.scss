@@ -9,7 +9,7 @@ $gochi: 'Gochi Hand', Arial, Helvetica, sans-serif;
 .slick-list {
     margin: 0 50px;
 
-    .dragging {
+    &.dragging {
         cursor: grab;
     }
 
