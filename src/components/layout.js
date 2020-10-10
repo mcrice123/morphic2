@@ -160,7 +160,6 @@ class Layout extends Component {
                                             { rel: "icon", type: "image/png", sizes: "32x32", href: `${Favicon32x32}` },
                                             { rel: "icon", type: "image/png", sizes: "96x96", href: `${Favicon96x96}` },
                                             { rel: "icon", type: "image/png", sizes: "16x16", href: `${Favicon16x16}` },
-                                            { rel: "manifest", href: `${FaviconManifest}` },
                                         ]}
                                     >
                                         <html lang={this.props.lang} />
