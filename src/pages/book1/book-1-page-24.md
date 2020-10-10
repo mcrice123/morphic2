@@ -6,6 +6,7 @@ type: "post"
 author: "Maria Rice"
 featuredpath: "/book1/main/page24_2.jpg"
 metaimage: "/seo/24_book1.jpg"
+preview: "/book1/preview/page24.jpg"
 description2: [
     'Full color page.',
     "\n\n",
@@ -47,7 +48,6 @@ description2: [
     "\n",
     'Lane replies, shouting, "We have to see how SERIOUS this is first!"',
 ]
-preview: "/book1/preview/page24.jpg"
 keywords: [
     "Errie", 
     "Lane",

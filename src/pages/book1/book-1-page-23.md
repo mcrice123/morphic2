@@ -5,6 +5,8 @@ author: "Maria Rice"
 type: "post"
 title: "Book 1, Page 23"
 metaimage: "/seo/23_book1.jpg"
+date: "2017-01-21"
+preview: "/book1/preview/page23_2.jpg"
 description2: [
     'Full color page.',
     "\n\n",
@@ -40,8 +42,6 @@ description2: [
     "\n",
     'Errie says out loud, "O-KAYYYY...where did she go?"',
 ]
-date: "2017-01-21"
-preview: "/book1/preview/page23_2.jpg"
 keywords: [
     "Errie", 
     "Nascha",

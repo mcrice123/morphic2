@@ -6,7 +6,7 @@ metaimage: "/seo/22_book1.jpg"
 categories: ["book1"]
 type: "post"
 date: "2017-01-14T16:22:46-06:00"
-preview: "/book1/preview/page22_2.jpg"
+preview: "/book1/preview/page22_3.jpg"
 description2: [
     'Full color page.',
     "\n\n",
@@ -81,7 +81,6 @@ description2: [
     "'",
     't listen to me--!"',
     "\n",
-
 ]
 keywords: [
     "Errie", 
