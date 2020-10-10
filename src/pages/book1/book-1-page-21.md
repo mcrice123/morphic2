@@ -5,6 +5,8 @@ author: "Maria Rice"
 featuredpath: "/book1/main/page21_2.jpg"
 categories: ["book1"]
 metaimage: "/seo/21_book1.jpg"
+date: "2017-01-08T16:21:01-06:00"
+preview: "/book1/preview/page21.jpg"
 description2: [
     'Full color page.',
     "\n\n",
@@ -45,8 +47,6 @@ description2: [
     'The newcomer has white hair, gray wings, brown skin, and a purple shirt. She meekly holds up her clenched fists and though part of her face is cut out of the panel, tears can be seen from behind her bangs. She also glows with the same purple color as the stone.',
     "\n",
 ]
-date: "2017-01-08T16:21:01-06:00"
-preview: "/book1/preview/page21.jpg"
 keywords: [
     "Errie", 
     "bend",
