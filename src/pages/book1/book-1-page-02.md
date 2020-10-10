@@ -1,33 +1,44 @@
 ---
-featuredalt: "Page2"
-description2: [
-    "1. Teacher: [unintelligible]\n",
-    "Errie writes in notebook:\n",
-    " Ancient Creatures\n",
-    " Chapter 1\n",
-    "    1) Three settlers\n",
-    "    2) One native guy\n",
-    "    3) One wolf - (imaginary?)\n",
-    " <Fun little doodle of the above characters (Wolf: 'RAWR')>\n",
-    " * Settlers look for GOLD --> future [crossed out: site] settlement of Ash Root\n",
-    " * Native comes & threatens them to get them to leave\n",
-    "  - 'Spirits of the land' --> excuse\n",
-    "  - Settlers had dreams about animals too\n",
-    "  ==> 'Spirit' animals? (link?)\n",
-    " Suddenly\n",
-    " <Another fun doodle of glowing wolf ('RAWR') pouncing and roaring at settler 1 ('AH!') with the other two settlers ('Is that a wolf?') and the native ('Oh drat...') looking on>\n",
-    " The wolf disappears, they stop fighting...NEVER got in a fight ever again...\n",
-    " But they keep having ANIMAL DREAMS.",
-]
+
 date: "2016-08-27T17:46:29-06:00"
 categories: ["book1"]
 author: "Maria Rice"
 title: "Book 1, Page 2"
 featuredpath: "/book1/main/page02_3.jpg"
-featured: ""
-linktitle: ""
 type: "post"
 preview: "/book1/preview/page02_2.jpg"
+metaimage: "/seo/2_book1.jpg"
+description2: [
+    'Full color page.',
+    "\n\n",
+
+    'Panel 1.',
+    "\n",
+    'An offscreen voice continues the lecture in small blurry font. A close-up view of a wire-bound notebook lying on a wooden surface takes up the entire panel, which also takes up the entire page. Handwriting and doodles in blue ink nearly cover the whole sheet of notebook paper. A hand finishes underlining the words "ANIMAL DREAMS" at the bottom of the page with a pen that writes in the same blue ink.',
+    "\n",
+    'The handwriting reads as follows (with doodles described in square brackets):',
+    "\n\n",
+    '"Ancient Creatures"',
+    "\n",
+    "CHAPTER 1\n",
+    " 1. Three settlers\n",
+    " 2. One native guy\n",
+    " 3. One wolf - (imaginary?)\n",
+    '[To the right is a line-up of stick figures representing the above characters. The settlers wear cowboy hats, the native wears a feather and holds a knife, and the word "RAWR" is scrawled under the wolf.]',
+    "\n",
+    " * Settlers look for GOLD --> future settlement of Ash Root\n",
+    " * Native comes & threatens them to get them to leave\n",
+    '   - "Spirits of the land" --> excuse',
+    "\n",
+    "   - Settlers had dreams about animals too\n",
+    '   ==> "Spirit" animals? (link?)',
+    "\n",
+    "Suddenly\n",
+    '[A looming drawing of a glowing wolf ("RAWR") shows it to pounce and roar at one settler, who raises his arms and screams ("AH!"), causing his hat to fly off. The other two settlers ("Is that a wolf?") and the native ("Oh drat...") all stand to the right.]',
+    "\n",
+    "The wolf disappears, they stop fighting...NEVER got in a fight ever again...\n",
+    "But they keep having ANIMAL DREAMS.",
+]
 keywords: [
     "Errie", 
     "teacher",
@@ -53,7 +64,6 @@ keywords: [
     "chapter",
     "imaginary"
 ]
-metaimage: "/seo/2_book1.jpg"
 
 ---
 
