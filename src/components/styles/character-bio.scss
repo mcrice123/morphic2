@@ -6,8 +6,8 @@ $highlight: #b5aa50;
 $gray: #717070;
 $gochi: 'Gochi Hand', Arial, Helvetica, sans-serif;
 
-.slick-list.dragging {
-    cursor: grab !important;
+.slick-list.dragging, .slick-list.draggable:active:hover {
+    cursor: grabbing;
 }
 
 .slick-list {
