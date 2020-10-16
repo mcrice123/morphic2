@@ -15,7 +15,7 @@ description2: [
     "\n",
     'A word box at the top left reads "15 Minutes Later".',
     "\n",
-    'Lane and Errie stand at the end of a hallway opening out into a wider area. They stand in full-body view on the left side of the panel, near a wall corner jutting out to the right. Along the wall behind the girls is a lit doorway, where green flooring begins, and a concave section in the wall for a water fountain, under which blue flooring can be seen. Other than these two areas, the rest of the floor is white, as is the ceiling. The walls are a light gold color.',
+    'Lane and Errie stand at the end of a hallway opening out into a wider area. They stand in full-body view on the left side of the panel, near a wall corner jutting out to the right. Along the wall behind the girls is a lit doorway, where green flooring begins, and a concave section in the wall for a water fountain, under which blue flooring can be seen. Other than these two areas, the rest of the floor is white, as is the ceiling. The walls are a light mustard color.',
     "\n",
     'A sign that reads "Women" stands out perpendicularly from the wall up high and next to the doorway with green flooring. Two posters hang on the wall: a pink one between the doorway and the concave section of wall, which reads "WEAR YOUR COSTUME", and a purple one above the water fountain inside the concave section. The purple poster shows a purple wolf enveloped in a yellow glow in a leaping posture, with the words "ASH ROOT" printed at the top and "FESTIVAL" printed on the bottom.',
     "\n",

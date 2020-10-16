@@ -15,7 +15,7 @@ description2: [
     "\n",
     'A view of the classroom shows Errie sitting in her desk in the bottom left of the panel, behind the blonde-haired young man whose right side profile sits in the bottom right of the panel. In the desk to Errie',
     "'",
-    's left sits a dark-skinned girl wearing the same uniform as Errie under a green cardigan. Her cropped black curls are held back with a white headband. She holds her fists up to her chest as she peers sympathetically at her neighbor.',
+    's left sits a dark-skinned girl named Lane wearing the same uniform as Errie under a green cardigan. Her cropped black curls are held back with a white headband. She holds her fists up to her chest as she peers sympathetically at her neighbor.',
     "\n",
     'With the exception of one dark-haired girl, also in uniform, sitting in the farthest column of desks at the top left corner of the panel, all the other desks appear empty (only eight are visible). The dark-haired girl wears a ponytail and holds open a pink book. On Lane',
     "'",
