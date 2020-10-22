@@ -73,7 +73,7 @@ description2: [
     "\n",
     'A close-up shot of Lane',
     "'",
-    's face shows the dark-skinned girl on the right side of the panel peering suspiciously at the viewer.',
+    's face shows the girl in the green hoodie on the right side of the panel peering suspiciously at the viewer.',
     "\n",
     'An offscreen voice continues to speak, saying, "And since we CAN',
     "'",
