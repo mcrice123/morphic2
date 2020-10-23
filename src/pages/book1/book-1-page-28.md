@@ -1,8 +1,12 @@
 ---
 categories: ["book1"]
 title: "Book 1, Page 28"
-featuredpath: "/book1/main/page28_2.jpg"
+featuredpath: "/book1/main/page28_3.jpg"
 date: "2017-03-04"
+metaimage: '/seo/28_book1.jpg'
+author: "Maria Rice"
+type: "post"
+preview: "/book1/preview/page28_2.jpg"
 description2: [
     "1. [The glowing vines grab Errie",
     "'",
@@ -12,9 +16,6 @@ description2: [
     "4. [Errie rips the duct tape holding the cardboard wing to her right arm.]\n",
     "5. Errie: [throws cardboard wing at the vines] Ugh!\n",
 ]
-author: "Maria Rice"
-type: "post"
-preview: "/book1/preview/page28_2.jpg"
 keywords: [
     "Errie", 
     "vine",

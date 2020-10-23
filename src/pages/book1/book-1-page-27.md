@@ -1,4 +1,12 @@
 ---
+date: "2017-02-25"
+author: "Maria Rice"
+type: "post"
+categories: ["book1"]
+title: "Book 1, Page 27"
+featuredpath: "/book1/main/page27_3.jpg"
+preview: "/book1/preview/page27_2.jpg"
+metaimage: '/seo/27_book1.jpg'
 description2: [
     "1. Errie: Are those SNAKES?\n",
     "   Lane: Those are vines--I THINK. But I",
@@ -15,13 +23,6 @@ description2: [
     "4. [First Lane and then Errie run onto the old wooden bridge as the glowing vines tower towards them ('SH-SH-SH-SH-SH-SH-SH-SH-SH-SH-SH-SH-SH-SH-SH').]\n",
     "5. [The glowing vines reach for Errie as she sprints across the bridge ('SH-SH-SH-SH-SH-SH-SH-SH-SH-SH-SH-SH-SH-SH').]",
 ]
-date: "2017-02-25"
-author: "Maria Rice"
-type: "post"
-categories: ["book1"]
-title: "Book 1, Page 27"
-featuredpath: "/book1/main/page27_2.jpg"
-preview: "/book1/preview/page27_2.jpg"
 keywords: [
     "Errie", 
     "Lane",
