@@ -11,6 +11,7 @@ import BannerImage from '../images/banner.jpg';
 
 // SVGs
 import MorphicLogo from "../assets/morphic_logo.svg";
+import MenuLogo from "../assets/hamburger.svg";
 
 // Styles
 require('./styles/header.scss');
@@ -49,21 +50,14 @@ class Header extends Component {
                                 </li>
                             </ul>
                         </nav>
-                        <div
+                        <button
                             id={"menuIcon"}
                             onClick={e => { this.props.toggleMenu(); e.stopPropagation();}}
                             className={ this.props.menuOpen ? 'active' : '' }
+                            aria-label={'Open the navigation menu'}
                         >
-                            <div
-                                id={"first-bar"}
-                            />
-                            <div
-                                id={"second-bar"}
-                            />
-                            <div
-                                id={"third-bar"}
-                            />
-                        </div>
+                            <MenuLogo />
+                        </button>
                         <SlideMenu
                             navLinks={navLinks}
                             isOpen={this.props.menuOpen ? "isOpen" : ""}

@@ -128,42 +128,25 @@ li {
     }
   }
 
+  #hamburger {
+    fill: #fff;
+    width: 100%;
+    height: 100%;
+  }
+
   #menuIcon {
-    padding: 10px;
     display: inline-flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 20px;
-    width: 28px;
-    z-index: 2;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    position: absolute;
+    height: 40px;
+    width: 50px;
     background-color: $highlight;
-
-    #first-bar,
-    #second-bar,
-    #third-bar {
-      width: 100%;
-      height: 2px;
-      background-color: #fff;
-      border-radius: 10px;
-      transition: transform .1s ease-out;
-    }
+    padding: 0;
 
     &.active {
-
-      #second-bar {
-        display: none;
-      }
-
-      #first-bar {
-        transform: rotate(45deg) translateY(7px) translateX(8px);
-      }
-
-      #third-bar {
-        transform: rotate(-45deg) translateY(-5px) translateX(6px);
+      #hamburger {
+        fill: #000;
+        background-color: rgba(0,0,0,.2);
       }
     }
 
