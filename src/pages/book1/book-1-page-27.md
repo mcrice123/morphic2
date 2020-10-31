@@ -29,7 +29,7 @@ description2: [
     "\n",
     '"Is it SAFE to cross the bridge?" asks Errie.',
     "\n",
-    'Lane grits her teet and answers, "Safe ENOUGH!"',
+    'Lane grits her teeth and answers, "Safe ENOUGH!"',
     "\n\n",
 
     'Panel 4.',

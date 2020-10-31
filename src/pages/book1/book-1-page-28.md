@@ -13,7 +13,7 @@ description2: [
 
     'Panel 1.',
     "\n",
-    'A close-up of Errie',"'",'s right arm shows two glowing vines curling around  her elbow and over her red cardboard wing still duct taped to her jacket sleeve.',
+    'A close-up of Errie',"'",'s right arm shows two glowing vines curling around her elbow and over her red cardboard wing, which is still duct-taped to her jacket sleeve.',
     "\n\n",
 
     'Panel 2.',
@@ -28,12 +28,12 @@ description2: [
 
     'Panel 4.',
     "\n",
-    'A view from above Errie shows the top of her hooded head at the bottom of the panel and her arms angled around it, her left hand ripping the duct tape off of her right wrist, the last constraint holding her red cardboard wing to her arm.',
+    'A view from above Errie shows the top of her hooded head at the bottom of the panel and her arms held out in front of her, her left hand ripping the duct tape on her right wrist--the last constraint holding her red cardboard wing to her arm.',
     "\n\n",
 
     'Panel 5.',
     "\n",
-    'Errie',"'",'s back faces the viewer as she grunts ("UGH!") and throws the cardboard wing at the vines, now stalled at the end of the bridge.',
+    'Errie',"'",'s back faces the viewer as she grunts ("UGH!") and throws the cardboard wing back-handed at the vines, now stalled at the end of the bridge.',
 ]
 keywords: [
     "Errie", 
@@ -55,6 +55,9 @@ keywords: [
     "rip",
     "throw",
     "ugh",
+    "duct",
+    "tape",
+    "red",
 ]
 
 ---
