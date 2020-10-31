@@ -8,20 +8,38 @@ featuredpath: "/book1/main/page27_3.jpg"
 preview: "/book1/preview/page27_2.jpg"
 metaimage: '/seo/27_book1.jpg'
 description2: [
-    "1. Errie: Are those SNAKES?\n",
-    "   Lane: Those are vines--I THINK. But I",
-    "'",
-    "ve never seen any that GLOW!\n",
-    "2. [More vines, enveloped in green glow, emerge from the girls",
-    "'",
-    "s exit from the woods, rustling as they come ('FSH-SH-SH-SH-SH-SH-SH-SH-SH-SH').]",
-    "3. Errie: Is it SAFE to cross the bridge?\n",
-    "   Lane: [alarmed] Safe ENOUGH!\n",
-    "   [The vine",
-    "'",
-    "s rustling gets louder ('SH-SH-SH-SH-SH-SH-SH-SH-SH').]\n",
-    "4. [First Lane and then Errie run onto the old wooden bridge as the glowing vines tower towards them ('SH-SH-SH-SH-SH-SH-SH-SH-SH-SH-SH-SH-SH-SH-SH').]\n",
-    "5. [The glowing vines reach for Errie as she sprints across the bridge ('SH-SH-SH-SH-SH-SH-SH-SH-SH-SH-SH-SH-SH-SH').]",
+    'Full color page.',
+    "\n\n",
+
+    'Panel 1.',
+    "\n",
+    '"Are those SNAKES?" asks Errie, with an astonished look on her face. She stands on the left side of the panel, shoulder to shoulder with Lane, who stands on the right.',
+    "\n",
+    'Lane replies, "Those are vines--I THINK. But I', "'", 've never seen any that GLOW!"',
+    "\n\n",
+
+    'Panel 2.',
+    "\n",
+    'The glowing vines crawl out of the entrance of the woods and climb up the trees, making a rustling sound ("SH-SH-SH-SH-SH-SH-SH").',
+    "\n\n",
+
+    'Panel 3.',
+    "\n",
+    'The two teenagers look down from the right side of the panel, Lane in the foreground and Errie in the background. Both appear alarmed.',
+    "\n",
+    '"Is it SAFE to cross the bridge?" asks Errie.',
+    "\n",
+    'Lane grits her teet and answers, "Safe ENOUGH!"',
+    "\n\n",
+
+    'Panel 4.',
+    "\n",
+    'The vines emerge from the left side of the panel and the girls run onto the bridge, Lane first and Errie close behind. The rustling sounds grow louder ("SH-SH-SH-SH-SH-SH-SH-SH-SH") as the vines tower over them.',
+    "\n\n",
+
+    'Panel 5.',
+    "\n",
+    'Positioned in the middle of the panel, Errie runs toward the right as the glowing vines reach for her from the left, still rustling.',
 ]
 keywords: [
     "Errie", 
@@ -42,6 +60,7 @@ keywords: [
     "tower",
     "reach",
     "sprint",
+    "grit",
 ]
 
 ---
