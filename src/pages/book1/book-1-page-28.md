@@ -8,13 +8,32 @@ author: "Maria Rice"
 type: "post"
 preview: "/book1/preview/page28_2.jpg"
 description2: [
-    "1. [The glowing vines grab Errie",
-    "'",
-    "s arm ('SH-SH-SH-SH-SH-SH-SH').]\n",
-    "2. Errie: [GASP!]\n",
-    "3. [Errie spins around and hits the glowing vines ('WHAP!') with her cardboard-wing-clad arm, causing the glow around the vines to flare up in response ('FSHSHH!').]\n",
-    "4. [Errie rips the duct tape holding the cardboard wing to her right arm.]\n",
-    "5. Errie: [throws cardboard wing at the vines] Ugh!\n",
+    'Full color page.',
+    "\n\n",
+
+    'Panel 1.',
+    "\n",
+    'A close-up of Errie',"'",'s right arm shows two glowing vines curling around  her elbow and over her red cardboard wing still duct taped to her jacket sleeve.',
+    "\n\n",
+
+    'Panel 2.',
+    "\n",
+    'With her face centered in the panel, Errie gasps in alarm over the rustling of the vines ("SH-SH-SH-SH-SH") as she looks down to the left side of the panel.',
+    "\n\n",
+
+    'Panel 3.',
+    "\n",
+    'Positioned on the left side of the panel, Errie suddenly swings around, slapping the vines with the cardboard wing on her right arm ("WHAP!"). The vines',"'",' green glow flares up ("FSHSHH!") in response. Only three of them are visible, reaching out from the right side of the panel.',
+    "\n\n",
+
+    'Panel 4.',
+    "\n",
+    'A view from above Errie shows the top of her hooded head at the bottom of the panel and her arms angled around it, her left hand ripping the duct tape off of her right wrist, the last constraint holding her red cardboard wing to her arm.',
+    "\n\n",
+
+    'Panel 5.',
+    "\n",
+    'Errie',"'",'s back faces the viewer as she grunts ("UGH!") and throws the cardboard wing at the vines, now stalled at the end of the bridge.',
 ]
 keywords: [
     "Errie", 
