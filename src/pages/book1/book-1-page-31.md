@@ -1,32 +1,51 @@
 ---
 featuredpath: "/book1/main/page31_2.jpg"
-description2: [
-    "1. Lane: [helping Errie up] Errie are you--?\n",
-    "   Errie: THEY",
-    "'",
-    "RE STILL AFTER US! RUN!!!\n",
-    "2. [Lane and Errie splosh through the water and up the bank as the glowing (green) vines slow to a halt on the hill above them ('SH-SH-sh-sh-sh-sh').]\n",
-    "3. Errie: [turns and stops] Lane! Look!\n",
-    "4. [As Lane turns to see, the vines",
-    "'",
-    "s glow fades.]\n",
-    "   Errie: They stopped!\n",
-]
 categories: ["book1"]
 date: "2017-03-25"
 type: "post"
 title: "Book 1, Page 31"
 author: "Maria Rice"
 preview: "/book1/preview/page31_2.jpg"
+description2: [
+    'Full color page.',
+    "\n\n",
+
+    'Panel 1.',
+    "\n",
+    'As Errie helps her up, Lane starts to say, "Errie, are you--?"',
+    "\n",
+    '"THEY',"'",'RE STILL AFTER US!" shouts the redhead. "RUN!!!"',
+    "\n",
+    'Both girls are soaked as they stand ankle-deep in the ravine in the middle of the panel.',
+    "\n\n",
+
+    'Panel 2.',
+    "\n",
+    'In a zoomed out view of the ravine, the black silhouettes of the girls splash toward the left side of the panel onto the grassy bank, towards the tall, round trees. A large mass of vines on the right side of the panel creep down the grassy hill after them, the green glow starting to fade as the rustling slows down.',
+    "\n\n",
+
+    'Panel 3.',
+    "\n",
+    'Errie, close up, turns to look behind her over her left shoulder.',
+    "\n",
+    '"LANE!" she shouts with a confused look on her face. "Look!"',
+    "\n\n",
+
+    'Panel 4.',
+    "\n", 
+    '"They STOPPED!" says Errie, with her back to the viewer. Her head and shoulders appear at the bottom right of the panel.',
+    "\n",
+    'Lane, who stands to her left, also turns to look. In the background, the vines hang over the cliff, the green glow almost gone. Trees grow on both sides of the girls.',
+]
 keywords: [
     "Errie", 
     "Lane",
     "water",
-    "creek",
+    "ravine",
     "run",
     "help",
     "up",
-    "splosh",
+    "splash",
     "bank",
     "vines",
     "glow",
@@ -37,6 +56,7 @@ keywords: [
     "turn",
     "look",
     "fade",
+    "soaked",
 ]
 
 ---
