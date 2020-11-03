@@ -21,7 +21,7 @@ description2: [
 
     'Panel 2.',
     "\n",
-    'In a zoomed out view of the ravine, the black silhouettes of the girls splash toward the left side of the panel onto the grassy bank, towards the tall, round trees. A large mass of vines on the right side of the panel creep down the grassy hill after them, the green glow starting to fade as the rustling slows down.',
+    'In a zoomed out view of the ravine, the black silhouettes of the girls splash toward the left side of the panel onto the grassy bank, towards the tall, round trees. A large mass of vines on the right side of the panel creep down the grassy hill after them, the limegreen glow starting to fade as the rustling slows down.',
     "\n\n",
 
     'Panel 3.',
@@ -35,7 +35,7 @@ description2: [
     "\n", 
     '"They STOPPED!" says Errie, with her back to the viewer. Her head and shoulders appear at the bottom right of the panel.',
     "\n",
-    'Lane, who stands to her left, also turns to look. In the background, the vines hang over the cliff, the green glow almost gone. Trees grow on both sides of the girls.',
+    'Lane, who stands to her left, also turns to look. In the background, the vines hang over the cliff, the limegreen glow almost gone. Trees grow on both sides of the girls.',
 ]
 keywords: [
     "Errie", 
@@ -50,6 +50,7 @@ keywords: [
     "vines",
     "glow",
     "green",
+    "limegreen",
     "hill",
     "halt",
     "stop",

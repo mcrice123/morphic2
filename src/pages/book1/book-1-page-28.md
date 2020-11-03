@@ -23,7 +23,7 @@ description2: [
 
     'Panel 3.',
     "\n",
-    'Positioned on the left side of the panel, Errie suddenly swings around, slapping the vines with the cardboard wing on her right arm ("WHAP!"). The vines',"'",' green glow flares up ("FSHSHH!") in response. Only three of them are visible, reaching out from the right side of the panel.',
+    'Positioned on the left side of the panel, Errie suddenly swings around, slapping the vines with the cardboard wing on her right arm ("WHAP!"). The vines',"'",' limegreen glow flares up ("FSHSHH!") in response. Only three of them are visible, reaching out from the right side of the panel.',
     "\n\n",
 
     'Panel 4.',
@@ -38,6 +38,7 @@ description2: [
 keywords: [
     "Errie", 
     "vine",
+    "limegreen",
     "green",
     "glow",
     "vines",

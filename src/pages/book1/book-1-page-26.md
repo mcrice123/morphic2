@@ -22,7 +22,7 @@ description2: [
     "\n",
     'A voice offscreen says, "...It',"'",'s just a bird."',
     "\n",
-    'A small red bird perches on the green grass in a zoomed-out shot of the woods where Errie and Lane emerged moments before. Not a lot of detail can be seen from far away, but a slithering vine also emerges from behind a small tree and curls through the grass some distance behind the bird. A green glow envelops the vine.',
+    'A small red bird perches on the green grass in a zoomed-out shot of the woods where Errie and Lane emerged moments before. Not a lot of detail can be seen from far away, but a slithering vine also emerges from behind a small tree and curls through the grass some distance behind the bird. A limegreen glow envelops the vine.',
     "\n",
     'Another voice offscreen says, "RIGHT. Did that person say WHERE the--?"',
     "\n\n",
@@ -44,7 +44,7 @@ description2: [
 
     'Panel 6.',
     "\n",
-    'The girls appear as silhouetted figures in a zoomed-out view from the perspective of the vines now creeping through the grass from the bottom of the panel. The vines have different shades of green and variety in leaf shapes, but they are all enveloped in the same green glow and emit a rushing sound ("FSH-SH-SH-SH-SH").',
+    'The girls appear as silhouetted figures in a zoomed-out view from the perspective of the vines now creeping through the grass from the bottom of the panel. The vines have different shades of green and variety in leaf shapes, but they are all enveloped in the same limegreen glow and emit a rushing sound ("FSH-SH-SH-SH-SH").',
     "\n",
     'The silhouetted figures appear small and just above the center of the panel, standing in front of the similarly-silhouetted bridge, which is partially visible from over the expanse of green grass separating the silhouettes from the vines.',
 ]
@@ -56,6 +56,7 @@ keywords: [
     "cardinal",
     "grass",
     "trees",
+    "limegreen",
     "green",
     "glow",
     "vine",

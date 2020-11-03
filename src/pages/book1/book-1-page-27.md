@@ -47,6 +47,7 @@ keywords: [
     "woods",
     "vine",
     "green",
+    "limegreen",
     "glow",
     "trees",
     "grass",

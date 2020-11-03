@@ -20,7 +20,7 @@ description2: [
 
     'Panel 2.',
     "\n",
-    '"OH DRAT!" shouts Errie', "'",'s silhouette, which keeps running to the left, off of the silhouette of the wooden bridge centered in the panel and towards the trees on the far left. Silhouettes of the vines reach out from the right side of the panel, crawling across the creaking bridge. More vines branch out from a tree standing on the right side of the panel. All the vines glow green.',
+    '"OH DRAT!" shouts Errie', "'",'s silhouette, which keeps running to the left, off of the silhouette of the wooden bridge centered in the panel and towards the trees on the far left. Silhouettes of the vines reach out from the right side of the panel, crawling across the creaking bridge. More vines branch out from a tree standing on the right side of the panel. All the vines glow limegreen.',
     "\n\n",
 
     'Panel 3.',
@@ -45,6 +45,7 @@ description2: [
 keywords: [
     "Errie", 
     "distracted",
+    "limegreen",
     "green",
     "glow",
     "vines",
