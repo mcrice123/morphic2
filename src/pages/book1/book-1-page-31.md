@@ -1,11 +1,12 @@
 ---
-featuredpath: "/book1/main/page31_2.jpg"
+featuredpath: "/book1/main/page31_3.jpg"
 categories: ["book1"]
 date: "2017-03-25"
 type: "post"
 title: "Book 1, Page 31"
 author: "Maria Rice"
 preview: "/book1/preview/page31_2.jpg"
+metaimage: '/seo/31_book1.jpg'
 description2: [
     'Full color page.',
     "\n\n",
