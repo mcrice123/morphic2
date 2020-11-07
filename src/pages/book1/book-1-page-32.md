@@ -1,11 +1,12 @@
 ---
 author: "Maria Rice"
 title: "Book 1, Page 32"
-featuredpath: "/book1/main/page32_2.jpg"
+featuredpath: "/book1/main/page32_3.jpg"
 date: "2017-04-01"
 categories: ["book1"]
 type: "post"
 preview: "/book1/preview/page32_2.jpg"
+metaimage: '/seo/32_book1.jpg'
 description2: [
     'Full color page.',
     "\n\n",
