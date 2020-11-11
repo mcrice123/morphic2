@@ -5,6 +5,7 @@ date: "2017-09-30"
 type: "post"
 categories: ["book1"]
 author: "Maria Rice"
+preview: "/book1/preview/preview58.jpg"
 description2: [
     'Black and white page.',
     "\n\n",
@@ -15,18 +16,14 @@ description2: [
     "\n",
     'The dog blurts out, "HUH?"',
     "\n",
-    'Errie replies, "You heard me! We don',
-    "'",
-    't TRUST you! Everything was fine until the vines went berserk! ...Then YOU show up!"',
+    'Errie replies, "You heard me! We don',"'",'t TRUST you! Everything was fine until the vines went berserk! ...Then YOU show up!"',
     "\n\n",
 
     'Panel 2.',
     "\n",
-    'A close-up on the golden retriever',
-    "'",
-    's face shows moisture collecting under his eyes as he looks down in shame.',
+    'A close-up on the golden retriever',"'",'s face shows moisture collecting under his eyes as he looks down in shame.',
     "\n",
-    'A voice offscreen shouts, "We DEMAND an explanation!"',
+    'A voice off-screen shouts, "We DEMAND an explanation!"',
     "\n",
     'The dog sniffs and answers, "...It was me."',
     "\n\n",
@@ -53,7 +50,6 @@ description2: [
     "\n",
     'The dog whimpers and adds, "I am so, SO SORRY!"',
 ]
-preview: "/book1/preview/preview58.jpg"
 keywords: [
     "Errie",
     "Lane",

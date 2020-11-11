@@ -5,48 +5,47 @@ title: "Book 1, Page 49"
 categories: ["book1"]
 author: "Maria Rice"
 featuredpath: "/book1/main/bw_page49.jpg"
+preview: "/book1/preview/preview49.jpg"
 description2: [
     'Black and white page.',
     "\n\n",
+
     'Panel 1.',
     "\n",
-    'The silhouetted, glowing figure of Canissandro leaps off a hill, still carrying the boy in his arms as the mass of glowing vines continue to pursue them. He hears screams from someone offscreen.',
+    'The silhouetted, glowing figure of the blond man leaps off a hill, still carrying the boy in his arms as the mass of glowing vines continue to pursue them.',
     "\n",
-    'The person yells, "AHHH! Get off me!"',
+    'He hears a shout from off-screen, screaming, "AHHH! Get off me!"',
     "\n\n",
+
     'Panel 2.',
     "\n",
-    'On a branch sits a squirrel with a heart-shaped stone on her chest, who also hears the offscreen cries for help.',
+    'On a branch sits an alarmed squirrel with a heart-shaped stone on her chest.',
     "\n",
-    'Another voice cries, "OWW! HELP!"',
+    'Another off-screen voice cries, "OWW! HELP!"',
     "\n\n",
+
     'Panel 3.',
     "\n",
-    'A close-up of the dazed boy looking up at his rescuer reveals a look of alarm on Canissandro',
-    "'",
-    's face.',
+    'A close-up of the dazed boy looking up at his rescuer reveals a look of alarm on the blond man',"'",'s face as he gazes up into space.',
     "\n",
-    'Canissandro shouts, with double-outlined speech bubbles and a slight accent, "Sirena!"',
+    'He shouts, with double-outlined speech bubbles and a slight accent, "Sirena!"',
     "\n\n",
+
     'Panel 4.',
     "\n",
     'The squirrel, now glowing, leaps into the air with a serious look on her face.',
     "\n",
-    'Canissandro continues, "Someone',
-    "'",
-    's in trouble--!"',
+    'The man continues, saying, "Someone',"'",'s in trouble--!"',
     "\n",
-    'Sirena replies with an accent, "I',
-    "'",
-    'm on it!"',
+    'Sirena replies with an accent, "I',"'",'m on it!"',
     "\n\n",
+
     'Panel 5.',
     "\n",
-    'The glowing vines wrap around Errie and Lane, circling their arms. Errie holds back the vines from her neck, but sees that Lane failed to do the same.',
+    'The glowing vines wrap around Errie and Lane, circling their arms. On the left side of the panel, Errie holds back the vines from her neck, but sees that Lane, to her right and closer to the viewer, failed to do the same.',
     "\n",
-    'Errie shouts in alarm, "Oh no--LANE!',
+    'Errie shouts in alarm, "Oh no--LANE!"',
 ]
-preview: "/book1/preview/preview49.jpg"
 keywords: [
     "Errie",
     "Lane",
@@ -58,6 +57,7 @@ keywords: [
     "blond",
     "ponytail",
     "green",
+    "limegreen",
     "glow",
     "vines",
     "yellow",
