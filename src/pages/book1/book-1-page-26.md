@@ -20,11 +20,11 @@ description2: [
 
     'Panel 2.',
     "\n",
-    'A voice offscreen says, "...It',"'",'s just a bird."',
+    'A voice off-screen says, "...It',"'",'s just a bird."',
     "\n",
     'A small red bird perches on the green grass in a zoomed-out shot of the woods where Errie and Lane emerged moments before. Not a lot of detail can be seen from far away, but a slithering vine also emerges from behind a small tree and curls through the grass some distance behind the bird. A limegreen glow envelops the vine.',
     "\n",
-    'Another voice offscreen says, "RIGHT. Did that person say WHERE the--?"',
+    'Another voice off-screen says, "RIGHT. Did that person say WHERE the--?"',
     "\n\n",
 
     'Panel 3.',

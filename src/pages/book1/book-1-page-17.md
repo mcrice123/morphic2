@@ -32,7 +32,7 @@ description2: [
     "\n",
     '"YEAH, MAKE US PROUD!" yells the girl in the green hoodie.',
     "\n",
-    'A voice from offscreen replies, "Thanks--LADIES!"',
+    'A voice from off-screen replies, "Thanks--LADIES!"',
     "\n",
     'Lane says, "MUCH better!"',
     "\n\n",

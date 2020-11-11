@@ -62,7 +62,7 @@ description2: [
     "\n",
     'The white-haired girl looks up in alarm, her purple glow flaring up.',
     "\n",
-    'An offscreen voice shouts, also in purple-outline speech bubbles, "SLOW DOWN! Is someone in trouble?"',
+    'An off-screen voice shouts, also in purple-outline speech bubbles, "SLOW DOWN! Is someone in trouble?"',
     "\n\n",
 
     'Panel 5.',

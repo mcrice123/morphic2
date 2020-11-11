@@ -14,7 +14,7 @@ description2: [
 
     'Panel 1.',
     "\n",
-    'An offscreen voice continues the lecture in small blurry font. A close-up view of a wire-bound notebook lying on a wooden surface takes up the entire panel, which also takes up the entire page. Handwriting and doodles in blue ink nearly cover the whole sheet of notebook paper. A hand finishes underlining the words "ANIMAL DREAMS" at the bottom of the page with a pen that writes in the same blue ink.',
+    'An off-screen voice continues the lecture in small blurry font. A close-up view of a wire-bound notebook lying on a wooden surface takes up the entire panel, which also takes up the entire page. Handwriting and doodles in blue ink nearly cover the whole sheet of notebook paper. A hand finishes underlining the words "ANIMAL DREAMS" at the bottom of the page with a pen that writes in the same blue ink.',
     "\n",
     'The handwriting reads as follows (with doodles described in square brackets):',
     "\n\n",

@@ -19,7 +19,7 @@ description2: [
     "'",
     's weird enough as a DREAM JOURNAL, but people hype it up as a LOCAL TREASURE! Personally, I find it dull...though dressing up for the festival is fun. ...Sorry, WHY were you reading that?"',
     "\n",
-    'A voice from offscreen answers, "I',
+    'A voice from off-screen answers, "I',
     "'",
     'm caught up in biology and I got bored."',
     "\n\n",

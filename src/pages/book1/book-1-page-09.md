@@ -13,7 +13,7 @@ description2: [
 
     'Panel 1.',
     "\n",
-    'Suddenly, an offscreen voice says, "ERICA BRIGHT."',
+    'Suddenly, an off-screen voice says, "ERICA BRIGHT."',
     "\n",
     'A right hand holding a blue ink pen with a blue cap jerks to the right in the middle of writing ("SKRRH"). The notebook lies open on a wooden surface, half-covered in notes. The notes read as follows:',
     "\n",
@@ -48,7 +48,7 @@ description2: [
     "'",
     'am."',
     "\n",
-    'An offscreen voice asks, "WHY?"',
+    'An off-screen voice asks, "WHY?"',
     "\n",
     'The teenager replies, "...I wasn',
     "'",
@@ -59,7 +59,7 @@ description2: [
     "\n",
     'A closer look at the woman at the front of the classroom shows that her straight black hair is pulled back in a ponytail. Her rectangular glasses hide her eyes but her frowning eyebrows reveal her disapproval.',
     "\n",
-    'The woman, who was also the offscreen voice in the previous panel, says, "Erica, come speak to me when class is over. As I was saying...',
+    'The woman, who was also the off-screen voice in the previous panel, says, "Erica, come speak to me when class is over. As I was saying...',
 ]
 keywords: [
     "Errie", 

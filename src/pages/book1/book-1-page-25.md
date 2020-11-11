@@ -42,7 +42,7 @@ description2: [
     "\n",
     'A close up of the wooden bridge shows a beam missing on the right rail. Only this rail is visible, as most of the bridge is cut off by the panel border. The platform covers the bottom left corner of the panel, its right edge extending from the left center to the bottom center. A lone beam stands slightly to the right in the foreground, in contrast to the other vertical beams standing straight and connected to each other by a single row of horizontal beams. The row ends on the vertical beam closest to the one in the foreground and the end of the horizontal beam appears jagged.',
     "\n",
-    'A voice offscreen says, "That',"'",'s how my BROTHER broke his ARM last week."',
+    'A voice off-screen says, "That',"'",'s how my BROTHER broke his ARM last week."',
     "\n\n",
 
     'Panel 5.', 
@@ -51,7 +51,7 @@ description2: [
     "\n", 
     'The clear blue water in the bottom half of the panel glistens in the sunlight and a wooden beam with a jagged end sticks out of the creek near the bottom border.',
     "\n",
-    'A voice offscreen says, "I just HAD to check here FIRST!"',
+    'A voice off-screen says, "I just HAD to check here FIRST!"',
 ]
 keywords: [
     "Errie", 

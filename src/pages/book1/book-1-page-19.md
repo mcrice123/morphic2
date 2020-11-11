@@ -13,7 +13,7 @@ description2: [
 
     'Panel 1.',
     "\n",
-    'A voice from offscreen yells, "HEY!"',
+    'A voice from off-screen yells, "HEY!"',
     "\n",
     'A pair of feet in purple-black tennis shoes stop abruptly in a zoomed-in shot close to the asphalt. Situated on the right side of the panel, the toes of the shoes point to the right and shoe laces swing on the right shoe as the blue skinny-jean-covered leg pauses in midair.',
     "\n\n",

@@ -45,7 +45,7 @@ description2: [
 
     'Panel 3.',
     "\n",
-    'Only Errie is visible as she gazes offscreen to the left with a serious look on her face.',
+    'Only Errie is visible as she gazes off-screen to the left with a serious look on her face.',
     "\n",
     'The redhead continues, saying, "She let me go with a warning, because I need the book for another class." She adds, muttering, "But NEXT TIME she catches me..."',
     "\n\n",
@@ -60,7 +60,7 @@ description2: [
     "\n",
     '"Wow, that was CLOSE!", exclaims Lane. "What were you reading?"',
     "\n",
-    'A voice offscreen answers, "The book about the animal dreams."',
+    'A voice off-screen answers, "The book about the animal dreams."',
     "\n\n",
 
     'Panel 5.',
@@ -69,9 +69,9 @@ description2: [
     "'",
     's left arm covers the familiar illustration on the front cover of "The Ancient Creatures" as she holds the book at her left side. Errie is visible in the panel from her elbows down to her red skirt as she continues to hold her pink backpack over her other shoulder.',
     "\n",
-    'Lane responds from offscreen, saying, "...The one with the TALKING WOLF?"',
+    'Lane responds from off-screen, saying, "...The one with the TALKING WOLF?"',
     "\n",
-    'An offscreen voice replies, "Yeah, that one."',
+    'An off-screen voice replies, "Yeah, that one."',
 ]
 keywords: [
     "Errie", 

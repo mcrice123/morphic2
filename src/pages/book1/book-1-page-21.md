@@ -33,7 +33,7 @@ description2: [
     "'",
     's glowing--"',
     "\n",
-    'A voice with purple-outlined speech bubbles from offscreen suddenly cries, "HELP!"',
+    'A voice with purple-outlined speech bubbles from off-screen suddenly cries, "HELP!"',
     "\n\n",
 
     'Panel 4.',

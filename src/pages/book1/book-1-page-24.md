@@ -35,7 +35,7 @@ description2: [
     "\n",
     'Lane blurts out, "WHAT?!! What KIND of trouble?"',
     "\n",
-    'A voice offscreen replies, "I don',
+    'A voice off-screen replies, "I don',
     "'",
     't know! She ran off!"',
     "\n\n",
