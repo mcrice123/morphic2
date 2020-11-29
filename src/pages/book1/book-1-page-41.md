@@ -1,11 +1,12 @@
 ---
 title: "Book 1, Page 41"
-featuredpath: "/book1/main/page41.jpg"
+featuredpath: "/book1/main/page41_2.jpg"
 categories: ["book1"]
 date: "2017-06-03"
 author: "Maria Rice"
 type: "post"
-preview: "/book1/preview/page41.jpg"
+preview: "/book1/preview/page41_2.jpg"
+metaimage: '/seo/41_book1.jpg'
 description2: [
     'Full color page.',
     "\n\n",
@@ -19,7 +20,7 @@ description2: [
 
     'Panel 2.',
     "\n",
-    '"What NOW?" the white goat shouts angrily. He sits in the background, with the tree branches visible behind him, as the top of Errie',"'",'s red hair in the foreground spins back to the left as she faces the speaker.',
+    'The white goat sits in the background, with the tree branches visible behind him. He coldly asks, "What. NOW." The top of Errie',"'",'s head of damp red hair in the foreground spins back to the left as she faces the speaker.',
     "\n",
     '"AH!" she blurts out. "Please don',"'",'t get angry!"',
     "\n\n",
@@ -35,55 +36,20 @@ description2: [
     "\n",
     'Lane stands slightly hunched over, facing the left side of the panel as she holds her limegreen phone to her right ear. She grits her teeth and furrows her brow as she holds her left hand nervously to her chin.',
     "\n",
-    'Errie continues speaking from off-screen, saying, "I',"'",'m sorry your family is giving you a hard time!"',
+    'Errie continues speaking from off-screen, saying, "I',"'",'m sorry your FAMILY is giving you a hard time!"',
     "\n",
-    'Lane whispers, "Come on, Mom, pick up, pick up!"',
+    'Lane says, "Come on, Mom, pick up, PICK UP!"',
     "\n",
-    'A ringing can be heard, interrupted by a voice off-screen saying, "Please leave a message after the--"',
+    'A ringing can be heard, interrupted by a voice on the phone saying, "PLEASE LEAVE A MESSAGE AFTER--"',
     "\n\n",
 
     'Panel 5.',
     "\n",
-    'Someone says, "But we',"'",'re--"',
+    '"DAGNABBIT, MOM!" shouts a voice from off-screen, from the left.',
     "\n",
-    '"DAGNABBIT, MOM!" shouts a voice from off-screen.',
+    'A zoomed-out view of Errie and the goat in the clearing shows the redhead standing on the left, looking behind her in the direction of the shouting. She holds her hands up in front of her in surprise. The white goat sits on the right, also puzzled by the shout, with the tree branches and the huge mass of vines still protruding from his back and enveloped in the same limegreen glow.',
     "\n",
-    'A zoomed-out view of Errie and the goat in the clearing shows Errie standing on the left, looking behind her in the direction of the shouting. She holds her hands up in surprise. The white goat sits on the right, also alarmed by the shout, with the tree branches and the huge mass of vines coming out of his back and still enveloped in the same limegreen glow.',
-    "\n",
-    '"--A little...LOST?" adds Errie, uncertainly.',
-]
-keywords: [
-    "Lane",
-    "Errie",
-    "turn",
-    "shout",
-    "yell",
-    "Capri",
-    "goat",
-    "limegreen",
-    "green",
-    "glow",
-    "vines",
-    "what",
-    "now",
-    "angry",
-    "sorry",
-    "tick",
-    "family",
-    "hard",
-    "time",
-    "cell",
-    "smart",
-    "phone",
-    "mom",
-    "pick",
-    "voicemail",
-    "leave",
-    "message",
-    "after",
-    "dagnabbit",
-    "lost",
-    "alarm",
+    '"We',"'",'re a little...LOST," explains Errie, uncertainly.',
 ]
 
 ---

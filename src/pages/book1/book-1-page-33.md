@@ -4,8 +4,9 @@ title: "Book 1, Page 33"
 date: "2017-04-08"
 categories: ["book1"]
 type: "post"
-featuredpath: "/book1/main/page33.jpg"
-preview: "/book1/preview/page33.jpg"
+featuredpath: "/book1/main/page33_2.jpg"
+preview: "/book1/preview/page33_2.jpg"
+metaimage: '/seo/33_book1.jpg'
 description2: [
     'Full color page.',
     "\n\n",
@@ -25,7 +26,7 @@ description2: [
     "\n",
     '"RUN!" shouts a second voice.',
     "\n",
-    'White horns point back from the boy',"'",'s blond bangs, which mostly swoop to his left from a part on his right temple. He wears a white loose-fitting shirt with a collar and he is only visible from the shoulders and up.',
+    'White horns point up and back from behind the boy',"'",'s blond bangs, which mostly swoop to his left from a part on his right temple. He wears a white loose-fitting shirt with a collar and he is only visible from the shoulders and up.',
     "\n\n",
 
     'Panel 3.',
@@ -44,35 +45,7 @@ description2: [
 
     'Panel 5.',
     "\n",
-    'A view from in front of the girls shows only their legs as they stand in the background on the right side of the panel, cut off by the panel border. In the foreground and on the left side of the panel, only the bottom half of a person sitting cross-legged is visible, from the shoulders down. His back faces the viewer and he wears a white loose-fitting shirt with sleeves rolled up near his elbow. Only his right leg, clothed in brown pants, can be seen over the vines protruding from a hole in the back of his shirt. The hole itself is pitch black and a large variety of vines emerge from it, most like tentacles from a squid, some like tree branches. One of the latter and a few of the former extend towards the viewer, as the rustling continues. The limegreen glow shines brightly around the sitting figure and the vines.',
-]
-keywords: [
-    "Errie", 
-    "Lane",
-    "hey",
-    "get",
-    "up",
-    "behind",
-    "you",
-    "run",
-    "wait",
-    "look",
-    "Capri",
-    "green",
-    "vines",
-    "glow",
-    "grass",
-    "stop",
-    "pull",
-    "back",
-    "cross",
-    "legged",
-    "hole",
-    "shirt",
-    "curl",
-    "curve",
-    "rustle",
-    "branch",
+    'A view from in front of the girls shows only their legs as they stand in the background on the right side of the panel, cut off by the panel border. In the foreground and on the left side of the panel, only the bottom half of a person sitting cross-legged is visible, from the shoulders down. His back faces the viewer and he wears a white loose-fitting shirt with sleeves rolled up near his elbow. Only his right leg, clothed in brown pants, can be seen over the vines protruding from a hole in the back of his shirt. The hole itself is pitch black and a large variety of vines emerge from it, most like monkey vines found in a jungle, some like tree branches. One of the latter and a few of the former extend towards the viewer, as the rustling continues. The limegreen glow shines brightly around the sitting figure and the vines.',
 ]
 
 ---
