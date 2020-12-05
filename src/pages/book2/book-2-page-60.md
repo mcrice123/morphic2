@@ -75,37 +75,21 @@ I decided to use another static site generator called [GatsbyJS](https://www.gat
 Like Hugo, I don't really recommend Gatsby for non-developers.
 But it's great that I can build and customize my own website for free!
 
-**Now in case there's a _specific question_ burning in your mind right now, here's a long rant (below) in reply to that _specific question_.** 
-Feel free to skip it if you like.
+_Update from 12/5/20:_
 
-And that _specific question_ is...
+## Why not Wordpress?
 
-### Why not Wordpress? 
+Well folks, it looks like I made up my mind too early regarding this CMS. I only looked up Wordpress via [Wordpress.com](https://wordpress.com/) when I did a Google search for it and that's where I found these paid plans that I previously mentioned in this post. It basically _looked_ like I would have to pay a bunch of money for a customizable website and control over how the domain name looks. 
 
-1. It is a minimum of $8 **per month** to have a customized site...that's about _$96 annually_.
+**However, I recently found out that you can customize your own Wordpress site _for free_ by downloading the _opensource_ version** at [Wordpress.org](https://wordpress.org/). I was able to download the default project and see all the files. I haven't tried hosting anything yet, but this alone shows the platform in a new light for me. 
 
-2. I could get a free template for no extra charge, **but I am assuming I can't change any piece of it** and that if any bugs are present, I'll either have to find a better template or live with it. 
-**I also don't think there are a lot of Wordpress templates for webcomics**, since they're not as popular as they used to be. 
-And those that exist are probably years old and if they were't updated recently, they probably have bugs...
+And to think that I missed it b/c I went to the wrong domain... 
 
-3. I heard hearsay years ago that I could buy a custom domain name from a cheaper provider and still use it for my Wordpress site. However, I don't see any confirmation of this from my research. **I would still get charged a minimum of $4..._per month_...to have a custom domain name _at all_** on my site, whether I get the domain name through Wordpress or not!
-_(That's $48 annually... compare this cost to [Namecheap](https://www.namecheap.com/domains/registration/gtld/com/), which offers '.com' domains for $9-$13/year!)_
+However, I am not unhappy with my decision to use GatsbyJS. One of the perks of having a static site instead of a CMS is that _there are FREE hosting options available._ I don't know how much it would cost to host the opensource version of Wordpress (it probably depends on the size of the database), but I don't expect it to be free.
 
-**The conclusion: I would have to pay extra for a custom site _and_ a custom domain if I go with Wordpress.**
+Thanks for bearing with me as I learn new things! 
 
-I understand that Wordpress is probably a great platform. 
-I've heard good things about it and I believe it earned its good reputation. 
-**But I won't generate any immediate profit from this website and as long as there are free/low-cost hosting options and custom domains available, I can't justify using this popular platform for _Morphic_.** 
-
-_[exhales]_
-
-I hope you find this discussion interesting.
-It bothers me that Wordpress is the most well-known platform and yet the prices of its paid plans are so steep.
-
-In fact, one of the perks of having a static site instead of a CMS is that _there are FREE hosting options available!_ 
-**YEAH!**
-
-Take _that_, Wordpress.
+_End of update from 12/5/20._
 
 ## Thanks for reading!
 
