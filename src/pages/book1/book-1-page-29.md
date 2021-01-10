@@ -42,35 +42,6 @@ description2: [
     "\n",
     '"There',"'",'re TOO MANY--AAH!" shouts a silhouette of Errie as she trips on a rock and starts to fall toward the left side of the panel, where the grass slopes downward.',
 ]
-keywords: [
-    "Errie", 
-    "distracted",
-    "limegreen",
-    "green",
-    "glow",
-    "vines",
-    "vine",
-    "cardboard",
-    "wing",
-    "red",
-    "duct",
-    "tape",
-    "arm",
-    "left",
-    "alarm",
-    "ugh",
-    "throw",
-    "behind",
-    "envelop",
-    "too",
-    "many",
-    "trip",
-    "rock",
-    "downward",
-    "slope",
-    "rustle",
-    "rip",
-]
 
 ---
 

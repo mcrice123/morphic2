@@ -53,31 +53,5 @@ description2: [
     "\n",
     'Both girls yell, "3!!!"',
 ]
-keywords: [
-    "Errie",
-    "Lane",
-    "Sirena",
-    "silhouette",
-    "door",
-    "run",
-    "green",
-    "limegreen",
-    "glow",
-    "vines",
-    "blue",
-    "legs",
-    "zoom",
-    "slash",
-    "option",
-    "no",
-    "other",
-    "count",
-    "three",
-    "grab",
-    "hand",
-    "leap",
-    "teenagers",
-    "girls",
-]
 
 ---

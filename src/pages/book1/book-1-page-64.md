@@ -51,29 +51,5 @@ description2: [
     "\n",
     'Lane also peers down suspiciously at the girl as the morphic cuts her friend off, saying, "And no one got hurt! So you can go on home!"',
 ]
-keywords: [
-    "Capri",
-    "Canissandro",
-    "Sirena",
-    "tears",
-    "joy",
-    "squirrel",
-    "pony",
-    "tail",
-    "pigtails",
-    "ponytail",
-    "Errie",
-    "Lane",
-    "dog",
-    "silhouettes",
-    "vines",
-    "ash",
-    "fwoosh",
-    "whoohoo",
-    "happy",
-    "lucky",
-    "alive",
-    "home",
-]
 
 ---

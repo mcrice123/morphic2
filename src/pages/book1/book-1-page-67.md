@@ -26,7 +26,7 @@ description2: [
     "\n",
     '"...That appeared this evening at McDaniels',"'",' Woods..." the woman continues from off-screen. "...The police searched and found NO FIRE DAMAGE in the area..."',
     "\n",
-    'Errie appears on the right side of the panel, looking at something off-screen further right as she turns toward the viewer with her left hand on an armrest. She wears a pink t-shirt and sits in a chair in front of a table where the laptop sits with a mechanical pencil to the left to it on top of a spiral notebook. A small purple object rests to the left of the notebook. To the right of the laptop (which is also the background), a lit candle burns in a jar next to a closed book. Behind the laptop sits a metal tea set. A white outlet in the middle of the mustard-colored wall appears one foot above the table.',
+    'Errie appears on the right side of the panel, looking at something off-screen further right as she turns toward the viewer with her left hand on an armrest. She wears a pink t-shirt and sits in a chair in front of a table where the laptop sits with a mechanical pencil to the left of it, on top of a spiral notebook. A small purple object rests to the left of the notebook. To the right of the laptop (which is also the background), a lit candle burns in a jar next to a closed book. Behind the laptop sits a metal tea set. A white outlet in the middle of the mustard-colored wall appears one foot above the table.',
     "\n\n",
 
     'Panel 4.',
@@ -50,32 +50,6 @@ description2: [
     'A close-up on Errie',"'",'s face shows her astonishment and confusion as she blurts out, "WHAT."',
     "\n",
     'A crinkling noise ("--SKSH--") can be heard just before and after another off-screen voice says, "Green grasshopper to red ladybug! Over!"',
-]
-keywords: [
-    "Errie",
-    "laptop",
-    "ash",
-    "typing",
-    "hands",
-    "chair",
-    "table",
-    "notebook",
-    "pencil",
-    "candle",
-    "tv",
-    "microphone",
-    "McDaniels",
-    "Woods",
-    "sheriff",
-    "Charles",
-    "Rudigor",
-    "fire",
-    "damage",
-    "vandalism",
-    "green",
-    "red",
-    "grasshopper",
-    "ladybug",
 ]
 
 ---

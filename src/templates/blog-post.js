@@ -10,13 +10,11 @@ require('../components/styles/blog-post.scss');
 export default ({data}) => {
   const post = data.markdownRemark;
   const { title, date, featuredpath, metaimage, author, description2 } = post.frontmatter;
-  const keywords = post.frontmatter.keywords ? post.frontmatter.keywords : [];
   const { slug } = post.fields;
   return (
     <Layout 
       title={title}
       description2={description2}
-      keywords={keywords}
       author={author}
       image={metaimage}
       slug={slug}
@@ -47,7 +45,6 @@ export const query = graphql`
         date(formatString: "MMMM DD, YYYY")
         featuredpath
         author
-        keywords
         metaimage
         description2
       }

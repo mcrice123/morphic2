@@ -35,30 +35,5 @@ description2: [
     "\n",
     'Errie',"'",'s back faces the viewer as she grunts ("UGH!") and throws the cardboard wing back-handed at the vines, now stalled at the end of the bridge.',
 ]
-keywords: [
-    "Errie", 
-    "vine",
-    "limegreen",
-    "green",
-    "glow",
-    "vines",
-    "arm",
-    "cardboard",
-    "wing",
-    "gasp",
-    "grab",
-    "alarm",
-    "whap",
-    "spin",
-    "around",
-    "hit",
-    "flare",
-    "rip",
-    "throw",
-    "ugh",
-    "duct",
-    "tape",
-    "red",
-]
 
 ---

@@ -1,6 +1,12 @@
 ---
-featuredalt: ""
-featured: ""
+preview: "/book2/preview/page59.jpg"
+title: "Book 2, Page 59"
+featuredpath: "/book2/main/page59.jpg"
+categories: ["book2"]
+date: "2020-08-29"
+author: "Maria Rice"
+type: "post"
+metaimage: "/seo/59_book2.jpg"
 description2: [
     "1. Lily: [surprised] Huh?! Really--?",
     "   Wolf: [grabs Errie",
@@ -11,35 +17,6 @@ description2: [
     "3. [Lily and Chan see a blue glow emerging from behind a dumpster.]\n",
     "4. [A closer look reveals the source of the blue glow--a mass of deformed hands, tentacles, and animal bodies.]\n",
     "5. Lily: [alarmed] Stars in heaven!\n",
-]
-preview: "/book2/preview/page59.jpg"
-title: "Book 2, Page 59"
-featuredpath: "/book2/main/page59.jpg"
-categories: ["book2"]
-linktitle: ""
-date: "2020-08-29"
-author: "Maria Rice"
-type: "post"
-metaimage: "/seo/59_book2.jpg"
-keywords: [
-    "Errie", 
-    "Chan",
-    "Wolf",
-    "Lily",
-    "common",
-    "enemy",
-    "run",
-    "zoom",
-    "grab",
-    "wrist",
-    "arm",
-    "tentacle",
-    "dumpster",
-    "alligator",
-    "animal",
-    "deformed",
-    "stars",
-    "heaven",
 ]
 
 ---

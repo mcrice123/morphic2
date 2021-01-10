@@ -77,7 +77,7 @@ class Layout extends Component {
                             const navLinks = data.site.siteMetadata.navLinks;
                             const title = this.props.title ? this.props.title + ' | ' + data.site.siteMetadata.title : data.site.siteMetadata.title;
                             const description = this.props.description2 && this.props.description2.length ? this.props.description2.join('') : data.site.siteMetadata.description2.join('');
-                            const keywords = data.site.siteMetadata.keywords.join(',') + ',' + this.props.keywords.join(',');
+                            const keywords = data.site.siteMetadata.keywords.join(',');
                             const siteUrl = data.site.siteMetadata.siteUrl;
                             const author = data.site.siteMetadata.author;
                             const metaImage = siteUrl + (this.props.image ? this.props.image : '/seo/default.jpg');
@@ -199,7 +199,6 @@ Layout.defaultProps = {
     title: '',
     meta: [],
     description2: [],
-    keywords: [],
     author: '',
     slug: '',
 }
@@ -210,7 +209,6 @@ Layout.propTypes = {
     lang: PropTypes.string,
     meta: PropTypes.arrayOf(PropTypes.object),
     title: PropTypes.string.isRequired,
-    keywords: PropTypes.arrayOf(PropTypes.string),
     author: PropTypes.string.isRequired,
     image: PropTypes.string,
     slug: PropTypes.string.isRequired,

@@ -165,17 +165,6 @@ export default class Archive extends Component {
               description={[
                 "Search for pages by section in the webcomic, Morphic!",
               ]}
-              keywords={[
-                "chapters",
-                "book",
-                "chapter",
-                "book1",
-                "book2",
-                "book3",
-                "misc",
-                "section",
-                "search"
-              ]}
             >
                 <h1 className="gochi">Chapters</h1>
                 {

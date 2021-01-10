@@ -50,29 +50,5 @@ description2: [
     "\n",
     'The clearing appears dark around him, covered in large piles of black particles and dead vines disintegrating from view. For the first time, Capri appears without vines coming out of his back.',
 ]
-keywords: [
-    "Capri",
-    "Canissandro",
-    "Sirena",
-    "tears",
-    "wipe",
-    "squirrel",
-    "pony",
-    "tail",
-    "pigtails",
-    "ponytail",
-    "Errie",
-    "Lane",
-    "silhouettes",
-    "vines",
-    "ash",
-    "fwip",
-    "butterfly",
-    "arm",
-    "black",
-    "veins",
-    "vines",
-    "siblings",
-]
 
 ---

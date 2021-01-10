@@ -151,12 +151,6 @@ export default class Characters extends Component {
         description={[
           "Work in Progress: Come back later to see a glimpse of each of the characters in the webcomic, Morphic!",
         ]}
-        keywords={[
-          "characters",
-          "cast",
-          "glimpse",
-          "slideshow",
-        ]}
       >
         <div className="post-body">
           <h1>Characters</h1>

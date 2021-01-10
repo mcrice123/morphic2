@@ -39,31 +39,6 @@ description2: [
     "The wolf disappears, they stop fighting...NEVER got in a fight ever again...\n",
     "But they keep having ANIMAL DREAMS.",
 ]
-keywords: [
-    "Errie", 
-    "teacher",
-    "doodling", 
-    "notebook", 
-    "taking",
-    "notes", 
-    "school", 
-    "read", 
-    "book", 
-    "Ancient",
-    "Creatures",
-    "wolf",
-    "settlers",
-    "native",
-    "dreams",
-    "animal",
-    "settler",
-    "spirits",
-    "doodle",
-    "fun",
-    "rawr",
-    "chapter",
-    "imaginary"
-]
 
 ---
 

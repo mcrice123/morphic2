@@ -48,38 +48,6 @@ description2: [
     "\n",
     'Lane replies, shouting, "We have to see how SERIOUS this is first!"',
 ]
-keywords: [
-    "Errie", 
-    "Lane",
-    "woods",
-    "alright",
-    "girl",
-    "told",
-    "someone",
-    "trouble",
-    "what",
-    "kind",
-    "trouble",
-    "ran",
-    "off",
-    "know",
-    "police",
-    "call",
-    "should",
-    "shoulders",
-    "cardboard",
-    "wings",
-    "run",
-    "towards",
-    "woods",
-    "lead",
-    "close",
-    "pursuit",
-    "grass",
-    "lawn",
-    "silhouette",
-    "trees",
-]
 
 ---
 

@@ -53,40 +53,6 @@ description2: [
     "\n",
     'A voice off-screen says, "I just HAD to check here FIRST!"',
 ]
-keywords: [
-    "Errie", 
-    "Lane",
-    "woods",
-    "dangerous",
-    "phones",
-    "run",
-    "creek",
-    "bridge",
-    "pant",
-    "breath",
-    "bicycle",
-    "support",
-    "beam",
-    "wooden",
-    "old",
-    "emerge",
-    "missing",
-    "under",
-    "brother",
-    "broke",
-    "arm",
-    "last",
-    "week",
-    "check",
-    "first",
-    "here",
-    "green",
-    "grass",
-    "woods",
-    "sunlight",
-    "water",
-    "glisten"
-]
 
 ---
 

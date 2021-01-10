@@ -1,6 +1,12 @@
 ---
-featuredalt: ""
-featured: ""
+preview: "/book2/preview/page57.jpg"
+title: "Book 2, Page 57"
+featuredpath: "/book2/main/page57.jpg"
+categories: ["book2"]
+date: "2020-08-01"
+author: "Maria Rice"
+type: "post"
+metaimage: "/seo/57_book2.jpg"
 description2: [
     "1. Chan: [alarmed] Passed out?! How? Did she hit her head?\n",
     "2. Wolf: Nah, Lily",
@@ -27,37 +33,6 @@ description2: [
     "   Wolf: Yeah, if I die somehow, don",
     "'",
     "t touch ME either.\n",
-]
-preview: "/book2/preview/page57.jpg"
-title: "Book 2, Page 57"
-featuredpath: "/book2/main/page57.jpg"
-categories: ["book2"]
-linktitle: ""
-date: "2020-08-01"
-author: "Maria Rice"
-type: "post"
-metaimage: "/seo/57_book2.jpg"
-keywords: [
-    "Errie", 
-    "Chan",
-    "Wolf",
-    "Lily",
-    "heal",
-    "glare",
-    "butt",
-    "cushion",
-    "head",
-    "hit",
-    "pass",
-    "out",
-    "absorb",
-    "energy",
-    "morphic",
-    "human",
-    "deliberate",
-    "conscious",
-    "die",
-    "touch",
 ]
 
 ---

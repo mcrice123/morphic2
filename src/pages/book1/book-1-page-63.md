@@ -61,28 +61,5 @@ description2: [
     "\n",
     '"NO," replies an off-screen voice. "We',"'",'re not capable of that!"',
 ]
-keywords: [
-    "Capri",
-    "Canissandro",
-    "tears",
-    "horns",
-    "goat",
-    "pony",
-    "tail",
-    "ponytail",
-    "Errie",
-    "Lane",
-    "ran",
-    "vines",
-    "arms",
-    "time",
-    "town",
-    "warn",
-    "sheriff",
-    "believe",
-    "hour",
-    "time",
-    "travel",
-]
 
 ---

@@ -1,6 +1,11 @@
 ---
-featuredalt: ""
-featured: ""
+preview: "/book2/preview/page54.jpg"
+title: "Book 2, Page 54"
+featuredpath: "/book2/main/page54.jpg"
+categories: ["book2"]
+date: "2020-05-24"
+author: "Maria Rice"
+type: "post"
 description2: [
     "1. Errie: Aren",
     "'",
@@ -29,37 +34,6 @@ description2: [
     "s brisk pace] WHY are there so many DOORS all over town? WHY isn",
     "'",
     "t cell service WORKING? And WHY are morphics around for CENTURIES and no one KNOWS about them?!\n"
-]
-preview: "/book2/preview/page54.jpg"
-title: "Book 2, Page 54"
-featuredpath: "/book2/main/page54.jpg"
-categories: ["book2"]
-linktitle: ""
-date: "2020-05-24"
-author: "Maria Rice"
-type: "post"
-keywords: [
-    "Errie", 
-    "Chan",
-    "Wolf",
-    "tiger",
-    "Lily",
-    "ghost",
-    "spirit",
-    "guardian",
-    "goat",
-    "dog",
-    "Capri",
-    "Vix",
-    "Meppie",
-    "squid",
-    "bat",
-    "doors",
-    "cell",
-    "service",
-    "morphic",
-    "centuries", 
-    "knows", 
 ]
 
 ---

@@ -1,6 +1,11 @@
 ---
-featuredalt: ""
-featured: ""
+preview: "/book2/preview/page55.jpg"
+title: "Book 2, Page 55"
+featuredpath: "/book2/main/page55.jpg"
+categories: ["book2"]
+date: "2020-07-04"
+author: "Maria Rice"
+type: "post"
 description2: [
     "1. [Errie trips backwards over unconscious woman",
     "'",
@@ -26,34 +31,6 @@ description2: [
     "'",
     "re TOUCHING a HUMAN!\n",
     "   [The glow around Errie turns to yellow as Lily looks around in astonishment.]",
-]
-preview: "/book2/preview/page55.jpg"
-title: "Book 2, Page 55"
-featuredpath: "/book2/main/page55.jpg"
-categories: ["book2"]
-linktitle: ""
-date: "2020-07-04"
-author: "Maria Rice"
-type: "post"
-keywords: [
-    "Errie", 
-    "Chan",
-    "Wolf",
-    "tiger",
-    "Lily",
-    "ghost",
-    "spirit",
-    "trip",
-    "zoom",
-    "snap",
-    "slap",
-    "stop",
-    "pulling",
-    "energy",
-    "touching",
-    "human",
-    "pull",
-    "off",
 ]
 
 ---

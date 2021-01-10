@@ -38,28 +38,6 @@ description2: [
     "\n",
     'Lane, who stands to her left, also turns to look. In the background, the vines hang over the cliff, the limegreen glow almost gone. Trees grow on both sides of the girls.',
 ]
-keywords: [
-    "Errie", 
-    "Lane",
-    "water",
-    "ravine",
-    "run",
-    "help",
-    "up",
-    "splash",
-    "bank",
-    "vines",
-    "glow",
-    "green",
-    "limegreen",
-    "hill",
-    "halt",
-    "stop",
-    "turn",
-    "look",
-    "fade",
-    "soaked",
-]
 
 ---
 

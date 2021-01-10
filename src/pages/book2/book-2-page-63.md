@@ -32,24 +32,6 @@ description2: [
     "\n",
     'The polymorph, with its white teeth bared and its left eye opened wide towards the left side of the panel, gives a garbled cry, "GRAAAaaaaaaWWW!',
 ]
-keywords: [
-    "polymorph",
-    "tentacles",
-    "hands",
-    "blue",
-    "glow",
-    "door",
-    "cyan",
-    "close",
-    "smoke",
-    "fire",
-    "white",
-    "light",
-    "chest",
-    "scorch",
-    "marks",
-    "concrete",
-]
 
 ---
 

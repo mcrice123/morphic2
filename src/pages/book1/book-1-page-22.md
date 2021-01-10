@@ -82,28 +82,5 @@ description2: [
     't listen to me--!"',
     "\n",
 ]
-keywords: [
-    "Errie", 
-    "Nascha",
-    "slow",
-    "down",
-    "trouble",
-    "help",
-    "need",
-    "purple",
-    "contact",
-    "brother",
-    "woods",
-    "leave",
-    "listen",
-    "speech",
-    "bubbles",
-    "echo",
-    "white",
-    "hair",
-    "feather",
-    "shirt",
-    "wings",
-]
 
 ---

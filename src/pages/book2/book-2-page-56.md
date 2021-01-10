@@ -1,6 +1,11 @@
 ---
-featuredalt: ""
-featured: ""
+preview: "/book2/preview/page56.jpg"
+title: "Book 2, Page 56"
+featuredpath: "/book2/main/page56.jpg"
+categories: ["book2"]
+date: "2020-07-18"
+author: "Maria Rice"
+type: "post"
 description2: [
     "1. [Lily pulls herself up.]\n",
     "2. [Wolf holds Errie",
@@ -30,32 +35,6 @@ description2: [
     "'",
     "ll be ok.\n",
     "   Lily: [mutters] You ARE serious...\n",
-]
-preview: "/book2/preview/page56.jpg"
-title: "Book 2, Page 56"
-featuredpath: "/book2/main/page56.jpg"
-categories: ["book2"]
-linktitle: ""
-date: "2020-07-18"
-author: "Maria Rice"
-type: "post"
-keywords: [
-    "Errie", 
-    "Chan",
-    "Wolf",
-    "Lily",
-    "heal",
-    "fingerless",
-    "gloves",
-    "biker",
-    "stand",
-    "up",
-    "human",
-    "sanctuary",
-    "pass",
-    "out",
-    "restore",
-    "energy",
 ]
 
 ---

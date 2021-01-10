@@ -58,21 +58,5 @@ description2: [
     "\n",
     '"Wait, don',"'",'t you remember that girl who--" starts the redhead, in a close-up of her face when a look of alarm suddenly covers it. "WAIT A MINUTE!" she exclaims, staring dumbfoundedly into space towards the left side of the panel. "--SHE GLOWED!!! And had WINGS!!!"',
 ]
-keywords: [
-    "Errie",
-    "Lane",
-    "fall",
-    "ash",
-    "cough",
-    "arms",
-    "legs",
-    "stone",
-    "pebble",
-    "glow",
-    "wings",
-    "remember",
-    "pocket",
-    "forgot",
-]
 
 ---

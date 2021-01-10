@@ -30,23 +30,5 @@ description2: [
     "\n",
     '"Oh NO!"',
 ]
-keywords: [
-    "Errie", 
-    "Lane",
-    "why",
-    "look",
-    "pass",
-    "trees",
-    "clearing",
-    "sunny",
-    "figure",
-    "sit",
-    "glow",
-    "green",
-    "limegreen",
-    "vines",
-    "turn",
-]
 
 ---
-

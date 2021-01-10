@@ -29,30 +29,6 @@ description2: [
     "\n",
     'As Errie crashes into the water with a loud "SPLASH", white foam surrounds her on all sides, hiding her face and arms. Her legs are also partially submerged and to Errie',"'",'s left stands Lane, shielding herself from the spray with her left arm as she shuts her eyes and turns her face to her right, towards the viewer. The dark-haired girl',"'",'s right arm is hidden from view below the elbow by some waves and only her completely-soaked green sweatshirt, her white headband, her glistening face, and her left hand appear above the waves.',
 ]
-keywords: [
-    "Errie", 
-    "Lane",
-    "fall",
-    "aagh",
-    "ow",
-    "roll",
-    "down",
-    "hill",
-    "whoa",
-    "aieee",
-    "splash",
-    "waves",
-    "creek",
-    "red",
-    "jacket",
-    "green",
-    "sweatshirt",
-    "soaked",
-    "white",
-    "headband",
-    "shield",
-    "silhouettes",
-]
 
 ---
 

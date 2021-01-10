@@ -60,27 +60,5 @@ description2: [
     "\n",
     '"NOPE," says the young man, whose head and shoulders appear in the bottom right corner of the panel. "I got here one HALF-HOUR ago." He pronounces "half-hour" with an accent.',
 ]
-keywords: [
-    "Lane",
-    "Errie",
-    "Capri",
-    "accent",
-    "police",
-    "ow",
-    "find",
-    "lost",
-    "not",
-    "coming",
-    "guy",
-    "that",
-    "one",
-    "wait",
-    "earlier",
-    "saw",
-    "nope",
-    "half",
-    "hour",
-    "ago",
-]
 
 ---

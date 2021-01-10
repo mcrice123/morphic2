@@ -52,31 +52,5 @@ description2: [
     "\n",
     '"GAH!" blurts out a voice from off screen. "Stop saying it so weird!"',
 ]
-keywords: [
-    "Lane",
-    "Errie",
-    "Capri",
-    "kidding",
-    "pun",
-    "tree",
-    "treetops",
-    "sky",
-    "sorry",
-    "groan",
-    "seriously",
-    "half",
-    "hour",
-    "vines",
-    "limegreen",
-    "green",
-    "glow",
-    "climb",
-    "sit",
-    "angry",
-    "thirty",
-    "minutes",
-    "weird",
-    "stop",
-]
 
 ---

@@ -22,31 +22,5 @@ description2: [
     "\n",
     'Finally, on the other side of the tree on the right, Sirena perches on top of a carry-on suitcase lying on the ground. Her fluffy squirrel tail towers above her as she shakes a wrapped present in her hands ("RATTLE RATTLE"). Only her utility uniform is colored a bright shade of light blue. The author',"'",'s initials are visible underneath the suitcase, reading, "Maria Rice MCR 12/22/17"',
 ]
-keywords: [
-    "Errie",
-    "Lane",
-    "Capri",
-    "Canissandro",
-    "Sirena",
-    "Wolf",
-    "Christmas",
-    "Merry",
-    "Happy",
-    "Holidays",
-    "trees",
-    "decorated",
-    "vines",
-    "green",
-    "limegreen",
-    "red",
-    "blue",
-    "black",
-    "star",
-    "ornaments",
-    "presents",
-    "boxes",
-    "nose",
-    "antlers",
-]
 
 ---

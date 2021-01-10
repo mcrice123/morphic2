@@ -48,34 +48,6 @@ description2: [
     "\n",
     'The silhouetted figures appear small and just above the center of the panel, standing in front of the similarly-silhouetted bridge, which is partially visible from over the expanse of green grass separating the silhouettes from the vines.',
 ]
-keywords: [
-    "Errie", 
-    "Lane",
-    "woods",
-    "bird",
-    "cardinal",
-    "grass",
-    "trees",
-    "limegreen",
-    "green",
-    "glow",
-    "vine",
-    "creak",
-    "krhee",
-    "flap",
-    "alarm",
-    "soar",
-    "leaf",
-    "snake",
-    "mask",
-    "vines",
-    "crawl",
-    "rustle",
-    "flutter",
-    "expanse",
-    "silhouettes",
-    "bridge",
-]
 
 ---
 

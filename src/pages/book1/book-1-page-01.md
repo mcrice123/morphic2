@@ -62,32 +62,6 @@ description2: [
     "\n",
     'The unintellible off-screen voice keeps talking in the same font.',
 ]
-keywords: [
-    "Errie", 
-    "teacher",
-    "classroom", 
-    "doodling", 
-    "notebook", 
-    "notes", 
-    "school", 
-    "reading", 
-    "book", 
-    "Ancient",
-    "Creatures",
-    "hands",
-    "arms",
-    "red",
-    "skirt",
-    "orange",
-    "vest",
-    "white",
-    "shirt",
-    "hair",
-    "bored",
-    "expression",
-    "lean",
-    "desk",
-]
 
 ---
 

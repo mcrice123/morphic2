@@ -62,24 +62,5 @@ description2: [
     "\n",
     'The third voice answers with emphasis on "I", saying, "Do I look sick and out of control to YOU?"',
 ]
-keywords: [
-    "Capri",
-    "vines",
-    "green",
-    "limegreen",
-    "glow",
-    "butterfly",
-    "arms",
-    "black",
-    "veins",
-    "clearing",
-    "fly",
-    "Canissandro",
-    "Errie",
-    "Lane",
-    "rogue",
-    "shadow",
-    "home",
-]
 
 ---

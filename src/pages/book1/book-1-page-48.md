@@ -28,32 +28,5 @@ description2: [
     "\n",
     'Errie screams, "AIEEE!"',
 ]
-keywords: [
-    "Errie",
-    "Capri",
-    "boy",
-    "striped",
-    "shirt",
-    "Canissandro",
-    "carry",
-    "blond",
-    "ponytail",
-    "fencing",
-    "sword",
-    "green",
-    "limegreen",
-    "glow",
-    "vines",
-    "yellow",
-    "pursue",
-    "run",
-    "scream",
-    "sprout",
-    "back",
-    "wave",
-    "struggle",
-    "wrists",
-    "grab",
-]
 
 ---

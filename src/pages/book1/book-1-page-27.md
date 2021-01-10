@@ -41,28 +41,6 @@ description2: [
     "\n",
     'Positioned in the middle of the panel, Errie runs toward the right as the glowing vines reach for her from the left, still rustling.',
 ]
-keywords: [
-    "Errie", 
-    "Lane",
-    "woods",
-    "vine",
-    "green",
-    "limegreen",
-    "glow",
-    "trees",
-    "grass",
-    "snakes",
-    "rustle",
-    "wooden",
-    "bridge",
-    "safe",
-    "enough",
-    "run",
-    "tower",
-    "reach",
-    "sprint",
-    "grit",
-]
 
 ---
 

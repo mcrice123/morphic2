@@ -47,29 +47,5 @@ description2: [
     'The newcomer has white hair, gray wings, brown skin, and a purple shirt. She meekly holds up her clenched fists and though part of her face is cut out of the panel, tears can be seen from behind her bangs. She also glows with the same purple color as the stone.',
     "\n",
 ]
-keywords: [
-    "Errie", 
-    "bend",
-    "down",
-    "lawn",
-    "grass",
-    "stone",
-    "glow",
-    "purple",
-    "pearl",
-    "marble",
-    "Nascha",
-    "crying",
-    "surprise",
-    "suddenly",
-    "appear",
-    "white",
-    "hair",
-    "shirt",
-    "wings",
-    "gray",
-    "brown",
-    "skin",
-]
 
 ---

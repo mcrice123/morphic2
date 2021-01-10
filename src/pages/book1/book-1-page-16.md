@@ -53,23 +53,5 @@ description2: [
     "'",
     't going to WRITE ITSELF."',
 ]
-keywords: [
-    "Chan",
-    "Errie", 
-    "Lane",
-    "orange",
-    "jacket",
-    "vest",
-    "pink",
-    "backpack",
-    "book",
-    "bag",
-    "fox",
-    "tail",
-    "ears",
-    "fluffy",
-    "furry",
-    "fake"
-]
 
 ---

@@ -1,6 +1,12 @@
 ---
-featuredalt: ""
-featured: ""
+preview: "/book2/preview/page58.jpg"
+title: "Book 2, Page 58"
+featuredpath: "/book2/main/page58.jpg"
+categories: ["book2"]
+date: "2020-08-15"
+author: "Maria Rice"
+type: "post"
+metaimage: "/seo/58_book2.jpg"
 description2: [
     "1. Wolf: So Lily...How DOES a dead rogue wake up in the SANCTUARY?\n",
     "   Lily: I don",
@@ -21,37 +27,6 @@ description2: [
     "   Errie: Who IS this?\n",
     "   [Wolf catches sight of something off-panel.]\n",
     "   Wolf: ...Our new ALLY.\n",
-]
-preview: "/book2/preview/page58.jpg"
-title: "Book 2, Page 58"
-featuredpath: "/book2/main/page58.jpg"
-categories: ["book2"]
-linktitle: ""
-date: "2020-08-15"
-author: "Maria Rice"
-type: "post"
-metaimage: "/seo/58_book2.jpg"
-keywords: [
-    "Errie", 
-    "Chan",
-    "Wolf",
-    "Lily",
-    "dead",
-    "rogue",
-    "sanctuary",
-    "running",
-    "squid",
-    "maul",
-    "attack",
-    "carry",
-    "trouble",
-    "harm",
-    "morphic",
-    "human",
-    "new",
-    "ally",
-    "wake",
-    "up",
 ]
 
 ---
