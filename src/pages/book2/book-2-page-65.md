@@ -48,7 +48,7 @@ description2: [
 
     'Panel 6.',
     "\n",
-    '"Errie, did you just drop this?" asks Wolf as he straightens up and looks down at the smart phone in his hand. A yellow glow continues to envelop him as a blue-green sticky note falls from the back of the phone.',
+    '"Errie, did you just drop this?" asks Wolf as he straightens up and looks down at the smart phone in his hand. A yellow glow continues to envelop him as a cyan sticky note falls from the back of the phone.',
     "\n",
     '"WHAT?" Errie blurts out with a puzzled expression on her face as she peers down at the phone from behind Wolf',"'",'s right side. "No!" she answers, clenching her fist in front of her uncertainly.',
 ]
