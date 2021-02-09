@@ -1,15 +1,27 @@
 ---
-description2: []
 preview: "/misc/preview/preview_morphic-christmas-2019.jpg"
-linktitle: ""
 featuredpath: "/misc/main/morphic-christmas-2019.jpg"
-featured: ""
 date: "2019-11-30"
 categories: ["misc"]
 type: "post"
 author: "Maria Rice"
 title: "Merry Christmas 2019"
-featuredalt: ""
+description2: [
+    'Christmas post in full color.',
+    "\n\n",
+
+    'The portrait-oriented artwork shows three sections, two black and one white sandwiched in between. Each section takes up the full width of the artwork. The top section, a black one, contains colored, hand-written text. Red text on the left side reads, "Merry Christmas!" Slightly smaller green text just below and to the right reads, "& Happy Holidays!"',
+    "\n",
+    'In the center and taking up more than a third of the artwork',"'",'s height, the white section shows a line-up of four characters, visible from the knees, up.',
+    "\n",
+    'On the far left, stands Stella with a wide grin. She is colored almost all muted pink, except for the green elf hat visible above her pigtails and the white mug she holds in her hands in front of her. A Christmas tree appears on the front of the steaming mug and her narrow tail is faintly visible behind her.',
+    "\n",
+    'Just to her left, Meppie stands a foot above her. She appears colored almost all green, except for the red ball on her nose, the off-white antlers on her head, and the white mug in her hands. She holds the steaming mug up in front of her and the words "HO-HO-HO" are barely legible.',
+    "\n", 
+    'Meppie smiles up at the viewer as Vix rests her right hand on her friend',"'",'s right shoulder. The fox girl is colored all in muted orange, except for the white grin on her face. She extends her left arm behind Wolf, whose black wolf form appears last in the line-up. He peers up at the viewer with his yellow eyes, which match the yellow diamond-shaped gem on his chest. A smile faintly shows against his dark fur and his fluffy tail perks up behind him.',
+    "\n",
+    'Finally, in the bottom black section of the artwork, large red hand-written text extends across the width in two lines, reading, "I',"'",'ll be back JANUARY 2020!"',
+]
 
 ---
 
