@@ -56,6 +56,8 @@ description2: [
 
 ---
 
+_Created in Clip Studio Paint_
+
 ![Close-up on Chan as he's jumping forward with a scared look on his face.](/embed/chan_is_alarmed.jpg)
 ![Cropped close-up on the white-haired girl as she's screaming through the air ("AIEEE") and flailing her arms.](/embed/kiri_is_screaming.jpg)
 

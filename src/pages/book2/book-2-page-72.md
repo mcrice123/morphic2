@@ -51,6 +51,8 @@ _Well, we're only getting started..._
 ![Cropped close-up on Errie's alarmed face as she's glancing to the right.](/embed/errie_is_very_alarmed.jpg)
 ![Close-up on the mysterious boy with the lion mask, staring out of the picture with a very creepy smile.](/embed/creepy-mask.jpg)
 
+_(Created in Clip Studio Paint)_
+
 ## Upcoming changes
 
 I'm not going to announce anything permanent right now, but I am considering some options on how to proceed with "Morphic" that could impact the posting schedule this year. I'm giving myself a month to think things over before I announce anything. 
