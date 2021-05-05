@@ -1,5 +1,6 @@
 // Colors
 $primary: #b5aa50;
+$button-hover-background: darken($primary, 20%);
 $highlight: rgba(255, 255, 255, .2);
 
 // Laptop width
@@ -9,7 +10,7 @@ $tablet: 768px;
 #slideMenu {
   width: 300px;
   height: 0;
-  background-color: $primary;
+  background-color: $button-hover-background;
   z-index: 50;
   top: 40px;
   right: 0;
@@ -26,7 +27,7 @@ $tablet: 768px;
     width: 100%;
     list-style: none;
     margin: 0;
-    padding: 10px 0;
+    padding: 10px 0 15px 0;
     background-color: rgba($color: #000000, $alpha: 0.2);
     position: relative;
 

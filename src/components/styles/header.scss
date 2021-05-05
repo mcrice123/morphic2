@@ -5,10 +5,14 @@ $highlight: #b5aa50;
 $background: #f4f4f4;
 $hoverPurple: rgba(0,0,0,.2);
 $gray: #717070;
+$notification-purple: #1d1838;
+$button-hover-background: darken($highlight, 20%);
+$dark-highlight: darken($highlight, 30%);
 
 // Font families
-$opensans: 'Open Sans', Arial, Helvetica, sans-serif;
-$gochi: 'Gochi Hand', Arial, Helvetica, sans-serif;
+$opensans: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+$gochi: 'Gochi Hand', 'Comic Sans MS', 'Bradley Hand';
+$boldopensans: 'Source Sans Pro Bold', Helvetica, sans-serif;
 
 // Laptop width
 $laptop: 1290px;
@@ -49,6 +53,83 @@ li {
   height: 100%;
   width: 100%;
   fill: currentColor;
+}
+
+// Notification styles
+
+#notification-banner {
+  min-height: 40px;
+  color: $primary;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $notification-purple;
+  text-decoration: none;
+  margin: 0 -20px;
+
+  & > span {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: $primary;
+    margin: 10px 0;
+    font-size: 16px;
+
+    strong {
+      font-family: $boldopensans;
+    }
+
+    span {
+      margin: 0 10px 0 0;
+    }
+
+    .highlight-btn {
+      color: #fff !important;
+      background: linear-gradient(to left, $dark-highlight, $dark-highlight 33%, $highlight 66%);
+      background-size: 300% 100%;
+      background-position: right bottom;
+      margin: 0;
+      font-size: 20px;
+      transition: .25s ease-in;
+      text-shadow: 3px 3px 6px #000;
+    }
+  }
+
+  &:hover {
+    background-color: #000;
+    color: #fff;
+
+    & > span {
+      .highlight-btn {
+        background-position: left bottom;
+        color: #000 !important;
+        text-shadow: none;
+      }
+    }
+  }
+
+  @media screen and (max-width: $tablet) {
+    margin: 0;
+  
+    & > span {
+      flex-wrap: wrap;
+      justify-content: center;
+
+      span {
+        &:first-child {
+          margin-bottom: 10px;
+          width: 100%;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    
+  }
 }
 
 // Header-specific styles
@@ -115,7 +196,7 @@ li {
     }
 
     &:hover {
-      background-color: $highlight;
+      background-color: $button-hover-background;
 
       svg {
         fill: #fff;
@@ -140,13 +221,12 @@ li {
     justify-content: space-between;
     height: 40px;
     width: 50px;
-    background-color: $highlight;
+    background-color: $button-hover-background;
     padding: 0;
 
     &.active {
       #hamburger {
-        fill: #000;
-        background-color: rgba(0,0,0,.2);
+        background-color: #000;
       }
     }
 
@@ -183,7 +263,7 @@ li {
           display: inline-block;
         }
         &:hover {
-          background-color: $highlight;
+          background-color: $button-hover-background;
           cursor: pointer;
           
           a {
@@ -256,7 +336,7 @@ li {
   flex-direction: column;
   justify-content: center;
   flex-wrap: nowrap;
-  transition: background-image .5s ease-out;
+  transition: background-image .5s ease-in;
 
   span {
     font-family: $gochi;
@@ -290,6 +370,8 @@ li {
 
   &:hover {
     background-image: url('../../images/start-reading-hover.jpg');
+    text-shadow: 3px 3px 6px #000;
+
   }
 
   @media screen and (max-width: $tablet) {
@@ -323,6 +405,7 @@ li {
 
   &:hover {
     background-image: url('../../images/latest-post-hover.jpg');
+    text-shadow: 3px 3px 6px #000;
   }
 
   @media screen and (max-width: $tablet) {
@@ -370,6 +453,16 @@ li {
 
   &:hover {
     background-image: url('../../images/social-media-hover.jpg');
+    text-shadow: 3px 3px 6px #000;
+
+    a {
+      color: #000;
+
+      &:hover {
+        background: rgba(#fff, .4);
+        box-shadow: 1px 1px 12px rgba(#fff, .75);
+      }
+    }
   }
 
   @media screen and (max-width: 900px) {
@@ -464,7 +557,9 @@ li {
 .highlight-btn {
   font-size: 24px;
   padding: 10px 20px;
-  background-color: #b5aa50;
+  background: linear-gradient(to left, $highlight, $highlight 33%, $button-hover-background 66%);
+  background-size: 300% 100%;
+  background-position: right bottom;
   color: #000 !important;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -472,6 +567,7 @@ li {
   font-family: $gochi;
   text-align: center;
   cursor: pointer;
+  transition: .25s ease-in;
 
   &.tab {
     margin-right: 10px;
@@ -479,13 +575,13 @@ li {
     margin-top: 0;
 
     &.selected {
-      background-color: #000;
+      background: #000;
       color: #fff !important;
     }
   }
 
   &:hover {
-    background-color: darken($highlight, 20%);
+    background-position: left bottom;
     color: #fff !important;
   }
 

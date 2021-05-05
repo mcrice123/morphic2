@@ -1,8 +1,9 @@
 $highlight: #b5aa50;
 $gray: #717070;
-$boldopensans: 'Open Sans Bold', Helvetica, sans-serif;
+$boldopensans: 'Source Sans Pro Bold', Helvetica, sans-serif;
 $gochi: 'Gochi Hand', Arial, Helvetica, sans-serif;
 $background: #f4f4f4;
+$button-hover-background: darken($highlight, 20%);
 
 .gochi {
   font-family: $gochi;
@@ -66,15 +67,15 @@ hr {
     }
   }
 
-  a:not(.post-link) {
+  a:not(.post-link):not(#preview-last) {
     text-decoration: none;
     display: inline !important;
     color: #000;
     border-bottom: dotted 2px $highlight;
 
     &:hover {
-      border-bottom: solid 2px rgba($highlight, 0);
-      color: $highlight;
+      border-bottom: solid 2px rgba($button-hover-background, 0);
+      color: $button-hover-background;
     }
   }
 
