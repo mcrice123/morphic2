@@ -4,7 +4,7 @@ date: "2021-09-11"
 author: "Maria Rice"
 preview: "/misc/preview/2021_september_preview.jpg"
 type: "post"
-title: "September 2021: Porco Rosso Cosplay"
+title: "September 2021: Porco Cosplay"
 categories: ["misc"]
 metaimage: "/seo/2021_september.jpg"
 description2: [
