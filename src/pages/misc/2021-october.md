@@ -18,7 +18,7 @@ description2: [
 
 Despite being left to last minute, this fanart cosplay turned out pretty good.
 
-The fandom for Hayao Miyazaki films continues...
+The fandom for Hayao Miyazaki films continues...with Lily dressed up as San from _Princess Mononoke_.
 
 ## Princess Mononoke 
 
@@ -35,4 +35,13 @@ But words aren't enough to describe it, so here's a shot of that scene from the 
 ![San on the Roof](/embed/princessmonoke.jpg)
 
 This is a good place to tie up my review, so I'll leave off with that. **I highly recommend this movie.** It's terrifying, but it is also awe-provoking.
+
+## Thanks for reading!
+
+**If you haven’t already, please like the [“Morphic” Facebook page](https://www.facebook.com/MorphicGraphicNovel/) and [subscribe to my mailing list](http://eepurl.com/g8TzPb)** to get news and updates on progress towards the crowdfund campaign for printing _Morphic_!
+I appreciate all the support. 
+
+I will be back on Saturday, November 6th with the next "Morphic" cosplay artwork.
+
+Have a great weekend!
 
