@@ -6,7 +6,7 @@
 </h3>
 
 I am a web developer by day and a comic artist by night. 
-My current home for my pet project ["Morphic"](https://cocky-goldwasser-cbfcf1.netlify.app/) (repository [here](https://github.com/mcrice123/morphic))is built using [Hugo](https://gohugo.io/). 
+My current home for my pet project ["Morphic"](https://cocky-goldwasser-cbfcf1.netlify.app/) (repository [here](https://github.com/mcrice123/morphic))is built using [GatsbyJS](https://www.gatsbyjs.org/). 
 
 I love generating my site without needing a database or server and I like how easy it is to work with Go. 
 However, as a **front end developer** with experience using React, I want to show off my knowledge and skills using this popular JavaScript library.
